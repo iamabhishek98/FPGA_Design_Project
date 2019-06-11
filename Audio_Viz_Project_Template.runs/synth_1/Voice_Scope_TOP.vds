@@ -1,0 +1,2132 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Sat Apr  6 20:44:17 2019
+# Process ID: 10584
+# Current directory: C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.runs/synth_1
+# Command line: vivado.exe -log Voice_Scope_TOP.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Voice_Scope_TOP.tcl
+# Log file: C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.runs/synth_1/Voice_Scope_TOP.vds
+# Journal file: C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source Voice_Scope_TOP.tcl -notrace
+Command: synth_design -top Voice_Scope_TOP -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 5696 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 357.176 ; gain = 100.258
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'Voice_Scope_TOP' [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Voice_Scope_TOP.v:10]
+INFO: [Synth 8-6157] synthesizing module 'clk_div' [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/clk_div.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'clk_div' (1#1) [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/clk_div.v:23]
+INFO: [Synth 8-6157] synthesizing module 'btn_press_clk_gen' [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/btn_press_clk_gen.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'btn_press_clk_gen' (2#1) [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/btn_press_clk_gen.v:23]
+INFO: [Synth 8-6157] synthesizing module 'is_btn_press' [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/is_btn_press.v:23]
+INFO: [Synth 8-6157] synthesizing module 'dflipflop' [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/dflipflop.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'dflipflop' (3#1) [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/dflipflop.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'is_btn_press' (4#1) [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/is_btn_press.v:23]
+INFO: [Synth 8-6157] synthesizing module 'TestWave_Gen' [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/TestWave_Gen.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'TestWave_Gen' (5#1) [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/TestWave_Gen.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Voice_Capturer' [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/VOICE_CAPTURER.v:20]
+INFO: [Synth 8-6155] done synthesizing module 'Voice_Capturer' (6#1) [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/VOICE_CAPTURER.v:20]
+INFO: [Synth 8-6157] synthesizing module 'frequency_calculator' [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/frequency_calculator.v:23]
+WARNING: [Synth 8-6090] variable 'counter' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/frequency_calculator.v:62]
+INFO: [Synth 8-6155] done synthesizing module 'frequency_calculator' (7#1) [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/frequency_calculator.v:23]
+INFO: [Synth 8-6157] synthesizing module 'displayfreqcount' [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/displayfreqcount.v:23]
+INFO: [Synth 8-6157] synthesizing module 'clk_10' [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/clk_10.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'clk_10' (8#1) [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/clk_10.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'displayfreqcount' (9#1) [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/displayfreqcount.v:23]
+INFO: [Synth 8-6157] synthesizing module 'unlockfeature' [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/unlockfeature.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'unlockfeature' (10#1) [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/unlockfeature.v:23]
+INFO: [Synth 8-6157] synthesizing module 'unlock_featureSW6' [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/unlock_featureSW6.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'unlock_featureSW6' (11#1) [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/unlock_featureSW6.v:23]
+INFO: [Synth 8-6157] synthesizing module 'unlockfeaturesw62' [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/unlockfeaturesw62.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'unlockfeaturesw62' (12#1) [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/unlockfeaturesw62.v:23]
+INFO: [Synth 8-6157] synthesizing module 'volume_indicator' [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/volume_indicator.v:23]
+INFO: [Synth 8-6157] synthesizing module 'volume_indicator_count' [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/volume_indicator_count.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'volume_indicator_count' (13#1) [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/volume_indicator_count.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'volume_indicator' (14#1) [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/volume_indicator.v:23]
+INFO: [Synth 8-6157] synthesizing module 'intensity_shift_gen' [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/intensity_shift_gen.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'intensity_shift_gen' (15#1) [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/intensity_shift_gen.v:23]
+INFO: [Synth 8-6157] synthesizing module 'draw_lock_object' [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/draw_lock_object.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'draw_lock_object' (16#1) [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/draw_lock_object.v:23]
+INFO: [Synth 8-6157] synthesizing module 'volume_bar_text' [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/volume_bar_text.v:24]
+	Parameter x bound to: 280 - type: integer 
+	Parameter y bound to: 950 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'Pixel_On_Text2' [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:47]
+	Parameter displayText bound to: Volume: 0 - type: string 
+INFO: [Synth 8-638] synthesizing module 'Font_Rom' [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Font_Rom.vhd:40]
+INFO: [Synth 8-256] done synthesizing module 'Font_Rom' (17#1) [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Font_Rom.vhd:40]
+WARNING: [Synth 8-6014] Unused sequential element inXRange_reg was removed.  [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:80]
+WARNING: [Synth 8-6014] Unused sequential element inYRange_reg was removed.  [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:81]
+WARNING: [Synth 8-5863] Implementing Library version of Mod/Rem due to signed path. This typically leads to poor QOR. Check RTL to see if unsigned path for the operator is possible  [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:61]
+INFO: [Synth 8-256] done synthesizing module 'Pixel_On_Text2' (18#1) [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:47]
+WARNING: [Synth 8-689] width (12) of port connection 'horzCoord' does not match port width (32) of module 'Pixel_On_Text2' [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/volume_bar_text.v:37]
+WARNING: [Synth 8-689] width (12) of port connection 'vertCoord' does not match port width (32) of module 'Pixel_On_Text2' [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/volume_bar_text.v:38]
+INFO: [Synth 8-638] synthesizing module 'Pixel_On_Text2__parameterized0' [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:47]
+	Parameter displayText bound to: Volume: 1 - type: string 
+WARNING: [Synth 8-6014] Unused sequential element inXRange_reg was removed.  [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:80]
+WARNING: [Synth 8-6014] Unused sequential element inYRange_reg was removed.  [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:81]
+WARNING: [Synth 8-5863] Implementing Library version of Mod/Rem due to signed path. This typically leads to poor QOR. Check RTL to see if unsigned path for the operator is possible  [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:61]
+INFO: [Synth 8-256] done synthesizing module 'Pixel_On_Text2__parameterized0' (18#1) [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:47]
+WARNING: [Synth 8-689] width (12) of port connection 'horzCoord' does not match port width (32) of module 'Pixel_On_Text2__parameterized0' [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/volume_bar_text.v:46]
+WARNING: [Synth 8-689] width (12) of port connection 'vertCoord' does not match port width (32) of module 'Pixel_On_Text2__parameterized0' [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/volume_bar_text.v:47]
+INFO: [Synth 8-638] synthesizing module 'Pixel_On_Text2__parameterized1' [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:47]
+	Parameter displayText bound to: Volume: 2 - type: string 
+WARNING: [Synth 8-6014] Unused sequential element inXRange_reg was removed.  [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:80]
+WARNING: [Synth 8-6014] Unused sequential element inYRange_reg was removed.  [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:81]
+WARNING: [Synth 8-5863] Implementing Library version of Mod/Rem due to signed path. This typically leads to poor QOR. Check RTL to see if unsigned path for the operator is possible  [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:61]
+INFO: [Synth 8-256] done synthesizing module 'Pixel_On_Text2__parameterized1' (18#1) [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:47]
+WARNING: [Synth 8-689] width (12) of port connection 'horzCoord' does not match port width (32) of module 'Pixel_On_Text2__parameterized1' [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/volume_bar_text.v:54]
+WARNING: [Synth 8-689] width (12) of port connection 'vertCoord' does not match port width (32) of module 'Pixel_On_Text2__parameterized1' [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/volume_bar_text.v:55]
+INFO: [Synth 8-638] synthesizing module 'Pixel_On_Text2__parameterized2' [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:47]
+	Parameter displayText bound to: Volume: 3 - type: string 
+WARNING: [Synth 8-6014] Unused sequential element inXRange_reg was removed.  [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:80]
+WARNING: [Synth 8-6014] Unused sequential element inYRange_reg was removed.  [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:81]
+WARNING: [Synth 8-5863] Implementing Library version of Mod/Rem due to signed path. This typically leads to poor QOR. Check RTL to see if unsigned path for the operator is possible  [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:61]
+INFO: [Synth 8-256] done synthesizing module 'Pixel_On_Text2__parameterized2' (18#1) [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:47]
+WARNING: [Synth 8-689] width (12) of port connection 'horzCoord' does not match port width (32) of module 'Pixel_On_Text2__parameterized2' [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/volume_bar_text.v:62]
+WARNING: [Synth 8-689] width (12) of port connection 'vertCoord' does not match port width (32) of module 'Pixel_On_Text2__parameterized2' [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/volume_bar_text.v:63]
+INFO: [Synth 8-638] synthesizing module 'Pixel_On_Text2__parameterized3' [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:47]
+	Parameter displayText bound to: Volume: 4 - type: string 
+WARNING: [Synth 8-6014] Unused sequential element inXRange_reg was removed.  [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:80]
+WARNING: [Synth 8-6014] Unused sequential element inYRange_reg was removed.  [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:81]
+WARNING: [Synth 8-5863] Implementing Library version of Mod/Rem due to signed path. This typically leads to poor QOR. Check RTL to see if unsigned path for the operator is possible  [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:61]
+INFO: [Synth 8-256] done synthesizing module 'Pixel_On_Text2__parameterized3' (18#1) [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:47]
+WARNING: [Synth 8-689] width (12) of port connection 'horzCoord' does not match port width (32) of module 'Pixel_On_Text2__parameterized3' [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/volume_bar_text.v:70]
+WARNING: [Synth 8-689] width (12) of port connection 'vertCoord' does not match port width (32) of module 'Pixel_On_Text2__parameterized3' [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/volume_bar_text.v:71]
+INFO: [Synth 8-638] synthesizing module 'Pixel_On_Text2__parameterized4' [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:47]
+	Parameter displayText bound to: Volume: 5 - type: string 
+WARNING: [Synth 8-6014] Unused sequential element inXRange_reg was removed.  [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:80]
+WARNING: [Synth 8-6014] Unused sequential element inYRange_reg was removed.  [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:81]
+WARNING: [Synth 8-5863] Implementing Library version of Mod/Rem due to signed path. This typically leads to poor QOR. Check RTL to see if unsigned path for the operator is possible  [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:61]
+INFO: [Synth 8-256] done synthesizing module 'Pixel_On_Text2__parameterized4' (18#1) [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:47]
+WARNING: [Synth 8-689] width (12) of port connection 'horzCoord' does not match port width (32) of module 'Pixel_On_Text2__parameterized4' [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/volume_bar_text.v:78]
+WARNING: [Synth 8-689] width (12) of port connection 'vertCoord' does not match port width (32) of module 'Pixel_On_Text2__parameterized4' [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/volume_bar_text.v:79]
+INFO: [Synth 8-638] synthesizing module 'Pixel_On_Text2__parameterized5' [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:47]
+	Parameter displayText bound to: Volume: 6 - type: string 
+WARNING: [Synth 8-6014] Unused sequential element inXRange_reg was removed.  [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:80]
+WARNING: [Synth 8-6014] Unused sequential element inYRange_reg was removed.  [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:81]
+WARNING: [Synth 8-5863] Implementing Library version of Mod/Rem due to signed path. This typically leads to poor QOR. Check RTL to see if unsigned path for the operator is possible  [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:61]
+INFO: [Synth 8-256] done synthesizing module 'Pixel_On_Text2__parameterized5' (18#1) [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:47]
+WARNING: [Synth 8-689] width (12) of port connection 'horzCoord' does not match port width (32) of module 'Pixel_On_Text2__parameterized5' [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/volume_bar_text.v:86]
+WARNING: [Synth 8-689] width (12) of port connection 'vertCoord' does not match port width (32) of module 'Pixel_On_Text2__parameterized5' [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/volume_bar_text.v:87]
+INFO: [Synth 8-638] synthesizing module 'Pixel_On_Text2__parameterized6' [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:47]
+	Parameter displayText bound to: Volume: 7 - type: string 
+WARNING: [Synth 8-6014] Unused sequential element inXRange_reg was removed.  [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:80]
+WARNING: [Synth 8-6014] Unused sequential element inYRange_reg was removed.  [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:81]
+WARNING: [Synth 8-5863] Implementing Library version of Mod/Rem due to signed path. This typically leads to poor QOR. Check RTL to see if unsigned path for the operator is possible  [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:61]
+INFO: [Synth 8-256] done synthesizing module 'Pixel_On_Text2__parameterized6' (18#1) [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:47]
+WARNING: [Synth 8-689] width (12) of port connection 'horzCoord' does not match port width (32) of module 'Pixel_On_Text2__parameterized6' [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/volume_bar_text.v:94]
+WARNING: [Synth 8-689] width (12) of port connection 'vertCoord' does not match port width (32) of module 'Pixel_On_Text2__parameterized6' [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/volume_bar_text.v:95]
+INFO: [Synth 8-638] synthesizing module 'Pixel_On_Text2__parameterized7' [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:47]
+	Parameter displayText bound to: Volume: 8 - type: string 
+WARNING: [Synth 8-6014] Unused sequential element inXRange_reg was removed.  [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:80]
+WARNING: [Synth 8-6014] Unused sequential element inYRange_reg was removed.  [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:81]
+WARNING: [Synth 8-5863] Implementing Library version of Mod/Rem due to signed path. This typically leads to poor QOR. Check RTL to see if unsigned path for the operator is possible  [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:61]
+INFO: [Synth 8-256] done synthesizing module 'Pixel_On_Text2__parameterized7' (18#1) [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:47]
+WARNING: [Synth 8-689] width (12) of port connection 'horzCoord' does not match port width (32) of module 'Pixel_On_Text2__parameterized7' [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/volume_bar_text.v:102]
+WARNING: [Synth 8-689] width (12) of port connection 'vertCoord' does not match port width (32) of module 'Pixel_On_Text2__parameterized7' [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/volume_bar_text.v:103]
+INFO: [Synth 8-638] synthesizing module 'Pixel_On_Text2__parameterized8' [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:47]
+	Parameter displayText bound to: Volume: 9 - type: string 
+WARNING: [Synth 8-6014] Unused sequential element inXRange_reg was removed.  [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:80]
+WARNING: [Synth 8-6014] Unused sequential element inYRange_reg was removed.  [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:81]
+WARNING: [Synth 8-5863] Implementing Library version of Mod/Rem due to signed path. This typically leads to poor QOR. Check RTL to see if unsigned path for the operator is possible  [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:61]
+INFO: [Synth 8-256] done synthesizing module 'Pixel_On_Text2__parameterized8' (18#1) [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:47]
+WARNING: [Synth 8-689] width (12) of port connection 'horzCoord' does not match port width (32) of module 'Pixel_On_Text2__parameterized8' [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/volume_bar_text.v:110]
+WARNING: [Synth 8-689] width (12) of port connection 'vertCoord' does not match port width (32) of module 'Pixel_On_Text2__parameterized8' [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/volume_bar_text.v:111]
+INFO: [Synth 8-638] synthesizing module 'Pixel_On_Text2__parameterized9' [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:47]
+	Parameter displayText bound to: Volume: 10 - type: string 
+WARNING: [Synth 8-6014] Unused sequential element inXRange_reg was removed.  [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:80]
+WARNING: [Synth 8-6014] Unused sequential element inYRange_reg was removed.  [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:81]
+WARNING: [Synth 8-5863] Implementing Library version of Mod/Rem due to signed path. This typically leads to poor QOR. Check RTL to see if unsigned path for the operator is possible  [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:61]
+INFO: [Synth 8-256] done synthesizing module 'Pixel_On_Text2__parameterized9' (18#1) [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:47]
+WARNING: [Synth 8-689] width (12) of port connection 'horzCoord' does not match port width (32) of module 'Pixel_On_Text2__parameterized9' [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/volume_bar_text.v:118]
+WARNING: [Synth 8-689] width (12) of port connection 'vertCoord' does not match port width (32) of module 'Pixel_On_Text2__parameterized9' [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/volume_bar_text.v:119]
+INFO: [Synth 8-638] synthesizing module 'Pixel_On_Text2__parameterized10' [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:47]
+	Parameter displayText bound to: Volume: 11 - type: string 
+WARNING: [Synth 8-6014] Unused sequential element inXRange_reg was removed.  [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:80]
+WARNING: [Synth 8-6014] Unused sequential element inYRange_reg was removed.  [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:81]
+WARNING: [Synth 8-5863] Implementing Library version of Mod/Rem due to signed path. This typically leads to poor QOR. Check RTL to see if unsigned path for the operator is possible  [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:61]
+INFO: [Synth 8-256] done synthesizing module 'Pixel_On_Text2__parameterized10' (18#1) [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:47]
+WARNING: [Synth 8-689] width (12) of port connection 'horzCoord' does not match port width (32) of module 'Pixel_On_Text2__parameterized10' [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/volume_bar_text.v:126]
+WARNING: [Synth 8-689] width (12) of port connection 'vertCoord' does not match port width (32) of module 'Pixel_On_Text2__parameterized10' [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/volume_bar_text.v:127]
+INFO: [Synth 8-638] synthesizing module 'Pixel_On_Text2__parameterized11' [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:47]
+	Parameter displayText bound to: Volume: 12 - type: string 
+WARNING: [Synth 8-6014] Unused sequential element inXRange_reg was removed.  [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:80]
+WARNING: [Synth 8-6014] Unused sequential element inYRange_reg was removed.  [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:81]
+WARNING: [Synth 8-5863] Implementing Library version of Mod/Rem due to signed path. This typically leads to poor QOR. Check RTL to see if unsigned path for the operator is possible  [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:61]
+INFO: [Synth 8-256] done synthesizing module 'Pixel_On_Text2__parameterized11' (18#1) [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:47]
+WARNING: [Synth 8-689] width (12) of port connection 'horzCoord' does not match port width (32) of module 'Pixel_On_Text2__parameterized11' [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/volume_bar_text.v:134]
+WARNING: [Synth 8-689] width (12) of port connection 'vertCoord' does not match port width (32) of module 'Pixel_On_Text2__parameterized11' [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/volume_bar_text.v:135]
+INFO: [Synth 8-6155] done synthesizing module 'volume_bar_text' (19#1) [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/volume_bar_text.v:24]
+INFO: [Synth 8-6157] synthesizing module 'frequency_text' [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/frequency_text.v:24]
+	Parameter start_pos_x bound to: 255 - type: integer 
+	Parameter start_pos_y bound to: 900 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'Pixel_On_Text2__parameterized12' [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:47]
+	Parameter displayText bound to: Frequency: < 300 Hz - type: string 
+WARNING: [Synth 8-6014] Unused sequential element inXRange_reg was removed.  [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:80]
+WARNING: [Synth 8-6014] Unused sequential element inYRange_reg was removed.  [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:81]
+WARNING: [Synth 8-5863] Implementing Library version of Mod/Rem due to signed path. This typically leads to poor QOR. Check RTL to see if unsigned path for the operator is possible  [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:61]
+INFO: [Synth 8-256] done synthesizing module 'Pixel_On_Text2__parameterized12' (19#1) [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:47]
+WARNING: [Synth 8-689] width (12) of port connection 'horzCoord' does not match port width (32) of module 'Pixel_On_Text2__parameterized12' [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/frequency_text.v:38]
+WARNING: [Synth 8-689] width (12) of port connection 'vertCoord' does not match port width (32) of module 'Pixel_On_Text2__parameterized12' [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/frequency_text.v:39]
+INFO: [Synth 8-638] synthesizing module 'Pixel_On_Text2__parameterized13' [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:47]
+	Parameter displayText bound to: Frequency: 300 Hz - type: string 
+WARNING: [Synth 8-6014] Unused sequential element inXRange_reg was removed.  [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:80]
+WARNING: [Synth 8-6014] Unused sequential element inYRange_reg was removed.  [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:81]
+WARNING: [Synth 8-5863] Implementing Library version of Mod/Rem due to signed path. This typically leads to poor QOR. Check RTL to see if unsigned path for the operator is possible  [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:61]
+INFO: [Synth 8-256] done synthesizing module 'Pixel_On_Text2__parameterized13' (19#1) [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:47]
+WARNING: [Synth 8-689] width (12) of port connection 'horzCoord' does not match port width (32) of module 'Pixel_On_Text2__parameterized13' [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/frequency_text.v:46]
+WARNING: [Synth 8-689] width (12) of port connection 'vertCoord' does not match port width (32) of module 'Pixel_On_Text2__parameterized13' [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/frequency_text.v:47]
+INFO: [Synth 8-638] synthesizing module 'Pixel_On_Text2__parameterized14' [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:47]
+	Parameter displayText bound to: Frequency: 400 Hz - type: string 
+WARNING: [Synth 8-6014] Unused sequential element inXRange_reg was removed.  [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:80]
+WARNING: [Synth 8-6014] Unused sequential element inYRange_reg was removed.  [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:81]
+WARNING: [Synth 8-5863] Implementing Library version of Mod/Rem due to signed path. This typically leads to poor QOR. Check RTL to see if unsigned path for the operator is possible  [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:61]
+INFO: [Synth 8-256] done synthesizing module 'Pixel_On_Text2__parameterized14' (19#1) [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:47]
+WARNING: [Synth 8-689] width (12) of port connection 'horzCoord' does not match port width (32) of module 'Pixel_On_Text2__parameterized14' [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/frequency_text.v:55]
+WARNING: [Synth 8-689] width (12) of port connection 'vertCoord' does not match port width (32) of module 'Pixel_On_Text2__parameterized14' [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/frequency_text.v:56]
+INFO: [Synth 8-638] synthesizing module 'Pixel_On_Text2__parameterized15' [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:47]
+	Parameter displayText bound to: Frequency: 500 Hz - type: string 
+WARNING: [Synth 8-6014] Unused sequential element inXRange_reg was removed.  [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:80]
+WARNING: [Synth 8-6014] Unused sequential element inYRange_reg was removed.  [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:81]
+WARNING: [Synth 8-5863] Implementing Library version of Mod/Rem due to signed path. This typically leads to poor QOR. Check RTL to see if unsigned path for the operator is possible  [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:61]
+INFO: [Synth 8-256] done synthesizing module 'Pixel_On_Text2__parameterized15' (19#1) [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:47]
+WARNING: [Synth 8-689] width (12) of port connection 'horzCoord' does not match port width (32) of module 'Pixel_On_Text2__parameterized15' [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/frequency_text.v:64]
+WARNING: [Synth 8-689] width (12) of port connection 'vertCoord' does not match port width (32) of module 'Pixel_On_Text2__parameterized15' [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/frequency_text.v:65]
+INFO: [Synth 8-638] synthesizing module 'Pixel_On_Text2__parameterized16' [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:47]
+	Parameter displayText bound to: Frequency: 600 Hz - type: string 
+WARNING: [Synth 8-6014] Unused sequential element inXRange_reg was removed.  [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:80]
+WARNING: [Synth 8-6014] Unused sequential element inYRange_reg was removed.  [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:81]
+WARNING: [Synth 8-5863] Implementing Library version of Mod/Rem due to signed path. This typically leads to poor QOR. Check RTL to see if unsigned path for the operator is possible  [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:61]
+INFO: [Synth 8-256] done synthesizing module 'Pixel_On_Text2__parameterized16' (19#1) [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:47]
+WARNING: [Synth 8-689] width (12) of port connection 'horzCoord' does not match port width (32) of module 'Pixel_On_Text2__parameterized16' [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/frequency_text.v:73]
+WARNING: [Synth 8-689] width (12) of port connection 'vertCoord' does not match port width (32) of module 'Pixel_On_Text2__parameterized16' [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/frequency_text.v:74]
+INFO: [Synth 8-638] synthesizing module 'Pixel_On_Text2__parameterized17' [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:47]
+	Parameter displayText bound to: Frequency: 700 Hz - type: string 
+WARNING: [Synth 8-6014] Unused sequential element inXRange_reg was removed.  [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:80]
+WARNING: [Synth 8-6014] Unused sequential element inYRange_reg was removed.  [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:81]
+WARNING: [Synth 8-5863] Implementing Library version of Mod/Rem due to signed path. This typically leads to poor QOR. Check RTL to see if unsigned path for the operator is possible  [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:61]
+INFO: [Synth 8-256] done synthesizing module 'Pixel_On_Text2__parameterized17' (19#1) [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:47]
+WARNING: [Synth 8-689] width (12) of port connection 'horzCoord' does not match port width (32) of module 'Pixel_On_Text2__parameterized17' [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/frequency_text.v:82]
+WARNING: [Synth 8-689] width (12) of port connection 'vertCoord' does not match port width (32) of module 'Pixel_On_Text2__parameterized17' [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/frequency_text.v:83]
+INFO: [Synth 8-638] synthesizing module 'Pixel_On_Text2__parameterized18' [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:47]
+	Parameter displayText bound to: Frequency: 800 Hz - type: string 
+WARNING: [Synth 8-6014] Unused sequential element inXRange_reg was removed.  [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:80]
+WARNING: [Synth 8-6014] Unused sequential element inYRange_reg was removed.  [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:81]
+WARNING: [Synth 8-5863] Implementing Library version of Mod/Rem due to signed path. This typically leads to poor QOR. Check RTL to see if unsigned path for the operator is possible  [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:61]
+INFO: [Synth 8-256] done synthesizing module 'Pixel_On_Text2__parameterized18' (19#1) [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:47]
+WARNING: [Synth 8-689] width (12) of port connection 'horzCoord' does not match port width (32) of module 'Pixel_On_Text2__parameterized18' [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/frequency_text.v:91]
+WARNING: [Synth 8-689] width (12) of port connection 'vertCoord' does not match port width (32) of module 'Pixel_On_Text2__parameterized18' [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/frequency_text.v:92]
+INFO: [Synth 8-638] synthesizing module 'Pixel_On_Text2__parameterized19' [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:47]
+	Parameter displayText bound to: Frequency: 900 Hz - type: string 
+WARNING: [Synth 8-6014] Unused sequential element inXRange_reg was removed.  [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:80]
+WARNING: [Synth 8-6014] Unused sequential element inYRange_reg was removed.  [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:81]
+WARNING: [Synth 8-5863] Implementing Library version of Mod/Rem due to signed path. This typically leads to poor QOR. Check RTL to see if unsigned path for the operator is possible  [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:61]
+INFO: [Synth 8-256] done synthesizing module 'Pixel_On_Text2__parameterized19' (19#1) [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:47]
+WARNING: [Synth 8-689] width (12) of port connection 'horzCoord' does not match port width (32) of module 'Pixel_On_Text2__parameterized19' [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/frequency_text.v:100]
+WARNING: [Synth 8-689] width (12) of port connection 'vertCoord' does not match port width (32) of module 'Pixel_On_Text2__parameterized19' [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/frequency_text.v:101]
+INFO: [Synth 8-638] synthesizing module 'Pixel_On_Text2__parameterized20' [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:47]
+	Parameter displayText bound to: Frequency: 1000 Hz - type: string 
+WARNING: [Synth 8-6014] Unused sequential element inXRange_reg was removed.  [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:80]
+WARNING: [Synth 8-6014] Unused sequential element inYRange_reg was removed.  [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:81]
+WARNING: [Synth 8-5863] Implementing Library version of Mod/Rem due to signed path. This typically leads to poor QOR. Check RTL to see if unsigned path for the operator is possible  [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:61]
+INFO: [Synth 8-256] done synthesizing module 'Pixel_On_Text2__parameterized20' (19#1) [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:47]
+WARNING: [Synth 8-689] width (12) of port connection 'horzCoord' does not match port width (32) of module 'Pixel_On_Text2__parameterized20' [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/frequency_text.v:109]
+WARNING: [Synth 8-689] width (12) of port connection 'vertCoord' does not match port width (32) of module 'Pixel_On_Text2__parameterized20' [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/frequency_text.v:110]
+INFO: [Synth 8-638] synthesizing module 'Pixel_On_Text2__parameterized21' [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:47]
+	Parameter displayText bound to: Frequency: > 1000 Hz - type: string 
+WARNING: [Synth 8-6014] Unused sequential element inXRange_reg was removed.  [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:80]
+WARNING: [Synth 8-6014] Unused sequential element inYRange_reg was removed.  [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:81]
+WARNING: [Synth 8-5863] Implementing Library version of Mod/Rem due to signed path. This typically leads to poor QOR. Check RTL to see if unsigned path for the operator is possible  [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:61]
+INFO: [Synth 8-256] done synthesizing module 'Pixel_On_Text2__parameterized21' (19#1) [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:47]
+WARNING: [Synth 8-689] width (12) of port connection 'horzCoord' does not match port width (32) of module 'Pixel_On_Text2__parameterized21' [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/frequency_text.v:118]
+WARNING: [Synth 8-689] width (12) of port connection 'vertCoord' does not match port width (32) of module 'Pixel_On_Text2__parameterized21' [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/frequency_text.v:119]
+INFO: [Synth 8-6155] done synthesizing module 'frequency_text' (20#1) [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/frequency_text.v:24]
+INFO: [Synth 8-6157] synthesizing module 'menu_text_gen' [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/menu_text_gen.v:25]
+	Parameter start_pos_x bound to: 1030 - type: integer 
+	Parameter start_pos_y bound to: 810 - type: integer 
+	Parameter increment bound to: 20 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'Pixel_On_Text2__parameterized22' [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:47]
+	Parameter displayText bound to: MENU - type: string 
+WARNING: [Synth 8-6014] Unused sequential element inXRange_reg was removed.  [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:80]
+WARNING: [Synth 8-6014] Unused sequential element inYRange_reg was removed.  [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:81]
+WARNING: [Synth 8-5863] Implementing Library version of Mod/Rem due to signed path. This typically leads to poor QOR. Check RTL to see if unsigned path for the operator is possible  [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:61]
+INFO: [Synth 8-256] done synthesizing module 'Pixel_On_Text2__parameterized22' (20#1) [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:47]
+WARNING: [Synth 8-689] width (12) of port connection 'horzCoord' does not match port width (32) of module 'Pixel_On_Text2__parameterized22' [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/menu_text_gen.v:42]
+WARNING: [Synth 8-689] width (12) of port connection 'vertCoord' does not match port width (32) of module 'Pixel_On_Text2__parameterized22' [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/menu_text_gen.v:43]
+INFO: [Synth 8-638] synthesizing module 'Pixel_On_Text2__parameterized23' [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:47]
+	Parameter displayText bound to: SW0 : Freeze Waveform - type: string 
+WARNING: [Synth 8-6014] Unused sequential element inXRange_reg was removed.  [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:80]
+WARNING: [Synth 8-6014] Unused sequential element inYRange_reg was removed.  [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:81]
+WARNING: [Synth 8-5863] Implementing Library version of Mod/Rem due to signed path. This typically leads to poor QOR. Check RTL to see if unsigned path for the operator is possible  [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:61]
+INFO: [Synth 8-256] done synthesizing module 'Pixel_On_Text2__parameterized23' (20#1) [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:47]
+WARNING: [Synth 8-689] width (12) of port connection 'horzCoord' does not match port width (32) of module 'Pixel_On_Text2__parameterized23' [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/menu_text_gen.v:50]
+WARNING: [Synth 8-689] width (12) of port connection 'vertCoord' does not match port width (32) of module 'Pixel_On_Text2__parameterized23' [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/menu_text_gen.v:51]
+INFO: [Synth 8-638] synthesizing module 'Pixel_On_Text2__parameterized24' [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:47]
+	Parameter displayText bound to: SW1 : Remove Waveform - type: string 
+WARNING: [Synth 8-6014] Unused sequential element inXRange_reg was removed.  [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:80]
+WARNING: [Synth 8-6014] Unused sequential element inYRange_reg was removed.  [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:81]
+WARNING: [Synth 8-5863] Implementing Library version of Mod/Rem due to signed path. This typically leads to poor QOR. Check RTL to see if unsigned path for the operator is possible  [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:61]
+INFO: [Synth 8-256] done synthesizing module 'Pixel_On_Text2__parameterized24' (20#1) [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:47]
+WARNING: [Synth 8-689] width (12) of port connection 'horzCoord' does not match port width (32) of module 'Pixel_On_Text2__parameterized24' [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/menu_text_gen.v:59]
+WARNING: [Synth 8-689] width (12) of port connection 'vertCoord' does not match port width (32) of module 'Pixel_On_Text2__parameterized24' [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/menu_text_gen.v:60]
+INFO: [Synth 8-638] synthesizing module 'Pixel_On_Text2__parameterized25' [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:47]
+	Parameter displayText bound to: SW2 : Remove Ticks - type: string 
+WARNING: [Synth 8-6014] Unused sequential element inXRange_reg was removed.  [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:80]
+WARNING: [Synth 8-6014] Unused sequential element inYRange_reg was removed.  [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:81]
+WARNING: [Synth 8-5863] Implementing Library version of Mod/Rem due to signed path. This typically leads to poor QOR. Check RTL to see if unsigned path for the operator is possible  [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:61]
+INFO: [Synth 8-256] done synthesizing module 'Pixel_On_Text2__parameterized25' (20#1) [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:47]
+WARNING: [Synth 8-689] width (12) of port connection 'horzCoord' does not match port width (32) of module 'Pixel_On_Text2__parameterized25' [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/menu_text_gen.v:68]
+WARNING: [Synth 8-689] width (12) of port connection 'vertCoord' does not match port width (32) of module 'Pixel_On_Text2__parameterized25' [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/menu_text_gen.v:69]
+INFO: [Synth 8-638] synthesizing module 'Pixel_On_Text2__parameterized26' [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:47]
+	Parameter displayText bound to: SW3 : Remove Gridlines - type: string 
+WARNING: [Synth 8-6014] Unused sequential element inXRange_reg was removed.  [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:80]
+WARNING: [Synth 8-6014] Unused sequential element inYRange_reg was removed.  [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:81]
+WARNING: [Synth 8-5863] Implementing Library version of Mod/Rem due to signed path. This typically leads to poor QOR. Check RTL to see if unsigned path for the operator is possible  [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:61]
+INFO: [Synth 8-256] done synthesizing module 'Pixel_On_Text2__parameterized26' (20#1) [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:47]
+WARNING: [Synth 8-689] width (12) of port connection 'horzCoord' does not match port width (32) of module 'Pixel_On_Text2__parameterized26' [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/menu_text_gen.v:77]
+WARNING: [Synth 8-689] width (12) of port connection 'vertCoord' does not match port width (32) of module 'Pixel_On_Text2__parameterized26' [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/menu_text_gen.v:78]
+INFO: [Synth 8-638] synthesizing module 'Pixel_On_Text2__parameterized27' [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:47]
+	Parameter displayText bound to: SW4 : Additional Feature 1 - type: string 
+WARNING: [Synth 8-6014] Unused sequential element inXRange_reg was removed.  [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:80]
+WARNING: [Synth 8-6014] Unused sequential element inYRange_reg was removed.  [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:81]
+WARNING: [Synth 8-5863] Implementing Library version of Mod/Rem due to signed path. This typically leads to poor QOR. Check RTL to see if unsigned path for the operator is possible  [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:61]
+INFO: [Synth 8-256] done synthesizing module 'Pixel_On_Text2__parameterized27' (20#1) [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:47]
+WARNING: [Synth 8-689] width (12) of port connection 'horzCoord' does not match port width (32) of module 'Pixel_On_Text2__parameterized27' [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/menu_text_gen.v:86]
+WARNING: [Synth 8-689] width (12) of port connection 'vertCoord' does not match port width (32) of module 'Pixel_On_Text2__parameterized27' [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/menu_text_gen.v:87]
+INFO: [Synth 8-638] synthesizing module 'Pixel_On_Text2__parameterized28' [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:47]
+	Parameter displayText bound to: SW5 : Additional Feature 2 - type: string 
+WARNING: [Synth 8-6014] Unused sequential element inXRange_reg was removed.  [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:80]
+WARNING: [Synth 8-6014] Unused sequential element inYRange_reg was removed.  [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:81]
+WARNING: [Synth 8-5863] Implementing Library version of Mod/Rem due to signed path. This typically leads to poor QOR. Check RTL to see if unsigned path for the operator is possible  [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:61]
+INFO: [Synth 8-256] done synthesizing module 'Pixel_On_Text2__parameterized28' (20#1) [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:47]
+WARNING: [Synth 8-689] width (12) of port connection 'horzCoord' does not match port width (32) of module 'Pixel_On_Text2__parameterized28' [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/menu_text_gen.v:95]
+WARNING: [Synth 8-689] width (12) of port connection 'vertCoord' does not match port width (32) of module 'Pixel_On_Text2__parameterized28' [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/menu_text_gen.v:96]
+INFO: [Synth 8-638] synthesizing module 'Pixel_On_Text2__parameterized29' [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:47]
+	Parameter displayText bound to: SW6 : Additional Feature 3 - type: string 
+WARNING: [Synth 8-6014] Unused sequential element inXRange_reg was removed.  [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:80]
+WARNING: [Synth 8-6014] Unused sequential element inYRange_reg was removed.  [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:81]
+WARNING: [Synth 8-5863] Implementing Library version of Mod/Rem due to signed path. This typically leads to poor QOR. Check RTL to see if unsigned path for the operator is possible  [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:61]
+INFO: [Synth 8-256] done synthesizing module 'Pixel_On_Text2__parameterized29' (20#1) [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:47]
+WARNING: [Synth 8-689] width (12) of port connection 'horzCoord' does not match port width (32) of module 'Pixel_On_Text2__parameterized29' [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/menu_text_gen.v:104]
+WARNING: [Synth 8-689] width (12) of port connection 'vertCoord' does not match port width (32) of module 'Pixel_On_Text2__parameterized29' [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/menu_text_gen.v:105]
+INFO: [Synth 8-638] synthesizing module 'Pixel_On_Text2__parameterized30' [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:47]
+	Parameter displayText bound to: SW15 : Ramp Wave - type: string 
+WARNING: [Synth 8-6014] Unused sequential element inXRange_reg was removed.  [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:80]
+WARNING: [Synth 8-6014] Unused sequential element inYRange_reg was removed.  [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:81]
+WARNING: [Synth 8-5863] Implementing Library version of Mod/Rem due to signed path. This typically leads to poor QOR. Check RTL to see if unsigned path for the operator is possible  [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:61]
+INFO: [Synth 8-256] done synthesizing module 'Pixel_On_Text2__parameterized30' (20#1) [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:47]
+WARNING: [Synth 8-689] width (12) of port connection 'horzCoord' does not match port width (32) of module 'Pixel_On_Text2__parameterized30' [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/menu_text_gen.v:112]
+WARNING: [Synth 8-689] width (12) of port connection 'vertCoord' does not match port width (32) of module 'Pixel_On_Text2__parameterized30' [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/menu_text_gen.v:113]
+INFO: [Synth 8-6155] done synthesizing module 'menu_text_gen' (21#1) [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/menu_text_gen.v:25]
+INFO: [Synth 8-6157] synthesizing module 'Generate_Color' [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/Generate_Color.v:23]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/Generate_Color.v:48]
+INFO: [Synth 8-6155] done synthesizing module 'Generate_Color' (22#1) [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/Generate_Color.v:23]
+INFO: [Synth 8-6157] synthesizing module 'volume_bar' [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/volume_bar.v:23]
+	Parameter x bound to: 140 - type: integer 
+	Parameter y bound to: 930 - type: integer 
+	Parameter shift bound to: 60 - type: integer 
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/volume_bar.v:35]
+INFO: [Synth 8-6155] done synthesizing module 'volume_bar' (23#1) [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/volume_bar.v:23]
+INFO: [Synth 8-6157] synthesizing module 'create_ring_object' [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/create_ring_object.v:23]
+INFO: [Synth 8-6157] synthesizing module 'clk_40' [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/clk_40.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'clk_40' (24#1) [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/clk_40.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'create_ring_object' (25#1) [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/create_ring_object.v:23]
+INFO: [Synth 8-6157] synthesizing module 'create_sphere' [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/create_sphere.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'create_sphere' (26#1) [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/create_sphere.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Draw_Waveform' [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Draw_Waveform.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'Draw_Waveform' (27#1) [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Draw_Waveform.v:6]
+INFO: [Synth 8-6157] synthesizing module 'change_switches' [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/change_switches.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'change_switches' (28#1) [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/change_switches.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Draw_Background' [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Draw_Background.v:24]
+	Parameter x_tick_width bound to: 10 - type: integer 
+	Parameter y_tick_width bound to: 5 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'Draw_Background' (29#1) [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Draw_Background.v:24]
+INFO: [Synth 8-6157] synthesizing module 'VGA_DISPLAY' [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/VGA_DISPLAY.v:17]
+INFO: [Synth 8-638] synthesizing module 'CLK_108M' [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/CLK_108M.vhd:83]
+	Parameter BANDWIDTH bound to: OPTIMIZED - type: string 
+	Parameter CLKFBOUT_MULT_F bound to: 10.125000 - type: float 
+	Parameter CLKFBOUT_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKFBOUT_USE_FINE_PS bound to: 0 - type: bool 
+	Parameter CLKIN1_PERIOD bound to: 10.000000 - type: float 
+	Parameter CLKIN2_PERIOD bound to: 0.000000 - type: float 
+	Parameter CLKOUT0_DIVIDE_F bound to: 9.375000 - type: float 
+	Parameter CLKOUT0_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT0_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT0_USE_FINE_PS bound to: 0 - type: bool 
+	Parameter CLKOUT1_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT1_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT1_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT1_USE_FINE_PS bound to: 0 - type: bool 
+	Parameter CLKOUT2_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT2_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT2_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT2_USE_FINE_PS bound to: 0 - type: bool 
+	Parameter CLKOUT3_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT3_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT3_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT3_USE_FINE_PS bound to: 0 - type: bool 
+	Parameter CLKOUT4_CASCADE bound to: 0 - type: bool 
+	Parameter CLKOUT4_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT4_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT4_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT4_USE_FINE_PS bound to: 0 - type: bool 
+	Parameter CLKOUT5_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT5_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT5_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT5_USE_FINE_PS bound to: 0 - type: bool 
+	Parameter CLKOUT6_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT6_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT6_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT6_USE_FINE_PS bound to: 0 - type: bool 
+	Parameter COMPENSATION bound to: ZHOLD - type: string 
+	Parameter DIVCLK_DIVIDE bound to: 1 - type: integer 
+	Parameter IS_CLKINSEL_INVERTED bound to: 1'b0 
+	Parameter IS_PSEN_INVERTED bound to: 1'b0 
+	Parameter IS_PSINCDEC_INVERTED bound to: 1'b0 
+	Parameter IS_PWRDWN_INVERTED bound to: 1'b0 
+	Parameter IS_RST_INVERTED bound to: 1'b0 
+	Parameter REF_JITTER1 bound to: 0.010000 - type: float 
+	Parameter REF_JITTER2 bound to: 0.000000 - type: float 
+	Parameter SS_EN bound to: FALSE - type: string 
+	Parameter SS_MODE bound to: CENTER_HIGH - type: string 
+	Parameter SS_MOD_PERIOD bound to: 10000 - type: integer 
+	Parameter STARTUP_WAIT bound to: 0 - type: bool 
+INFO: [Synth 8-113] binding component instance 'mmcm_adv_inst' to cell 'MMCME2_ADV' [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/CLK_108M.vhd:125]
+INFO: [Synth 8-113] binding component instance 'clkf_buf' to cell 'BUFG' [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/CLK_108M.vhd:187]
+INFO: [Synth 8-113] binding component instance 'clkout1_buf' to cell 'BUFG' [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/CLK_108M.vhd:194]
+INFO: [Synth 8-256] done synthesizing module 'CLK_108M' (30#1) [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/CLK_108M.vhd:83]
+INFO: [Synth 8-638] synthesizing module 'VGA_CONTROL' [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/VGA_CONTROL.vhd:61]
+INFO: [Synth 8-256] done synthesizing module 'VGA_CONTROL' (31#1) [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/VGA_CONTROL.vhd:61]
+INFO: [Synth 8-6155] done synthesizing module 'VGA_DISPLAY' (32#1) [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/VGA_DISPLAY.v:17]
+INFO: [Synth 8-6155] done synthesizing module 'Voice_Scope_TOP' (33#1) [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Voice_Scope_TOP.v:10]
+WARNING: [Synth 8-3331] design Draw_Background has unconnected port unlock_status
+WARNING: [Synth 8-3331] design create_sphere has unconnected port freqcount[3]
+WARNING: [Synth 8-3331] design create_sphere has unconnected port freqcount[2]
+WARNING: [Synth 8-3331] design create_sphere has unconnected port freqcount[1]
+WARNING: [Synth 8-3331] design create_sphere has unconnected port freqcount[0]
+WARNING: [Synth 8-3331] design create_ring_object has unconnected port freqcount[3]
+WARNING: [Synth 8-3331] design create_ring_object has unconnected port freqcount[2]
+WARNING: [Synth 8-3331] design create_ring_object has unconnected port freqcount[1]
+WARNING: [Synth 8-3331] design create_ring_object has unconnected port freqcount[0]
+WARNING: [Synth 8-3331] design menu_text_gen has unconnected port SW0
+WARNING: [Synth 8-3331] design menu_text_gen has unconnected port SW1
+WARNING: [Synth 8-3331] design menu_text_gen has unconnected port SW2
+WARNING: [Synth 8-3331] design menu_text_gen has unconnected port SW3
+WARNING: [Synth 8-3331] design menu_text_gen has unconnected port SW4
+WARNING: [Synth 8-3331] design menu_text_gen has unconnected port SW5
+WARNING: [Synth 8-3331] design menu_text_gen has unconnected port SW6
+WARNING: [Synth 8-3331] design menu_text_gen has unconnected port SW15
+WARNING: [Synth 8-3331] design unlockfeaturesw62 has unconnected port btnC
+WARNING: [Synth 8-3331] design frequency_calculator has unconnected port SW0
+WARNING: [Synth 8-3331] design Voice_Scope_TOP has unconnected port btnU
+WARNING: [Synth 8-3331] design Voice_Scope_TOP has unconnected port btnD
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:19 ; elapsed = 00:00:19 . Memory (MB): peak = 436.883 ; gain = 179.965
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:21 ; elapsed = 00:00:21 . Memory (MB): peak = 436.883 ; gain = 179.965
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:21 ; elapsed = 00:00:21 . Memory (MB): peak = 436.883 ; gain = 179.965
+---------------------------------------------------------------------------------
+INFO: [Netlist 29-17] Analyzing 1 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/constrs_1/imports/new/Basys3_Master.xdc]
+Finished Parsing XDC File [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/constrs_1/imports/new/Basys3_Master.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/constrs_1/imports/new/Basys3_Master.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/Voice_Scope_TOP_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/Voice_Scope_TOP_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+INFO: [Timing 38-2] Deriving generated clocks
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.026 . Memory (MB): peak = 790.984 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:01:05 ; elapsed = 00:01:12 . Memory (MB): peak = 790.984 ; gain = 534.066
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:01:05 ; elapsed = 00:01:12 . Memory (MB): peak = 790.984 ; gain = 534.066
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:01:05 ; elapsed = 00:01:12 . Memory (MB): peak = 790.984 ; gain = 534.066
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5546] ROM "clk10" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5545] ROM "even_value" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "odd_value" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "odd_value" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5546] ROM "clk10" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "signal" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "LED" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+WARNING: [Synth 8-6014] Unused sequential element fontRow_reg was removed.  [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Font_Rom.vhd:2233]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:60]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:60]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:60]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:60]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:60]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:60]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:60]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:60]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:60]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:60]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:60]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:60]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:60]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:60]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:60]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:60]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:60]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:60]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:60]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:60]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:60]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:60]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:60]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:60]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:60]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:60]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:60]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:60]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:60]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:60]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Pixel_On_Text2.vhd:60]
+INFO: [Synth 8-5546] ROM "clk10" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5845] Not enough pipeline registers after wide multiplier. Recommended levels of pipeline registers is 2 [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/create_ring_object.v:86]
+INFO: [Synth 8-5845] Not enough pipeline registers after wide multiplier. Recommended levels of pipeline registers is 2 [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/create_ring_object.v:86]
+INFO: [Synth 8-5845] Not enough pipeline registers after wide multiplier. Recommended levels of pipeline registers is 2 [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/create_ring_object.v:86]
+WARNING: [Synth 8-327] inferring latch for variable 'intensity_reg' [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/volume_bar.v:37]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:01:18 ; elapsed = 00:01:27 . Memory (MB): peak = 790.984 ; gain = 534.066
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++------+---------------------+------------+----------+
+|      |RTL Partition        |Replication |Instances |
++------+---------------------+------------+----------+
+|1     |volume_bar_text      |           1|     22484|
+|2     |Voice_Scope_TOP__GB1 |           1|     16789|
+|3     |menu_text_gen        |           1|     15102|
+|4     |Voice_Scope_TOP__GB3 |           1|     13895|
++------+---------------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     33 Bit       Adders := 64    
+	   2 Input     32 Bit       Adders := 71    
+	   3 Input     32 Bit       Adders := 34    
+	   2 Input     31 Bit       Adders := 32    
+	   2 Input     23 Bit       Adders := 7     
+	   3 Input     22 Bit       Adders := 1     
+	   2 Input     21 Bit       Adders := 2     
+	   3 Input     21 Bit       Adders := 2     
+	   3 Input     17 Bit       Adders := 1     
+	   2 Input     16 Bit       Adders := 1     
+	   3 Input     16 Bit       Adders := 2     
+	   3 Input     13 Bit       Adders := 2     
+	   2 Input     13 Bit       Adders := 1     
+	   2 Input     12 Bit       Adders := 1     
+	   3 Input     12 Bit       Adders := 8     
+	   2 Input     11 Bit       Adders := 2     
+	   2 Input     10 Bit       Adders := 2     
+	   2 Input      7 Bit       Adders := 35    
+	   2 Input      5 Bit       Adders := 64    
+	   3 Input      5 Bit       Adders := 18    
+	   3 Input      4 Bit       Adders := 13    
+	   2 Input      4 Bit       Adders := 2     
+	   2 Input      3 Bit       Adders := 2     
+	   2 Input      2 Bit       Adders := 1     
++---Registers : 
+	               23 Bit    Registers := 7     
+	               13 Bit    Registers := 2     
+	               12 Bit    Registers := 11    
+	               11 Bit    Registers := 1     
+	               10 Bit    Registers := 6     
+	                8 Bit    Registers := 33    
+	                7 Bit    Registers := 3     
+	                4 Bit    Registers := 7     
+	                3 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 57    
++---RAMs : 
+	              12K Bit         RAMs := 1     
++---ROMs : 
+	                              ROMs := 32    
++---Muxes : 
+	   2 Input     31 Bit        Muxes := 32    
+	   2 Input     23 Bit        Muxes := 7     
+	   2 Input     13 Bit        Muxes := 2     
+	   2 Input     12 Bit        Muxes := 16    
+	   2 Input     11 Bit        Muxes := 2     
+	   2 Input     10 Bit        Muxes := 10    
+	  14 Input     10 Bit        Muxes := 1     
+	   2 Input      9 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 13    
+	   4 Input      8 Bit        Muxes := 19    
+	   4 Input      7 Bit        Muxes := 1     
+	   2 Input      7 Bit        Muxes := 1     
+	   2 Input      6 Bit        Muxes := 1     
+	   8 Input      6 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 147   
+	   2 Input      4 Bit        Muxes := 22    
+	  11 Input      4 Bit        Muxes := 1     
+	  13 Input      4 Bit        Muxes := 1     
+	   4 Input      4 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 6     
+	  14 Input      3 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 1     
+	   3 Input      1 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 32    
+	  13 Input      1 Bit        Muxes := 1     
+	  11 Input      1 Bit        Muxes := 2     
+	  14 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module Voice_Scope_TOP 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 1     
++---Muxes : 
+	   2 Input     10 Bit        Muxes := 1     
+Module Font_Rom__13 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
++---ROMs : 
+	                              ROMs := 1     
+Module Pixel_On_Text2 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     33 Bit       Adders := 2     
+	   2 Input     32 Bit       Adders := 2     
+	   3 Input     32 Bit       Adders := 1     
+	   2 Input     31 Bit       Adders := 1     
+	   2 Input      7 Bit       Adders := 1     
+	   2 Input      5 Bit       Adders := 2     
+	   3 Input      4 Bit       Adders := 1     
++---Registers : 
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     31 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 4     
+	   2 Input      4 Bit        Muxes := 1     
+Module Font_Rom__12 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
++---ROMs : 
+	                              ROMs := 1     
+Module Pixel_On_Text2__parameterized0 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     33 Bit       Adders := 2     
+	   2 Input     32 Bit       Adders := 2     
+	   3 Input     32 Bit       Adders := 1     
+	   2 Input     31 Bit       Adders := 1     
+	   2 Input      7 Bit       Adders := 1     
+	   2 Input      5 Bit       Adders := 2     
+	   3 Input      4 Bit       Adders := 1     
++---Registers : 
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     31 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 4     
+	   2 Input      4 Bit        Muxes := 1     
+Module Font_Rom__11 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
++---ROMs : 
+	                              ROMs := 1     
+Module Pixel_On_Text2__parameterized1 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     33 Bit       Adders := 2     
+	   2 Input     32 Bit       Adders := 2     
+	   3 Input     32 Bit       Adders := 1     
+	   2 Input     31 Bit       Adders := 1     
+	   2 Input      7 Bit       Adders := 1     
+	   2 Input      5 Bit       Adders := 2     
+	   3 Input      4 Bit       Adders := 1     
++---Registers : 
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     31 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 4     
+	   2 Input      4 Bit        Muxes := 1     
+Module Font_Rom__10 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
++---ROMs : 
+	                              ROMs := 1     
+Module Pixel_On_Text2__parameterized2 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     33 Bit       Adders := 2     
+	   2 Input     32 Bit       Adders := 2     
+	   3 Input     32 Bit       Adders := 1     
+	   2 Input     31 Bit       Adders := 1     
+	   2 Input      7 Bit       Adders := 1     
+	   2 Input      5 Bit       Adders := 2     
+	   3 Input      4 Bit       Adders := 1     
++---Registers : 
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     31 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 4     
+	   2 Input      4 Bit        Muxes := 1     
+Module Font_Rom__9 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
++---ROMs : 
+	                              ROMs := 1     
+Module Pixel_On_Text2__parameterized3 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     33 Bit       Adders := 2     
+	   2 Input     32 Bit       Adders := 2     
+	   3 Input     32 Bit       Adders := 1     
+	   2 Input     31 Bit       Adders := 1     
+	   2 Input      7 Bit       Adders := 1     
+	   2 Input      5 Bit       Adders := 2     
+	   3 Input      4 Bit       Adders := 1     
++---Registers : 
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     31 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 4     
+	   2 Input      4 Bit        Muxes := 1     
+Module Font_Rom__8 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
++---ROMs : 
+	                              ROMs := 1     
+Module Pixel_On_Text2__parameterized4 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     33 Bit       Adders := 2     
+	   2 Input     32 Bit       Adders := 2     
+	   3 Input     32 Bit       Adders := 1     
+	   2 Input     31 Bit       Adders := 1     
+	   2 Input      7 Bit       Adders := 1     
+	   2 Input      5 Bit       Adders := 2     
+	   3 Input      4 Bit       Adders := 1     
++---Registers : 
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     31 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 4     
+	   2 Input      4 Bit        Muxes := 1     
+Module Font_Rom__7 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
++---ROMs : 
+	                              ROMs := 1     
+Module Pixel_On_Text2__parameterized5 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     33 Bit       Adders := 2     
+	   2 Input     32 Bit       Adders := 2     
+	   3 Input     32 Bit       Adders := 1     
+	   2 Input     31 Bit       Adders := 1     
+	   2 Input      7 Bit       Adders := 1     
+	   2 Input      5 Bit       Adders := 2     
+	   3 Input      4 Bit       Adders := 1     
++---Registers : 
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     31 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 4     
+	   2 Input      4 Bit        Muxes := 1     
+Module Font_Rom__6 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
++---ROMs : 
+	                              ROMs := 1     
+Module Pixel_On_Text2__parameterized6 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     33 Bit       Adders := 2     
+	   2 Input     32 Bit       Adders := 2     
+	   3 Input     32 Bit       Adders := 1     
+	   2 Input     31 Bit       Adders := 1     
+	   2 Input      7 Bit       Adders := 1     
+	   2 Input      5 Bit       Adders := 2     
+	   3 Input      4 Bit       Adders := 1     
++---Registers : 
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     31 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 4     
+	   2 Input      4 Bit        Muxes := 1     
+Module Font_Rom__5 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
++---ROMs : 
+	                              ROMs := 1     
+Module Pixel_On_Text2__parameterized7 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     33 Bit       Adders := 2     
+	   2 Input     32 Bit       Adders := 2     
+	   3 Input     32 Bit       Adders := 1     
+	   2 Input     31 Bit       Adders := 1     
+	   2 Input      7 Bit       Adders := 1     
+	   2 Input      5 Bit       Adders := 2     
+	   3 Input      4 Bit       Adders := 1     
++---Registers : 
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     31 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 4     
+	   2 Input      4 Bit        Muxes := 1     
+Module Font_Rom__4 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
++---ROMs : 
+	                              ROMs := 1     
+Module Pixel_On_Text2__parameterized8 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     33 Bit       Adders := 2     
+	   2 Input     32 Bit       Adders := 2     
+	   3 Input     32 Bit       Adders := 1     
+	   2 Input     31 Bit       Adders := 1     
+	   2 Input      7 Bit       Adders := 1     
+	   2 Input      5 Bit       Adders := 2     
+	   3 Input      4 Bit       Adders := 1     
++---Registers : 
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     31 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 4     
+	   2 Input      4 Bit        Muxes := 1     
+Module Font_Rom__3 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
++---ROMs : 
+	                              ROMs := 1     
+Module Pixel_On_Text2__parameterized9 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     33 Bit       Adders := 2     
+	   2 Input     32 Bit       Adders := 2     
+	   3 Input     32 Bit       Adders := 1     
+	   2 Input     31 Bit       Adders := 1     
+	   2 Input      7 Bit       Adders := 1     
+	   2 Input      5 Bit       Adders := 2     
+	   3 Input      4 Bit       Adders := 1     
++---Registers : 
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     31 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 4     
+	   2 Input      4 Bit        Muxes := 1     
+Module Font_Rom__2 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
++---ROMs : 
+	                              ROMs := 1     
+Module Pixel_On_Text2__parameterized10 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     33 Bit       Adders := 2     
+	   2 Input     32 Bit       Adders := 2     
+	   3 Input     32 Bit       Adders := 1     
+	   2 Input     31 Bit       Adders := 1     
+	   2 Input      7 Bit       Adders := 1     
+	   2 Input      5 Bit       Adders := 2     
+	   3 Input      4 Bit       Adders := 1     
++---Registers : 
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     31 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 4     
+	   2 Input      4 Bit        Muxes := 1     
+Module Font_Rom__1 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
++---ROMs : 
+	                              ROMs := 1     
+Module Pixel_On_Text2__parameterized11 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     33 Bit       Adders := 2     
+	   2 Input     32 Bit       Adders := 2     
+	   3 Input     32 Bit       Adders := 1     
+	   2 Input     31 Bit       Adders := 1     
+	   2 Input      7 Bit       Adders := 1     
+	   2 Input      5 Bit       Adders := 2     
+	   3 Input      4 Bit       Adders := 1     
++---Registers : 
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     31 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 4     
+	   2 Input      4 Bit        Muxes := 1     
+Module Font_Rom 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
++---ROMs : 
+	                              ROMs := 1     
+Module Pixel_On_Text2__parameterized22 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     33 Bit       Adders := 2     
+	   2 Input     32 Bit       Adders := 2     
+	   3 Input     32 Bit       Adders := 1     
+	   2 Input     31 Bit       Adders := 1     
+	   2 Input      7 Bit       Adders := 1     
+	   2 Input      5 Bit       Adders := 2     
+	   2 Input      3 Bit       Adders := 2     
++---Registers : 
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     31 Bit        Muxes := 1     
+	   4 Input      7 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 4     
+	   2 Input      3 Bit        Muxes := 1     
+Module Font_Rom__31 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
++---ROMs : 
+	                              ROMs := 1     
+Module Pixel_On_Text2__parameterized23 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     33 Bit       Adders := 2     
+	   2 Input     32 Bit       Adders := 2     
+	   3 Input     32 Bit       Adders := 1     
+	   2 Input     31 Bit       Adders := 1     
+	   2 Input      7 Bit       Adders := 1     
+	   2 Input      5 Bit       Adders := 2     
+	   3 Input      5 Bit       Adders := 1     
++---Registers : 
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     31 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 5     
+Module Font_Rom__30 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
++---ROMs : 
+	                              ROMs := 1     
+Module Pixel_On_Text2__parameterized24 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     33 Bit       Adders := 2     
+	   2 Input     32 Bit       Adders := 2     
+	   3 Input     32 Bit       Adders := 1     
+	   2 Input     31 Bit       Adders := 1     
+	   2 Input      7 Bit       Adders := 1     
+	   2 Input      5 Bit       Adders := 2     
+	   3 Input      5 Bit       Adders := 1     
++---Registers : 
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     31 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 5     
+Module Font_Rom__29 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
++---ROMs : 
+	                              ROMs := 1     
+Module Pixel_On_Text2__parameterized25 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     33 Bit       Adders := 2     
+	   2 Input     32 Bit       Adders := 2     
+	   3 Input     32 Bit       Adders := 1     
+	   2 Input     31 Bit       Adders := 1     
+	   2 Input      7 Bit       Adders := 1     
+	   2 Input      5 Bit       Adders := 2     
+	   3 Input      5 Bit       Adders := 1     
++---Registers : 
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     31 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 5     
+Module Font_Rom__28 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
++---ROMs : 
+	                              ROMs := 1     
+Module Pixel_On_Text2__parameterized26 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     33 Bit       Adders := 2     
+	   2 Input     32 Bit       Adders := 2     
+	   3 Input     32 Bit       Adders := 1     
+	   2 Input     31 Bit       Adders := 1     
+	   2 Input      7 Bit       Adders := 1     
+	   2 Input      5 Bit       Adders := 2     
+	   3 Input      5 Bit       Adders := 1     
++---Registers : 
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     31 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 5     
+Module Font_Rom__27 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
++---ROMs : 
+	                              ROMs := 1     
+Module Pixel_On_Text2__parameterized27 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     33 Bit       Adders := 2     
+	   2 Input     32 Bit       Adders := 2     
+	   3 Input     32 Bit       Adders := 1     
+	   2 Input     31 Bit       Adders := 1     
+	   2 Input      7 Bit       Adders := 1     
+	   2 Input      5 Bit       Adders := 2     
+	   3 Input      5 Bit       Adders := 1     
++---Registers : 
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     31 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 5     
+Module Font_Rom__26 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
++---ROMs : 
+	                              ROMs := 1     
+Module Pixel_On_Text2__parameterized28 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     33 Bit       Adders := 2     
+	   2 Input     32 Bit       Adders := 2     
+	   3 Input     32 Bit       Adders := 1     
+	   2 Input     31 Bit       Adders := 1     
+	   2 Input      7 Bit       Adders := 1     
+	   2 Input      5 Bit       Adders := 2     
+	   3 Input      5 Bit       Adders := 1     
++---Registers : 
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     31 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 5     
+Module Font_Rom__25 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
++---ROMs : 
+	                              ROMs := 1     
+Module Pixel_On_Text2__parameterized29 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     33 Bit       Adders := 2     
+	   2 Input     32 Bit       Adders := 2     
+	   3 Input     32 Bit       Adders := 1     
+	   2 Input     31 Bit       Adders := 1     
+	   2 Input      7 Bit       Adders := 1     
+	   2 Input      5 Bit       Adders := 2     
+	   3 Input      5 Bit       Adders := 1     
++---Registers : 
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     31 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 5     
+Module Font_Rom__24 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
++---ROMs : 
+	                              ROMs := 1     
+Module Pixel_On_Text2__parameterized30 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     33 Bit       Adders := 2     
+	   2 Input     32 Bit       Adders := 2     
+	   3 Input     32 Bit       Adders := 1     
+	   2 Input     31 Bit       Adders := 1     
+	   2 Input      7 Bit       Adders := 1     
+	   2 Input      5 Bit       Adders := 2     
+	   3 Input      5 Bit       Adders := 1     
++---Registers : 
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     31 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 5     
+Module Font_Rom__23 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
++---ROMs : 
+	                              ROMs := 1     
+Module Pixel_On_Text2__parameterized12 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     33 Bit       Adders := 2     
+	   2 Input     32 Bit       Adders := 2     
+	   3 Input     32 Bit       Adders := 1     
+	   2 Input     31 Bit       Adders := 1     
+	   2 Input      7 Bit       Adders := 1     
+	   2 Input      5 Bit       Adders := 2     
+	   3 Input      5 Bit       Adders := 1     
++---Registers : 
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     31 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 5     
+Module Font_Rom__22 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
++---ROMs : 
+	                              ROMs := 1     
+Module Pixel_On_Text2__parameterized13 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     33 Bit       Adders := 2     
+	   2 Input     32 Bit       Adders := 2     
+	   3 Input     32 Bit       Adders := 1     
+	   2 Input     31 Bit       Adders := 1     
+	   2 Input      7 Bit       Adders := 1     
+	   2 Input      5 Bit       Adders := 2     
+	   3 Input      5 Bit       Adders := 1     
++---Registers : 
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     31 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 5     
+Module Font_Rom__21 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
++---ROMs : 
+	                              ROMs := 1     
+Module Pixel_On_Text2__parameterized14 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     33 Bit       Adders := 2     
+	   2 Input     32 Bit       Adders := 2     
+	   3 Input     32 Bit       Adders := 1     
+	   2 Input     31 Bit       Adders := 1     
+	   2 Input      7 Bit       Adders := 1     
+	   2 Input      5 Bit       Adders := 2     
+	   3 Input      5 Bit       Adders := 1     
++---Registers : 
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     31 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 5     
+Module Font_Rom__20 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
++---ROMs : 
+	                              ROMs := 1     
+Module Pixel_On_Text2__parameterized15 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     33 Bit       Adders := 2     
+	   2 Input     32 Bit       Adders := 2     
+	   3 Input     32 Bit       Adders := 1     
+	   2 Input     31 Bit       Adders := 1     
+	   2 Input      7 Bit       Adders := 1     
+	   2 Input      5 Bit       Adders := 2     
+	   3 Input      5 Bit       Adders := 1     
++---Registers : 
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     31 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 5     
+Module Font_Rom__19 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
++---ROMs : 
+	                              ROMs := 1     
+Module Pixel_On_Text2__parameterized16 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     33 Bit       Adders := 2     
+	   2 Input     32 Bit       Adders := 2     
+	   3 Input     32 Bit       Adders := 1     
+	   2 Input     31 Bit       Adders := 1     
+	   2 Input      7 Bit       Adders := 1     
+	   2 Input      5 Bit       Adders := 2     
+	   3 Input      5 Bit       Adders := 1     
++---Registers : 
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     31 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 5     
+Module Font_Rom__18 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
++---ROMs : 
+	                              ROMs := 1     
+Module Pixel_On_Text2__parameterized17 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     33 Bit       Adders := 2     
+	   2 Input     32 Bit       Adders := 2     
+	   3 Input     32 Bit       Adders := 1     
+	   2 Input     31 Bit       Adders := 1     
+	   2 Input      7 Bit       Adders := 1     
+	   2 Input      5 Bit       Adders := 2     
+	   3 Input      5 Bit       Adders := 1     
++---Registers : 
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     31 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 5     
+Module Font_Rom__17 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
++---ROMs : 
+	                              ROMs := 1     
+Module Pixel_On_Text2__parameterized18 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     33 Bit       Adders := 2     
+	   2 Input     32 Bit       Adders := 2     
+	   3 Input     32 Bit       Adders := 1     
+	   2 Input     31 Bit       Adders := 1     
+	   2 Input      7 Bit       Adders := 1     
+	   2 Input      5 Bit       Adders := 2     
+	   3 Input      5 Bit       Adders := 1     
++---Registers : 
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     31 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 5     
+Module Font_Rom__16 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
++---ROMs : 
+	                              ROMs := 1     
+Module Pixel_On_Text2__parameterized19 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     33 Bit       Adders := 2     
+	   2 Input     32 Bit       Adders := 2     
+	   3 Input     32 Bit       Adders := 1     
+	   2 Input     31 Bit       Adders := 1     
+	   2 Input      7 Bit       Adders := 1     
+	   2 Input      5 Bit       Adders := 2     
+	   3 Input      5 Bit       Adders := 1     
++---Registers : 
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     31 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 5     
+Module Font_Rom__15 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
++---ROMs : 
+	                              ROMs := 1     
+Module Pixel_On_Text2__parameterized20 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     33 Bit       Adders := 2     
+	   2 Input     32 Bit       Adders := 2     
+	   3 Input     32 Bit       Adders := 1     
+	   2 Input     31 Bit       Adders := 1     
+	   2 Input      7 Bit       Adders := 1     
+	   2 Input      5 Bit       Adders := 2     
+	   3 Input      5 Bit       Adders := 1     
++---Registers : 
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     31 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 5     
+Module Font_Rom__14 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
++---ROMs : 
+	                              ROMs := 1     
+Module Pixel_On_Text2__parameterized21 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     33 Bit       Adders := 2     
+	   2 Input     32 Bit       Adders := 2     
+	   3 Input     32 Bit       Adders := 1     
+	   2 Input     31 Bit       Adders := 1     
+	   2 Input      7 Bit       Adders := 1     
+	   2 Input      5 Bit       Adders := 2     
+	   3 Input      5 Bit       Adders := 1     
++---Registers : 
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     31 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 5     
+Module TestWave_Gen 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     10 Bit       Adders := 1     
++---Registers : 
+	               10 Bit    Registers := 1     
+Module Voice_Capturer 
+Detailed RTL Component Info : 
++---Registers : 
+	               12 Bit    Registers := 2     
+	                1 Bit    Registers := 1     
+Module frequency_calculator 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     10 Bit       Adders := 1     
++---Registers : 
+	               10 Bit    Registers := 4     
++---Muxes : 
+	   2 Input     10 Bit        Muxes := 7     
+	   3 Input      1 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 3     
+Module clk_10 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     23 Bit       Adders := 1     
++---Registers : 
+	               23 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     23 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module displayfreqcount 
+Detailed RTL Component Info : 
++---Registers : 
+	                4 Bit    Registers := 1     
++---Muxes : 
+	  11 Input      4 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module clk_10__4 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     23 Bit       Adders := 1     
++---Registers : 
+	               23 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     23 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module unlockfeature 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      7 Bit       Adders := 1     
++---Registers : 
+	                7 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
+Module clk_10__3 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     23 Bit       Adders := 1     
++---Registers : 
+	               23 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     23 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module unlock_featureSW6 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      7 Bit       Adders := 1     
++---Registers : 
+	                7 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
+Module clk_10__2 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     23 Bit       Adders := 1     
++---Registers : 
+	               23 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     23 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module unlockfeaturesw62 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      7 Bit       Adders := 1     
++---Registers : 
+	                7 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
+Module clk_10__1 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     23 Bit       Adders := 1     
++---Registers : 
+	               23 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     23 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module volume_indicator_count 
+Detailed RTL Component Info : 
++---Registers : 
+	                4 Bit    Registers := 1     
++---Muxes : 
+	  13 Input      4 Bit        Muxes := 1     
+	  13 Input      1 Bit        Muxes := 1     
+Module volume_indicator 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     12 Bit       Adders := 1     
+	   2 Input      2 Bit       Adders := 1     
++---Registers : 
+	               13 Bit    Registers := 1     
+	               12 Bit    Registers := 3     
+	                8 Bit    Registers := 1     
+	                4 Bit    Registers := 2     
+	                2 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     13 Bit        Muxes := 1     
+	   2 Input     12 Bit        Muxes := 3     
+	   2 Input     11 Bit        Muxes := 1     
+	   2 Input     10 Bit        Muxes := 1     
+	   2 Input      9 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 13    
+	   4 Input      8 Bit        Muxes := 19    
+	   2 Input      7 Bit        Muxes := 1     
+	   2 Input      6 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 1     
+	   4 Input      4 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 1     
+	  11 Input      1 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+	   3 Input      1 Bit        Muxes := 1     
+Module intensity_shift_gen 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     10 Bit        Muxes := 1     
+Module dflipflop__3 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module dflipflop__2 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module btn_press_clk_gen 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module dflipflop__1 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module dflipflop 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module Generate_Color 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 1     
++---Registers : 
+	               12 Bit    Registers := 2     
+	               10 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     12 Bit        Muxes := 1     
+	  14 Input     10 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 2     
+	  11 Input      1 Bit        Muxes := 1     
+Module volume_bar 
+Detailed RTL Component Info : 
++---Muxes : 
+	   8 Input      6 Bit        Muxes := 1     
+	  14 Input      3 Bit        Muxes := 1     
+	  14 Input      1 Bit        Muxes := 1     
+Module clk_40 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     23 Bit       Adders := 1     
++---Registers : 
+	               23 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     23 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module create_ring_object 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 2     
+	   3 Input     22 Bit       Adders := 1     
+	   2 Input     21 Bit       Adders := 2     
+	   3 Input     21 Bit       Adders := 2     
+	   3 Input     12 Bit       Adders := 4     
++---Registers : 
+	               12 Bit    Registers := 2     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     12 Bit        Muxes := 6     
+	   2 Input      1 Bit        Muxes := 8     
+Module clk_40__1 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     23 Bit       Adders := 1     
++---Registers : 
+	               23 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     23 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module create_sphere 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 2     
+	   3 Input     17 Bit       Adders := 1     
+	   2 Input     16 Bit       Adders := 1     
+	   3 Input     16 Bit       Adders := 2     
+	   3 Input     12 Bit       Adders := 4     
++---Registers : 
+	               12 Bit    Registers := 2     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     12 Bit        Muxes := 6     
+	   2 Input      1 Bit        Muxes := 8     
+Module Draw_Waveform 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     32 Bit       Adders := 2     
+	   2 Input     11 Bit       Adders := 2     
++---Registers : 
+	               11 Bit    Registers := 1     
++---RAMs : 
+	              12K Bit         RAMs := 1     
++---Muxes : 
+	   2 Input     11 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 3     
+	   2 Input      1 Bit        Muxes := 3     
+Module Draw_Background 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 2     
+	   3 Input     13 Bit       Adders := 2     
++---Muxes : 
+	   2 Input      4 Bit        Muxes := 2     
+	   2 Input      3 Bit        Muxes := 2     
+Module VGA_CONTROL 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 2     
+Module VGA_DISPLAY 
+Detailed RTL Component Info : 
++---Registers : 
+	                4 Bit    Registers := 3     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input      4 Bit        Muxes := 3     
+Module clk_div 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     13 Bit       Adders := 1     
++---Registers : 
+	               13 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     13 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+WARNING: [Synth 8-6014] Unused sequential element t1/FontRom/fontRow_reg was removed.  [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Font_Rom.vhd:2233]
+WARNING: [Synth 8-6014] Unused sequential element t2/FontRom/fontRow_reg was removed.  [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Font_Rom.vhd:2233]
+WARNING: [Synth 8-6014] Unused sequential element t3/FontRom/fontRow_reg was removed.  [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Font_Rom.vhd:2233]
+WARNING: [Synth 8-6014] Unused sequential element t4/FontRom/fontRow_reg was removed.  [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Font_Rom.vhd:2233]
+WARNING: [Synth 8-6014] Unused sequential element t5/FontRom/fontRow_reg was removed.  [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Font_Rom.vhd:2233]
+WARNING: [Synth 8-6014] Unused sequential element t6/FontRom/fontRow_reg was removed.  [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Font_Rom.vhd:2233]
+WARNING: [Synth 8-6014] Unused sequential element t7/FontRom/fontRow_reg was removed.  [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Font_Rom.vhd:2233]
+WARNING: [Synth 8-6014] Unused sequential element t8/FontRom/fontRow_reg was removed.  [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Font_Rom.vhd:2233]
+WARNING: [Synth 8-6014] Unused sequential element t9/FontRom/fontRow_reg was removed.  [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Font_Rom.vhd:2233]
+WARNING: [Synth 8-6014] Unused sequential element t10/FontRom/fontRow_reg was removed.  [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Font_Rom.vhd:2233]
+WARNING: [Synth 8-6014] Unused sequential element t11/FontRom/fontRow_reg was removed.  [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Font_Rom.vhd:2233]
+WARNING: [Synth 8-6014] Unused sequential element t12/FontRom/fontRow_reg was removed.  [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Font_Rom.vhd:2233]
+WARNING: [Synth 8-6014] Unused sequential element t13/FontRom/fontRow_reg was removed.  [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Font_Rom.vhd:2233]
+WARNING: [Synth 8-6014] Unused sequential element t0/FontRom/fontRow_reg was removed.  [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Font_Rom.vhd:2233]
+WARNING: [Synth 8-6014] Unused sequential element t1/FontRom/fontRow_reg was removed.  [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Font_Rom.vhd:2233]
+WARNING: [Synth 8-6014] Unused sequential element t2/FontRom/fontRow_reg was removed.  [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Font_Rom.vhd:2233]
+WARNING: [Synth 8-6014] Unused sequential element t3/FontRom/fontRow_reg was removed.  [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Font_Rom.vhd:2233]
+WARNING: [Synth 8-6014] Unused sequential element t4/FontRom/fontRow_reg was removed.  [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Font_Rom.vhd:2233]
+WARNING: [Synth 8-6014] Unused sequential element t5/FontRom/fontRow_reg was removed.  [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Font_Rom.vhd:2233]
+WARNING: [Synth 8-6014] Unused sequential element t6/FontRom/fontRow_reg was removed.  [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Font_Rom.vhd:2233]
+WARNING: [Synth 8-6014] Unused sequential element t7/FontRom/fontRow_reg was removed.  [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Font_Rom.vhd:2233]
+WARNING: [Synth 8-6014] Unused sequential element t8/FontRom/fontRow_reg was removed.  [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Font_Rom.vhd:2233]
+WARNING: [Synth 8-6014] Unused sequential element t0/FontRom/fontRow_reg was removed.  [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Font_Rom.vhd:2233]
+WARNING: [Synth 8-6014] Unused sequential element t1/FontRom/fontRow_reg was removed.  [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Font_Rom.vhd:2233]
+WARNING: [Synth 8-6014] Unused sequential element t2/FontRom/fontRow_reg was removed.  [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Font_Rom.vhd:2233]
+WARNING: [Synth 8-6014] Unused sequential element t3/FontRom/fontRow_reg was removed.  [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Font_Rom.vhd:2233]
+WARNING: [Synth 8-6014] Unused sequential element t4/FontRom/fontRow_reg was removed.  [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Font_Rom.vhd:2233]
+WARNING: [Synth 8-6014] Unused sequential element t5/FontRom/fontRow_reg was removed.  [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Font_Rom.vhd:2233]
+WARNING: [Synth 8-6014] Unused sequential element t6/FontRom/fontRow_reg was removed.  [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Font_Rom.vhd:2233]
+WARNING: [Synth 8-6014] Unused sequential element t7/FontRom/fontRow_reg was removed.  [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Font_Rom.vhd:2233]
+WARNING: [Synth 8-6014] Unused sequential element t8/FontRom/fontRow_reg was removed.  [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Font_Rom.vhd:2233]
+WARNING: [Synth 8-6014] Unused sequential element t9/FontRom/fontRow_reg was removed.  [C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Font_Rom.vhd:2233]
+INFO: [Synth 8-5545] ROM "odd_value" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "odd_value" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5546] ROM "rr/clk10" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "LED" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "rr/clk10" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "rr/clk10" won't be mapped to RAM because it is too sparse
+DSP Report: Generating DSP r, operation Mode is: A*(B:0x19).
+DSP Report: operator r is absorbed into DSP r.
+DSP Report: Generating DSP ring0, operation Mode is: A*B.
+DSP Report: operator ring0 is absorbed into DSP ring0.
+DSP Report: operator ring0 is absorbed into DSP ring0.
+DSP Report: Generating DSP ring1, operation Mode is: A*B.
+DSP Report: operator ring1 is absorbed into DSP ring1.
+DSP Report: operator ring1 is absorbed into DSP ring1.
+DSP Report: Generating DSP ring1, operation Mode is: A*B.
+DSP Report: operator ring1 is absorbed into DSP ring1.
+DSP Report: operator ring1 is absorbed into DSP ring1.
+INFO: [Synth 8-5546] ROM "rr/clk10" won't be mapped to RAM because it is too sparse
+DSP Report: Generating DSP r, operation Mode is: A*(B:0x19).
+DSP Report: operator r is absorbed into DSP r.
+DSP Report: Generating DSP ring0, operation Mode is: A*B.
+DSP Report: operator ring0 is absorbed into DSP ring0.
+DSP Report: Generating DSP ring1, operation Mode is: A*B.
+DSP Report: operator ring1 is absorbed into DSP ring1.
+DSP Report: Generating DSP ring0, operation Mode is: C+A*B.
+DSP Report: operator ring0 is absorbed into DSP ring0.
+DSP Report: operator ring1 is absorbed into DSP ring0.
+INFO: [Synth 8-5546] ROM "ufsw5/rr/clk10" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ufsw6/rr/clk10" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ufsw62/rr/clk10" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "clk_20/clk10" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-3331] design Voice_Scope_TOP has unconnected port btnU
+WARNING: [Synth 8-3331] design Voice_Scope_TOP has unconnected port btnD
+INFO: [Synth 8-3886] merging instance 'i_1/gc/curr_freqcolor_reg[4]' (FDE) to 'i_1/gc/curr_freqcolor_reg[7]'
+INFO: [Synth 8-3886] merging instance 'i_1/gc/curr_freqcolor_reg[0]' (FDE) to 'i_1/gc/curr_freqcolor_reg[3]'
+INFO: [Synth 8-3886] merging instance 'i_1/gc/curr_freqcolor_reg[1]' (FDE) to 'i_1/gc/curr_freqcolor_reg[2]'
+INFO: [Synth 8-3886] merging instance 'i_1/gc/intensity_color_reg[8]' (FD) to 'i_1/gc/intensity_color_reg[9]'
+INFO: [Synth 8-3886] merging instance 'i_1/gc/intensity_color_reg[0]' (FD) to 'i_1/gc/intensity_color_reg[1]'
+INFO: [Synth 8-3886] merging instance 'i_1/gc/intensity_color_reg[1]' (FD) to 'i_1/gc/intensity_color_reg[2]'
+INFO: [Synth 8-3886] merging instance 'i_1/gc/intensity_color_reg[2]' (FD) to 'i_1/gc/intensity_color_reg[3]'
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (i_1/vi/\SEVEN_SEG_reg[7] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (i_1/vi/\LED_reg[0] )
+INFO: [Synth 8-3886] merging instance 'i_1/vi/LED_reg[8]' (FDS) to 'i_1/vi/LED_reg[9]'
+INFO: [Synth 8-3886] merging instance 'i_1/gc/curr_freqcolor_reg[5]' (FDE) to 'i_1/gc/curr_freqcolor_reg[6]'
+INFO: [Synth 8-3886] merging instance 'i_1/gc/color_reg[4]' (FD) to 'i_1/gc/color_reg[7]'
+INFO: [Synth 8-3886] merging instance 'i_1/gc/color_reg[0]' (FD) to 'i_1/gc/color_reg[3]'
+INFO: [Synth 8-3886] merging instance 'i_1/gc/color_reg[1]' (FD) to 'i_1/gc/color_reg[2]'
+INFO: [Synth 8-3886] merging instance 'i_1/gc/color_reg[5]' (FD) to 'i_1/gc/color_reg[6]'
+INFO: [Synth 8-3886] merging instance 'i_1/vga_display/VGA_RED_reg[0]' (FD) to 'i_1/vga_display/VGA_RED_reg[3]'
+INFO: [Synth 8-3886] merging instance 'i_1/vga_display/VGA_RED_reg[1]' (FD) to 'i_1/vga_display/VGA_RED_reg[2]'
+WARNING: [Synth 8-3332] Sequential element (odd_value_reg[8]) is unused and will be removed from module frequency_calculator.
+WARNING: [Synth 8-3332] Sequential element (odd_value_reg[7]) is unused and will be removed from module frequency_calculator.
+WARNING: [Synth 8-3332] Sequential element (odd_value_reg[6]) is unused and will be removed from module frequency_calculator.
+WARNING: [Synth 8-3332] Sequential element (odd_value_reg[5]) is unused and will be removed from module frequency_calculator.
+WARNING: [Synth 8-3332] Sequential element (odd_value_reg[4]) is unused and will be removed from module frequency_calculator.
+WARNING: [Synth 8-3332] Sequential element (odd_value_reg[3]) is unused and will be removed from module frequency_calculator.
+WARNING: [Synth 8-3332] Sequential element (odd_value_reg[2]) is unused and will be removed from module frequency_calculator.
+WARNING: [Synth 8-3332] Sequential element (odd_value_reg[1]) is unused and will be removed from module frequency_calculator.
+WARNING: [Synth 8-3332] Sequential element (odd_value_reg[0]) is unused and will be removed from module frequency_calculator.
+WARNING: [Synth 8-3332] Sequential element (LED_reg[0]) is unused and will be removed from module volume_indicator.
+WARNING: [Synth 8-3332] Sequential element (SEVEN_SEG_reg[7]) is unused and will be removed from module volume_indicator.
+WARNING: [Synth 8-3332] Sequential element (output_maxsignal_reg[1]) is unused and will be removed from module volume_indicator.
+WARNING: [Synth 8-3332] Sequential element (output_maxsignal_reg[0]) is unused and will be removed from module volume_indicator.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:02:38 ; elapsed = 00:02:49 . Memory (MB): peak = 790.984 ; gain = 534.066
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+ROM:
++----------------+-------------------------+---------------+----------------+
+|Module Name     | RTL Object              | Depth x Width | Implemented As | 
++----------------+-------------------------+---------------+----------------+
+|Font_Rom        | fontRow_reg             | 2048x8        | Block RAM      | 
+|Pixel_On_Text2  | displayText[1]          | 32x7          | LUT            | 
+|Pixel_On_Text2  | displayText[1]          | 32x7          | LUT            | 
+|Pixel_On_Text2  | displayText[1]          | 32x7          | LUT            | 
+|Pixel_On_Text2  | displayText[1]          | 32x7          | LUT            | 
+|Pixel_On_Text2  | displayText[1]          | 32x7          | LUT            | 
+|Pixel_On_Text2  | displayText[1]          | 32x7          | LUT            | 
+|Pixel_On_Text2  | displayText[1]          | 32x7          | LUT            | 
+|Pixel_On_Text2  | displayText[1]          | 32x7          | LUT            | 
+|Pixel_On_Text2  | displayText[1]          | 32x7          | LUT            | 
+|Pixel_On_Text2  | displayText[1]          | 32x7          | LUT            | 
+|Pixel_On_Text2  | displayText[1]          | 32x7          | LUT            | 
+|Pixel_On_Text2  | displayText[1]          | 32x7          | LUT            | 
+|Pixel_On_Text2  | displayText[1]          | 32x7          | LUT            | 
+|Pixel_On_Text2  | displayText[1]          | 32x7          | LUT            | 
+|Pixel_On_Text2  | displayText[1]          | 32x7          | LUT            | 
+|Pixel_On_Text2  | displayText[1]          | 32x7          | LUT            | 
+|Pixel_On_Text2  | displayText[1]          | 32x7          | LUT            | 
+|Pixel_On_Text2  | displayText[1]          | 32x7          | LUT            | 
+|volume_bar_text | t1/FontRom/fontRow_reg  | 2048x8        | Block RAM      | 
+|volume_bar_text | t2/FontRom/fontRow_reg  | 2048x8        | Block RAM      | 
+|volume_bar_text | t3/FontRom/fontRow_reg  | 2048x8        | Block RAM      | 
+|volume_bar_text | t4/FontRom/fontRow_reg  | 2048x8        | Block RAM      | 
+|volume_bar_text | t5/FontRom/fontRow_reg  | 2048x8        | Block RAM      | 
+|volume_bar_text | t6/FontRom/fontRow_reg  | 2048x8        | Block RAM      | 
+|volume_bar_text | t7/FontRom/fontRow_reg  | 2048x8        | Block RAM      | 
+|volume_bar_text | t8/FontRom/fontRow_reg  | 2048x8        | Block RAM      | 
+|volume_bar_text | t9/FontRom/fontRow_reg  | 2048x8        | Block RAM      | 
+|volume_bar_text | t10/FontRom/fontRow_reg | 2048x8        | Block RAM      | 
+|volume_bar_text | t11/FontRom/fontRow_reg | 2048x8        | Block RAM      | 
+|volume_bar_text | t12/FontRom/fontRow_reg | 2048x8        | Block RAM      | 
+|volume_bar_text | t13/FontRom/fontRow_reg | 2048x8        | Block RAM      | 
+|menu_text_gen   | t0/FontRom/fontRow_reg  | 2048x8        | Block RAM      | 
+|menu_text_gen   | t1/displayText[1]       | 32x7          | LUT            | 
+|menu_text_gen   | t1/FontRom/fontRow_reg  | 2048x8        | Block RAM      | 
+|menu_text_gen   | t2/displayText[1]       | 32x7          | LUT            | 
+|menu_text_gen   | t2/FontRom/fontRow_reg  | 2048x8        | Block RAM      | 
+|menu_text_gen   | t3/displayText[1]       | 32x7          | LUT            | 
+|menu_text_gen   | t3/FontRom/fontRow_reg  | 2048x8        | Block RAM      | 
+|menu_text_gen   | t4/displayText[1]       | 32x7          | LUT            | 
+|menu_text_gen   | t4/FontRom/fontRow_reg  | 2048x8        | Block RAM      | 
+|menu_text_gen   | t5/displayText[1]       | 32x7          | LUT            | 
+|menu_text_gen   | t5/FontRom/fontRow_reg  | 2048x8        | Block RAM      | 
+|menu_text_gen   | t6/displayText[1]       | 32x7          | LUT            | 
+|menu_text_gen   | t6/FontRom/fontRow_reg  | 2048x8        | Block RAM      | 
+|menu_text_gen   | t7/displayText[1]       | 32x7          | LUT            | 
+|menu_text_gen   | t7/FontRom/fontRow_reg  | 2048x8        | Block RAM      | 
+|menu_text_gen   | t8/displayText[1]       | 32x7          | LUT            | 
+|menu_text_gen   | t8/FontRom/fontRow_reg  | 2048x8        | Block RAM      | 
+|Voice_Scope_TOP | ft/t0/displayText[1]    | 32x7          | LUT            | 
+|Voice_Scope_TOP | t0/FontRom/fontRow_reg  | 2048x8        | Block RAM      | 
+|Voice_Scope_TOP | ft/t1/displayText[1]    | 32x7          | LUT            | 
+|Voice_Scope_TOP | t1/FontRom/fontRow_reg  | 2048x8        | Block RAM      | 
+|Voice_Scope_TOP | ft/t2/displayText[1]    | 32x7          | LUT            | 
+|Voice_Scope_TOP | t2/FontRom/fontRow_reg  | 2048x8        | Block RAM      | 
+|Voice_Scope_TOP | ft/t3/displayText[1]    | 32x7          | LUT            | 
+|Voice_Scope_TOP | t3/FontRom/fontRow_reg  | 2048x8        | Block RAM      | 
+|Voice_Scope_TOP | ft/t4/displayText[1]    | 32x7          | LUT            | 
+|Voice_Scope_TOP | t4/FontRom/fontRow_reg  | 2048x8        | Block RAM      | 
+|Voice_Scope_TOP | ft/t5/displayText[1]    | 32x7          | LUT            | 
+|Voice_Scope_TOP | t5/FontRom/fontRow_reg  | 2048x8        | Block RAM      | 
+|Voice_Scope_TOP | ft/t6/displayText[1]    | 32x7          | LUT            | 
+|Voice_Scope_TOP | t6/FontRom/fontRow_reg  | 2048x8        | Block RAM      | 
+|Voice_Scope_TOP | ft/t7/displayText[1]    | 32x7          | LUT            | 
+|Voice_Scope_TOP | t7/FontRom/fontRow_reg  | 2048x8        | Block RAM      | 
+|Voice_Scope_TOP | ft/t8/displayText[1]    | 32x7          | LUT            | 
+|Voice_Scope_TOP | t8/FontRom/fontRow_reg  | 2048x8        | Block RAM      | 
+|Voice_Scope_TOP | ft/t9/displayText[1]    | 32x7          | LUT            | 
+|Voice_Scope_TOP | t9/FontRom/fontRow_reg  | 2048x8        | Block RAM      | 
++----------------+-------------------------+---------------+----------------+
+
+
+Distributed RAM: Preliminary Mapping  Report (see note below)
++------------------+-------------------+-----------+----------------------+------------------------------+
+|Module Name       | RTL Object        | Inference | Size (Depth x Width) | Primitives                   | 
++------------------+-------------------+-----------+----------------------+------------------------------+
+|i_1/draw_waveform | Sample_Memory_reg | Implied   | 2 K x 10             | RAM64X1D x 20  RAM64M x 60   | 
++------------------+-------------------+-----------+----------------------+------------------------------+
+
+Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
+
+DSP: Preliminary Mapping  Report (see note below)
++-------------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name        | DSP Mapping | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++-------------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|create_ring_object | A*(B:0x19)  | 21     | 5      | -      | -      | 26     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|create_ring_object | A*B         | 22     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|create_ring_object | A*B         | 22     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|create_ring_object | A*B         | 22     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|create_sphere      | A*(B:0x19)  | 16     | 5      | -      | -      | 21     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|create_sphere      | A*B         | 16     | 16     | -      | -      | 32     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|create_sphere      | A*B         | 16     | 16     | -      | -      | 32     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|create_sphere      | C+A*B       | 16     | 16     | 16     | -      | 16     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
++-------------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+Note: The table above is a preliminary report that shows the DSPs inferred at the current stage of the synthesis flow. Some DSP may be reimplemented as non DSP primitives later in the synthesis flow. Multiple instantiated DSPs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+INFO: [Synth 8-4480] The timing for the instance vbt/i_0/t1/FontRom/fontRow_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance vbt/i_1/t2/FontRom/fontRow_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance vbt/i_2/t3/FontRom/fontRow_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance vbt/i_3/t4/FontRom/fontRow_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance vbt/i_4/t5/FontRom/fontRow_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance vbt/i_5/t6/FontRom/fontRow_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance vbt/i_6/t7/FontRom/fontRow_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance vbt/i_7/t8/FontRom/fontRow_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance vbt/i_8/t9/FontRom/fontRow_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance vbt/i_9/t10/FontRom/fontRow_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance vbt/i_10/t11/FontRom/fontRow_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance vbt/i_11/t12/FontRom/fontRow_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance vbt/i_12/t13/FontRom/fontRow_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance mt/i_0/t0/FontRom/fontRow_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance mt/i_1/t1/FontRom/fontRow_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance mt/i_2/t2/FontRom/fontRow_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance mt/i_3/t3/FontRom/fontRow_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance mt/i_4/t4/FontRom/fontRow_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance mt/i_5/t5/FontRom/fontRow_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance mt/i_6/t6/FontRom/fontRow_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance mt/i_7/t7/FontRom/fontRow_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance mt/i_8/t8/FontRom/fontRow_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance i_0/fti_0/t0/FontRom/fontRow_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance i_0/fti_1/t1/FontRom/fontRow_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance i_0/fti_2/t2/FontRom/fontRow_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance i_0/fti_3/t3/FontRom/fontRow_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance i_0/fti_4/t4/FontRom/fontRow_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance i_0/fti_5/t5/FontRom/fontRow_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance i_0/fti_6/t6/FontRom/fontRow_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance i_0/fti_7/t7/FontRom/fontRow_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance i_0/fti_8/t8/FontRom/fontRow_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance i_0/fti_9/t9/FontRom/fontRow_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+
+Report RTL Partitions: 
++------+---------------------+------------+----------+
+|      |RTL Partition        |Replication |Instances |
++------+---------------------+------------+----------+
+|1     |volume_bar_text      |           1|       434|
+|2     |Voice_Scope_TOP__GB1 |           1|       531|
+|3     |menu_text_gen        |           1|       710|
+|4     |Voice_Scope_TOP__GB3 |           1|      5175|
++------+---------------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:03:30 ; elapsed = 00:03:44 . Memory (MB): peak = 864.715 ; gain = 607.797
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:03:37 ; elapsed = 00:03:50 . Memory (MB): peak = 896.145 ; gain = 639.227
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Final Mapping  Report
++------------------+-------------------+-----------+----------------------+------------------------------+
+|Module Name       | RTL Object        | Inference | Size (Depth x Width) | Primitives                   | 
++------------------+-------------------+-----------+----------------------+------------------------------+
+|i_1/draw_waveform | Sample_Memory_reg | Implied   | 2 K x 10             | RAM64X1D x 20  RAM64M x 60   | 
++------------------+-------------------+-----------+----------------------+------------------------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++------+---------------------+------------+----------+
+|      |RTL Partition        |Replication |Instances |
++------+---------------------+------------+----------+
+|1     |volume_bar_text      |           1|       434|
+|2     |Voice_Scope_TOP__GB1 |           1|       531|
+|3     |menu_text_gen        |           1|       710|
+|4     |Voice_Scope_TOP__GB3 |           1|      5175|
++------+---------------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+INFO: [Synth 8-4480] The timing for the instance vbt/t1/FontRom/fontRow_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance vbt/t1/FontRom/fontRow_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance vbt/t3/FontRom/fontRow_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance vbt/t3/FontRom/fontRow_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance vbt/t5/FontRom/fontRow_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance vbt/t5/FontRom/fontRow_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance vbt/t7/FontRom/fontRow_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance vbt/t7/FontRom/fontRow_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance vbt/t9/FontRom/fontRow_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance vbt/t9/FontRom/fontRow_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance vbt/t11/FontRom/fontRow_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance vbt/t11/FontRom/fontRow_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance vbt/t13/FontRom/fontRow_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance vbt/t13/FontRom/fontRow_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance mt/t1/FontRom/fontRow_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance mt/t1/FontRom/fontRow_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance mt/t3/FontRom/fontRow_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance mt/t3/FontRom/fontRow_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance mt/t5/FontRom/fontRow_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance mt/t5/FontRom/fontRow_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance mt/t7/FontRom/fontRow_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance mt/t7/FontRom/fontRow_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance t0/FontRom/fontRow_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance t0/FontRom/fontRow_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance t2/FontRom/fontRow_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance t2/FontRom/fontRow_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance t4/FontRom/fontRow_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance t4/FontRom/fontRow_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance t6/FontRom/fontRow_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance t6/FontRom/fontRow_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance t8/FontRom/fontRow_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance t8/FontRom/fontRow_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:03:46 ; elapsed = 00:04:00 . Memory (MB): peak = 906.336 ; gain = 649.418
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:03:51 ; elapsed = 00:04:05 . Memory (MB): peak = 906.336 ; gain = 649.418
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:03:51 ; elapsed = 00:04:05 . Memory (MB): peak = 906.336 ; gain = 649.418
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:03:53 ; elapsed = 00:04:07 . Memory (MB): peak = 906.336 ; gain = 649.418
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:03:53 ; elapsed = 00:04:07 . Memory (MB): peak = 906.336 ; gain = 649.418
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:03:54 ; elapsed = 00:04:08 . Memory (MB): peak = 906.336 ; gain = 649.418
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:03:54 ; elapsed = 00:04:08 . Memory (MB): peak = 906.336 ; gain = 649.418
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----------+------+
+|      |Cell       |Count |
++------+-----------+------+
+|1     |BUFG       |     4|
+|2     |CARRY4     |   452|
+|3     |DSP48E1    |     7|
+|4     |DSP48E1_1  |     1|
+|5     |LUT1       |   381|
+|6     |LUT2       |   656|
+|7     |LUT3       |   203|
+|8     |LUT4       |   385|
+|9     |LUT5       |   234|
+|10    |LUT6       |   546|
+|11    |MMCME2_ADV |     1|
+|12    |MUXF7      |    30|
+|13    |MUXF8      |    12|
+|14    |RAM64M     |    60|
+|15    |RAM64X1D   |    20|
+|16    |RAMB18E1   |    16|
+|17    |FDRE       |   539|
+|18    |FDSE       |    22|
+|19    |LD         |     6|
+|20    |IBUF       |    13|
+|21    |OBUF       |    41|
++------+-----------+------+
+
+Report Instance Areas: 
++------+------------------+--------------------------------+------+
+|      |Instance          |Module                          |Cells |
++------+------------------+--------------------------------+------+
+|1     |top               |                                |  3629|
+|2     |  b1              |is_btn_press                    |     3|
+|3     |    dff1          |dflipflop_17                    |     2|
+|4     |    dff2          |dflipflop_18                    |     1|
+|5     |  b2              |is_btn_press_0                  |     3|
+|6     |    dff1          |dflipflop                       |     2|
+|7     |    dff2          |dflipflop_16                    |     1|
+|8     |  bpcg            |btn_press_clk_gen               |    34|
+|9     |  clk_20          |clk_div                         |    22|
+|10    |  cro             |create_ring_object              |   320|
+|11    |    rr            |clk_40_15                       |    38|
+|12    |  csph            |create_sphere                   |   244|
+|13    |    rr            |clk_40                          |    38|
+|14    |  dfc             |displayfreqcount                |    77|
+|15    |    rr            |clk_10_14                       |    38|
+|16    |  draw_waveform   |Draw_Waveform                   |   207|
+|17    |  fc              |frequency_calculator            |    88|
+|18    |  ft              |frequency_text                  |   188|
+|19    |    t0            |Pixel_On_Text2__parameterized12 |   122|
+|20    |    t1            |Pixel_On_Text2__parameterized13 |     8|
+|21    |    t2            |Pixel_On_Text2__parameterized14 |     8|
+|22    |    t3            |Pixel_On_Text2__parameterized15 |     4|
+|23    |    t4            |Pixel_On_Text2__parameterized16 |     8|
+|24    |    t5            |Pixel_On_Text2__parameterized17 |     4|
+|25    |    t6            |Pixel_On_Text2__parameterized18 |     9|
+|26    |    t7            |Pixel_On_Text2__parameterized19 |     5|
+|27    |    t8            |Pixel_On_Text2__parameterized20 |    13|
+|28    |    t9            |Pixel_On_Text2__parameterized21 |     7|
+|29    |  gc              |Generate_Color                  |   220|
+|30    |  isg             |intensity_shift_gen             |   121|
+|31    |  mt              |menu_text_gen                   |   137|
+|32    |    t0            |Pixel_On_Text2__parameterized22 |    15|
+|33    |    t1            |Pixel_On_Text2__parameterized23 |    53|
+|34    |      FontRom     |Font_Rom_13                     |    11|
+|35    |    t2            |Pixel_On_Text2__parameterized24 |     7|
+|36    |    t3            |Pixel_On_Text2__parameterized25 |    11|
+|37    |      FontRom     |Font_Rom_12                     |     1|
+|38    |    t4            |Pixel_On_Text2__parameterized26 |    12|
+|39    |    t5            |Pixel_On_Text2__parameterized27 |    12|
+|40    |      FontRom     |Font_Rom_11                     |     1|
+|41    |    t6            |Pixel_On_Text2__parameterized28 |     8|
+|42    |    t7            |Pixel_On_Text2__parameterized29 |     9|
+|43    |      FontRom     |Font_Rom_10                     |     1|
+|44    |    t8            |Pixel_On_Text2__parameterized30 |    10|
+|45    |  nolabel_line127 |volume_bar                      |    11|
+|46    |  nolabel_line76  |Voice_Capturer                  |    79|
+|47    |  testwave_gen    |TestWave_Gen                    |    31|
+|48    |  ufsw5           |unlockfeature                   |    76|
+|49    |    rr            |clk_10_9                        |    38|
+|50    |  ufsw6           |unlock_featureSW6               |    60|
+|51    |    rr            |clk_10_8                        |    38|
+|52    |  ufsw62          |unlockfeaturesw62               |    65|
+|53    |    rr            |clk_10_7                        |    38|
+|54    |  vbt             |volume_bar_text                 |    87|
+|55    |    t1            |Pixel_On_Text2                  |    20|
+|56    |      FontRom     |Font_Rom_6                      |     7|
+|57    |    t10           |Pixel_On_Text2__parameterized8  |     4|
+|58    |    t11           |Pixel_On_Text2__parameterized9  |    11|
+|59    |      FontRom     |Font_Rom_5                      |     7|
+|60    |    t12           |Pixel_On_Text2__parameterized10 |     2|
+|61    |    t13           |Pixel_On_Text2__parameterized11 |     8|
+|62    |      FontRom     |Font_Rom_4                      |     4|
+|63    |    t2            |Pixel_On_Text2__parameterized0  |     1|
+|64    |    t3            |Pixel_On_Text2__parameterized1  |     8|
+|65    |      FontRom     |Font_Rom_3                      |     7|
+|66    |    t4            |Pixel_On_Text2__parameterized2  |     2|
+|67    |    t5            |Pixel_On_Text2__parameterized3  |     8|
+|68    |      FontRom     |Font_Rom_2                      |     7|
+|69    |    t6            |Pixel_On_Text2__parameterized4  |     1|
+|70    |    t7            |Pixel_On_Text2__parameterized5  |     8|
+|71    |      FontRom     |Font_Rom_1                      |     7|
+|72    |    t8            |Pixel_On_Text2__parameterized6  |     6|
+|73    |    t9            |Pixel_On_Text2__parameterized7  |     8|
+|74    |      FontRom     |Font_Rom                        |     7|
+|75    |  vga_display     |VGA_DISPLAY                     |  1200|
+|76    |    VGA_CLK_108M  |CLK_108M                        |     3|
+|77    |    VGA_CONTROL   |VGA_CONTROL                     |  1181|
+|78    |  vi              |volume_indicator                |   245|
+|79    |    rr            |clk_10                          |    38|
+|80    |    vic           |volume_indicator_count          |    80|
++------+------------------+--------------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:03:54 ; elapsed = 00:04:08 . Memory (MB): peak = 906.336 ; gain = 649.418
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 49 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:02:59 ; elapsed = 00:03:29 . Memory (MB): peak = 906.336 ; gain = 295.316
+Synthesis Optimization Complete : Time (s): cpu = 00:03:54 ; elapsed = 00:04:08 . Memory (MB): peak = 906.336 ; gain = 649.418
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 618 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 86 instances were transformed.
+  LD => LDCE: 6 instances
+  RAM64M => RAM64M (RAMD64E, RAMD64E, RAMD64E, RAMD64E): 60 instances
+  RAM64X1D => RAM64X1D (RAMD64E, RAMD64E): 20 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+282 Infos, 231 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:04:03 ; elapsed = 00:04:18 . Memory (MB): peak = 906.336 ; gain = 662.242
+WARNING: [Constraints 18-5210] No constraint will be written out.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/saiab/Downloads/Audio_Viz_Project_Template/Audio_Viz_Project_Template.runs/synth_1/Voice_Scope_TOP.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file Voice_Scope_TOP_utilization_synth.rpt -pb Voice_Scope_TOP_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.220 . Memory (MB): peak = 906.336 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Sat Apr  6 20:48:56 2019...
