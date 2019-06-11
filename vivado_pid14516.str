@@ -1,0 +1,2627 @@
+/*
+
+Xilinx Vivado v2018.2 (64-bit) [Major: 2018, Minor: 2]
+SW Build: 2258646 on Thu Jun 14 20:03:12 MDT 2018
+IP Build: 2256618 on Thu Jun 14 22:10:49 MDT 2018
+
+Process ID: 14516
+License: Customer
+
+Current time: 	Tue Apr 02 13:23:49 SGT 2019
+Time zone: 	Singapore Time (Asia/Singapore)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 12
+
+Screen size: 1536x864
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 101 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	C:/Xilinx/Vivado/2018.2/tps/win64/jre
+Java executable location: 	C:/Xilinx/Vivado/2018.2/tps/win64/jre/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 2 GB
+
+
+User name: 	hashi
+User home directory: C:/Users/hashi
+User working directory: C:/Users/hashi/Desktop/Hashir/NUS-Academic/YR1S2/EE2026/Project/Audio_Viz_Project_Template
+User country: 	SG
+User language: 	en
+User locale: 	en_SG
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2018.2
+RDI_DATADIR: C:/Xilinx/Vivado/2018.2/data
+RDI_BINDIR: C:/Xilinx/Vivado/2018.2/bin
+
+Vivado preferences file location: C:/Users/hashi/AppData/Roaming/Xilinx/Vivado/2018.2/vivado.xml
+Vivado preferences directory: C:/Users/hashi/AppData/Roaming/Xilinx/Vivado/2018.2/
+Vivado layouts directory: C:/Users/hashi/AppData/Roaming/Xilinx/Vivado/2018.2/layouts
+PlanAhead jar file location: 	C:/Xilinx/Vivado/2018.2/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Users/hashi/Desktop/Hashir/NUS-Academic/YR1S2/EE2026/Project/Audio_Viz_Project_Template/vivado.log
+Vivado journal file location: 	C:/Users/hashi/Desktop/Hashir/NUS-Academic/YR1S2/EE2026/Project/Audio_Viz_Project_Template/vivado.jou
+Engine tmp dir: 	C:/Users/hashi/Desktop/Hashir/NUS-Academic/YR1S2/EE2026/Project/Audio_Viz_Project_Template/.Xil/Vivado-14516-DESKTOP-SDO9692
+
+Xilinx Environment Variables
+----------------------------
+XILINX: C:/Xilinx/Vivado/2018.2/ids_lite/ISE
+XILINX_DSP: C:/Xilinx/Vivado/2018.2/ids_lite/ISE
+XILINX_PLANAHEAD: C:/Xilinx/Vivado/2018.2
+XILINX_SDK: C:/Xilinx/SDK/2018.2
+XILINX_VIVADO: C:/Xilinx/Vivado/2018.2
+XILINX_VIVADO_HLS: C:/Xilinx/Vivado/2018.2
+
+
+GUI allocated memory:	207 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 537 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// bx (ck):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\hashi\Desktop\Hashir\NUS-Academic\YR1S2\EE2026\Project\Audio_Viz_Project_Template\Audio_Viz_Project_Template.xpr. Version: Vivado v2018.2 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// [GUI Memory]: 82 MB (+83821kb) [00:00:05]
+// [Engine Memory]: 503 MB (+376461kb) [00:00:05]
+// Tcl Message: open_project C:/Users/hashi/Desktop/Hashir/NUS-Academic/YR1S2/EE2026/Project/Audio_Viz_Project_Template/Audio_Viz_Project_Template.xpr 
+// Tcl Message: INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. Current project path is 'C:/Users/hashi/Desktop/Hashir/NUS-Academic/YR1S2/EE2026/Project/Audio_Viz_Project_Template' 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project C:/Users/hashi/Desktop/Hashir/NUS-Academic/YR1S2/EE2026/Project/Audio_Viz_Project_Template/Audio_Viz_Project_Template.xpr 
+// Tcl Message: INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. Current project path is 'C:/Users/hashi/Desktop/Hashir/NUS-Academic/YR1S2/EE2026/Project/Audio_Viz_Project_Template' INFO: [Project 1-313] Project file moved from 'C:/Users/hashi/Downloads/Audio_Viz_Project_Template' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.2/data/ip'. 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 94 MB (+7559kb) [00:00:09]
+// [Engine Memory]: 602 MB (+76665kb) [00:00:09]
+// [GUI Memory]: 109 MB (+10753kb) [00:00:10]
+// [Engine Memory]: 634 MB (+2620kb) [00:00:10]
+// HMemoryUtils.trashcanNow. Engine heap size: 644 MB. GUI used memory: 41 MB. Current time: 4/2/19 1:23:53 PM SGT
+// Tcl Message: open_project: Time (s): cpu = 00:00:10 ; elapsed = 00:00:07 . Memory (MB): peak = 883.957 ; gain = 127.914 
+// Project name: Audio_Viz_Project_Template; location: C:/Users/hashi/Desktop/Hashir/NUS-Academic/YR1S2/EE2026/Project/Audio_Viz_Project_Template; part: xc7a35tcpg236-1
+dismissDialog("Open Project"); // bx (ck)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 15 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Voice_Scope_TOP (Voice_Scope_TOP.v)]", 1); // B (D, ck)
+// Elapsed time: 11 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Voice_Scope_TOP (Voice_Scope_TOP.v)]", 1, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Voice_Scope_TOP (Voice_Scope_TOP.v)]", 1, true, false, false, false, false, true); // B (D, ck) - Double Click - Node
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Voice_Scope_TOP (Voice_Scope_TOP.v)]", 1); // B (D, ck)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+selectButton("PAResourceQtoS.RunBitgen_BITSTREAM_GENERATION_HAS_ALREADY_COMPLETED_Cancel", "Cancel"); // JButton (A, G)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager]", 21, true); // u (O, ck) - Node
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Tcl Command: 'load_features labtools'
+// TclEventType: LOAD_FEATURE
+// bx (ck):  Open Hardware Manager : addNotify
+// TclEventType: HW_SESSION_OPEN
+// Tcl Message: open_hw 
+dismissDialog("Open Hardware Manager"); // bx (ck)
+// HMemoryUtils.trashcanNow. Engine heap size: 672 MB. GUI used memory: 45 MB. Current time: 4/2/19 1:24:51 PM SGT
+// Elapsed time: 14 seconds
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // h (cM, ck)
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // ad (aj, ck)
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+// [Engine Memory]: 672 MB (+6267kb) [00:01:11]
+// bx (ck):  Auto Connect : addNotify
+// Tcl Message: connect_hw_server 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// Tcl Message: INFO: [Labtools 27-2222] Launching hw_server... 
+// Tcl Message: INFO: [Labtools 27-2221] Launch Output:  ****** Xilinx hw_server v2018.2   **** Build date : Jun 14 2018-20:42:52     ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.   
+// TclEventType: HW_SERVER_UPDATE
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// Tcl Message: open_hw_target 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183714378A 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/hashi/Desktop/Hashir/NUS-Academic/YR1S2/EE2026/Project/Audio_Viz_Project_Template/Audio_Viz_Project_Template.runs/impl_1/Voice_Scope_TOP.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: current_hw_device [get_hw_devices xc7a35t_0] 
+// Tcl Message: refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// [Engine Memory]: 1,309 MB (+632100kb) [00:01:19]
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Auto Connect"); // bx (ck)
+// Elapsed time: 15 seconds
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h (cM, ck)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bB (ck): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bB)
+// bx (ck):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // bB (ck)
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/hashi/Desktop/Hashir/NUS-Academic/YR1S2/EE2026/Project/Audio_Viz_Project_Template/Audio_Viz_Project_Template.runs/impl_1/Voice_Scope_TOP.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'I' command handler elapsed time: 3 seconds
+dismissDialog("Program Device"); // bx (ck)
+selectButton(PAResourceTtoZ.TaskBanner_CLOSE, (String) null); // k (ay, ck)
+closeTask("Program and Debug", "Hardware Manager", "DesignTask.PROGRAM_DEBUG");
+// A (ck): Confirm Close: addNotify
+// HMemoryUtils.trashcanNow. Engine heap size: 1,332 MB. GUI used memory: 47 MB. Current time: 4/2/19 1:25:26 PM SGT
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (A)
+// TclEventType: HW_OBJECT_DELETE
+dismissDialog("Confirm Close"); // A (ck)
+// TclEventType: HW_SERVER_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: DEBUG_PROBE_DELETE
+// TclEventType: HW_SESSION_CLOSE
+// Tcl Message: close_hw 
+// bx (ck):  CLose Hardware Manager : addNotify
+dismissDialog("CLose Hardware Manager"); // bx (ck)
+// RDIResource.RDIViews_PROPERTIES: Source File Properties: close view
+// Elapsed time: 129 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Voice_Scope_TOP (Voice_Scope_TOP.v), draw_background : Draw_Background (Draw_Background.v)]", 15, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Voice_Scope_TOP (Voice_Scope_TOP.v), draw_background : Draw_Background (Draw_Background.v)]", 15, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Voice_Scope_TOP (Voice_Scope_TOP.v), draw_background : Draw_Background (Draw_Background.v)]", 15, false, false, false, false, false, true); // B (D, ck) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Draw_Background.v", 2); // k (j, ck)
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Draw_Background.v", 2, false, true); // k (j, ck) - Double Click
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // O (Q, ck)
+// Elapsed time: 11 seconds
+selectCodeEditor("Draw_Background.v", 63, 94); // ce (w, ck)
+// Elapsed time: 10 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Voice_Scope_TOP.v", 1); // k (j, ck)
+// Elapsed time: 17 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Draw_Background.v", 2); // k (j, ck)
+// Elapsed time: 14 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Voice_Scope_TOP.v", 1); // k (j, ck)
+selectCodeEditor("Voice_Scope_TOP.v", 461, 265); // ce (w, ck)
+// Elapsed time: 69 seconds
+unMinimizeFrame(PAResourceOtoP.PAViews_SOURCES, "Sources"); // aw
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0, true, false, false, false, true, false); // B (D, ck) - Popup Trigger - Node
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // aa (aj, ck)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // aa (aj, ck)
+selectMenuItem(PAResourceCommand.PACommandNames_ADD_SOURCES, "Add Sources..."); // ad (aj, ck)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (ck): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton (j, c)
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a (C, c)
+// F (c): Create Source File: addNotify
+// HMemoryUtils.trashcanNow. Engine heap size: 1,354 MB. GUI used memory: 48 MB. Current time: 4/2/19 1:29:56 PM SGT
+// Elapsed time: 39 seconds
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "draw_lock_object"); // X (Q, F)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (F)
+dismissDialog("Create Source File"); // F (c)
+selectButton("FINISH", "Finish"); // JButton (j, c)
+// 'h' command handler elapsed time: 44 seconds
+dismissDialog("Add Sources"); // c (ck)
+// Tcl Message: close [ open C:/Users/hashi/Desktop/Hashir/NUS-Academic/YR1S2/EE2026/Project/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/draw_lock_object.v w ] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files C:/Users/hashi/Desktop/Hashir/NUS-Academic/YR1S2/EE2026/Project/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/draw_lock_object.v 
+// I (ck): Define Module: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (I)
+// TclEventType: FILE_SET_CHANGE
+selectButton("PAResourceAtoD.DefineModulesDialog_YOU_HAVE_MADE_CHANGES_TO_MODULE_Yes", "Yes"); // JButton (A, H)
+dismissDialog("Define Module"); // I (ck)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("Voice_Scope_TOP.v", 70, 331); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 18 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, draw_lock_object (draw_lock_object.v)]", 17, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, draw_lock_object (draw_lock_object.v)]", 17, false, false, false, false, false, true); // B (D, ck) - Double Click
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 29 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Draw_Background.v", 2); // k (j, ck)
+selectCodeEditor("Draw_Background.v", 163, 290); // ce (w, ck)
+selectCodeEditor("Draw_Background.v", 163, 290, false, false, false, false, true); // ce (w, ck) - Double Click
+// Elapsed time: 47 seconds
+selectCodeEditor("Draw_Background.v", 227, 145); // ce (w, ck)
+typeControlKey((HResource) null, "Draw_Background.v", 'c'); // ce (w, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "draw_lock_object.v", 3); // k (j, ck)
+selectCodeEditor("draw_lock_object.v", 175, 398); // ce (w, ck)
+typeControlKey((HResource) null, "draw_lock_object.v", 'v'); // ce (w, ck)
+selectCodeEditor("draw_lock_object.v", 56, 438); // ce (w, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Voice_Scope_TOP.v", 1); // k (j, ck)
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // J
+selectCodeEditor("Voice_Scope_TOP.v", 260, 330); // ce (w, ck)
+typeControlKey((HResource) null, "Voice_Scope_TOP.v", 'v'); // ce (w, ck)
+selectCodeEditor("Voice_Scope_TOP.v", 347, 331); // ce (w, ck)
+selectCodeEditor("Voice_Scope_TOP.v", 392, 332); // ce (w, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "draw_lock_object.v", 2); // k (j, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Draw_Background.v", 1); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "draw_lock_object.v", 2); // k (j, ck)
+selectCodeEditor("draw_lock_object.v", 128, 451); // ce (w, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Voice_Scope_TOP.v", 0); // k (j, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Draw_Background.v", 1); // k (j, ck)
+selectCodeEditor("Draw_Background.v", 168, 220); // ce (w, ck)
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("Draw_Background.v", 26, 333); // ce (w, ck)
+typeControlKey((HResource) null, "Draw_Background.v", 'c'); // ce (w, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "draw_lock_object.v", 2); // k (j, ck)
+selectCodeEditor("draw_lock_object.v", 47, 463); // ce (w, ck)
+typeControlKey((HResource) null, "draw_lock_object.v", 'v'); // ce (w, ck)
+selectCodeEditor("draw_lock_object.v", 228, 485); // ce (w, ck)
+// Elapsed time: 28 seconds
+typeControlKey((HResource) null, "draw_lock_object.v", 'c'); // ce (w, ck)
+typeControlKey((HResource) null, "draw_lock_object.v", 'v'); // ce (w, ck)
+// Elapsed time: 25 seconds
+selectCodeEditor("draw_lock_object.v", 65, 455); // ce (w, ck)
+selectCodeEditor("draw_lock_object.v", 179, 452); // ce (w, ck)
+selectCodeEditor("draw_lock_object.v", 215, 483); // ce (w, ck)
+selectCodeEditor("draw_lock_object.v", 27, 519); // ce (w, ck)
+selectCodeEditor("draw_lock_object.v", 457, 519); // ce (w, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "draw_lock_object.v", 2); // k (j, ck)
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "draw_lock_object.v", 2, false, true); // k (j, ck) - Double Click
+unmaximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // O (Q, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "draw_lock_object.v", 2); // k (j, ck)
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "draw_lock_object.v", 2, false, true); // k (j, ck) - Double Click
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // O (Q, ck)
+// Elapsed time: 26 seconds
+selectCodeEditor("draw_lock_object.v", 361, 416); // ce (w, ck)
+selectCodeEditor("draw_lock_object.v", 467, 417); // ce (w, ck)
+selectCodeEditor("draw_lock_object.v", 308, 417); // ce (w, ck)
+selectCodeEditor("draw_lock_object.v", 726, 412); // ce (w, ck)
+selectCodeEditor("draw_lock_object.v", 699, 416); // ce (w, ck)
+typeControlKey((HResource) null, "draw_lock_object.v", 'c'); // ce (w, ck)
+selectCodeEditor("draw_lock_object.v", 915, 416); // ce (w, ck)
+typeControlKey((HResource) null, "draw_lock_object.v", 'v'); // ce (w, ck)
+selectCodeEditor("draw_lock_object.v", 722, 415); // ce (w, ck)
+selectCodeEditor("draw_lock_object.v", 958, 414); // ce (w, ck)
+selectCodeEditor("draw_lock_object.v", 538, 419); // ce (w, ck)
+selectCodeEditor("draw_lock_object.v", 180, 416); // ce (w, ck)
+selectCodeEditor("draw_lock_object.v", 902, 417); // ce (w, ck)
+// Elapsed time: 28814 seconds
+selectCodeEditor("draw_lock_object.v", 174, 419); // ce (w, ck)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,360 MB. GUI used memory: 47 MB. Current time: 4/2/19 9:36:16 PM SGT
+typeControlKey((HResource) null, "draw_lock_object.v", 'c'); // ce (w, ck)
+selectCodeEditor("draw_lock_object.v", 1038, 451); // ce (w, ck)
+typeControlKey((HResource) null, "draw_lock_object.v", 'v'); // ce (w, ck)
+selectCodeEditor("draw_lock_object.v", 305, 452); // ce (w, ck)
+selectCodeEditor("draw_lock_object.v", 489, 450); // ce (w, ck)
+selectCodeEditor("draw_lock_object.v", 690, 451); // ce (w, ck)
+selectCodeEditor("draw_lock_object.v", 880, 454); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Draw_Background.v", 1); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Voice_Scope_TOP.v", 0); // k (j, ck)
+selectCodeEditor("Voice_Scope_TOP.v", 496, 429); // ce (w, ck)
+selectCodeEditor("Voice_Scope_TOP.v", 741, 333); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// Elapsed time: 15 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Draw_Background.v", 1); // k (j, ck)
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("Draw_Background.v", 233, 175); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 40 seconds
+selectCodeEditor("Draw_Background.v", 687, 59); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 25 seconds
+unMinimizeFrame(PAResourceOtoP.PAViews_SOURCES, "Sources"); // aw
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Voice_Scope_TOP (Voice_Scope_TOP.v), vi : volume_indicator (volume_indicator.v)]", 11, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Voice_Scope_TOP (Voice_Scope_TOP.v), vi : volume_indicator (volume_indicator.v)]", 11, true, false, false, false, false, true); // B (D, ck) - Double Click - Node
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "volume_indicator.v", 3); // k (j, ck)
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "volume_indicator.v", 3, false, true); // k (j, ck) - Double Click
+unmaximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // O (Q, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "volume_indicator.v", 3); // k (j, ck)
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "volume_indicator.v", 3, false, true); // k (j, ck) - Double Click
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // O (Q, ck)
+selectCodeEditor("volume_indicator.v", 24, 142); // ce (w, ck)
+// Elapsed time: 42 seconds
+typeControlKey((HResource) null, "volume_indicator.v", 'c'); // ce (w, ck)
+typeControlKey((HResource) null, "volume_indicator.v", 'v'); // ce (w, ck)
+// Elapsed time: 17 seconds
+typeControlKey((HResource) null, "volume_indicator.v", 'v'); // ce (w, ck)
+// Elapsed time: 12 seconds
+typeControlKey((HResource) null, "volume_indicator.v", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "volume_indicator.v", 'c'); // ce (w, ck)
+typeControlKey((HResource) null, "volume_indicator.v", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "volume_indicator.v", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "volume_indicator.v", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "volume_indicator.v", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "volume_indicator.v", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "volume_indicator.v", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "volume_indicator.v", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "volume_indicator.v", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "volume_indicator.v", 'v'); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 12 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (ck): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// bx (ck):  Resetting Runs : addNotify
+dismissDialog("Synthesis is Out-of-date"); // A (ck)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f (ck): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+dismissDialog("Launch Runs"); // f (ck)
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 12 
+// TclEventType: RUN_MODIFY
+// bx (ck):  Generate Bitstream : addNotify
+// Tcl Message: [Tue Apr  2 21:41:04 2019] Launched synth_1... Run output will be captured here: C:/Users/hashi/Desktop/Hashir/NUS-Academic/YR1S2/EE2026/Project/Audio_Viz_Project_Template/Audio_Viz_Project_Template.runs/synth_1/runme.log [Tue Apr  2 21:41:04 2019] Launched impl_1... Run output will be captured here: C:/Users/hashi/Desktop/Hashir/NUS-Academic/YR1S2/EE2026/Project/Audio_Viz_Project_Template/Audio_Viz_Project_Template.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bx (ck)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,374 MB. GUI used memory: 46 MB. Current time: 4/2/19 9:41:06 PM SGT
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// ah (ck): Bitstream Generation Completed: addNotify
+// Elapsed time: 139 seconds
+dismissDialog("Bitstream Generation Completed"); // ah (ck)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager, Open Target]", 22, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HW_TARGET
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // ad (aj, ck)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// bx (ck):  Open Hardware Manager : addNotify
+// TclEventType: HW_SESSION_OPEN
+// Tcl Message: open_hw 
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+dismissDialog("Open Hardware Manager"); // bx (ck)
+// Tcl Message: connect_hw_server 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// bx (ck):  Auto Connect : addNotify
+// Tcl Message: INFO: [Labtools 27-2222] Launching hw_server... 
+// Tcl Message: INFO: [Labtools 27-2221] Launch Output:  ****** Xilinx hw_server v2018.2   **** Build date : Jun 14 2018-20:42:52     ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.   
+// TclEventType: HW_SERVER_UPDATE
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// Tcl Message: open_hw_target 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183714378A 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/hashi/Desktop/Hashir/NUS-Academic/YR1S2/EE2026/Project/Audio_Viz_Project_Template/Audio_Viz_Project_Template.runs/impl_1/Voice_Scope_TOP.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: current_hw_device [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Auto Connect"); // bx (ck)
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h (cM, ck)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bB (ck): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bB)
+// bx (ck):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // bB (ck)
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/hashi/Desktop/Hashir/NUS-Academic/YR1S2/EE2026/Project/Audio_Viz_Project_Template/Audio_Viz_Project_Template.runs/impl_1/Voice_Scope_TOP.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Program Device"); // bx (ck)
+// Elapsed time: 55 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Draw_Background.v", 1); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "draw_lock_object.v", 2); // k (j, ck)
+// Elapsed time: 25 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Draw_Background.v", 1); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "draw_lock_object.v", 2); // k (j, ck)
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "draw_lock_object.v", 2, false, true); // k (j, ck) - Double Click
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // L (Q, ck)
+// Elapsed time: 15 seconds
+selectCodeEditor("draw_lock_object.v", 534, 394); // ce (w, ck)
+// [Engine Memory]: 1,374 MB (+392kb) [08:21:41]
+selectCodeEditor("draw_lock_object.v", 531, 428); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (ck): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// bx (ck):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // A (ck)
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// f (ck): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+dismissDialog("Launch Runs"); // f (ck)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 12 
+// Tcl Message: [Tue Apr  2 21:45:34 2019] Launched synth_1... Run output will be captured here: C:/Users/hashi/Desktop/Hashir/NUS-Academic/YR1S2/EE2026/Project/Audio_Viz_Project_Template/Audio_Viz_Project_Template.runs/synth_1/runme.log [Tue Apr  2 21:45:34 2019] Launched impl_1... Run output will be captured here: C:/Users/hashi/Desktop/Hashir/NUS-Academic/YR1S2/EE2026/Project/Audio_Viz_Project_Template/Audio_Viz_Project_Template.runs/impl_1/runme.log 
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// Elapsed time: 91 seconds
+selectCodeEditor("draw_lock_object.v", 249, 367); // ce (w, ck)
+// Elapsed time: 24 seconds
+selectCodeEditor("draw_lock_object.v", 317, 430); // ce (w, ck)
+// Elapsed time: 19 seconds
+selectCodeEditor("draw_lock_object.v", 278, 402); // ce (w, ck)
+// TclEventType: RUN_COMPLETED
+// ah (ck): Bitstream Generation Completed: addNotify
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (ah)
+dismissDialog("Bitstream Generation Completed"); // ah (ck)
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h (cM, ck)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bB (ck): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bB)
+// bx (ck):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // bB (ck)
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/hashi/Desktop/Hashir/NUS-Academic/YR1S2/EE2026/Project/Audio_Viz_Project_Template/Audio_Viz_Project_Template.runs/impl_1/Voice_Scope_TOP.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Program Device"); // bx (ck)
+// Elapsed time: 241 seconds
+selectCodeEditor("draw_lock_object.v", 347, 383); // ce (w, ck)
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+// Elapsed time: 11 seconds
+selectCodeEditor("draw_lock_object.v", 67, 384); // ce (w, ck)
+selectCodeEditor("draw_lock_object.v", 174, 386); // ce (w, ck)
+selectCodeEditor("draw_lock_object.v", 923, 417); // ce (w, ck)
+selectCodeEditor("draw_lock_object.v", 110, 378); // ce (w, ck)
+selectCodeEditor("draw_lock_object.v", 110, 378, false, false, false, false, true); // ce (w, ck) - Double Click
+typeControlKey((HResource) null, "draw_lock_object.v", 'c'); // ce (w, ck)
+selectCodeEditor("draw_lock_object.v", 302, 418); // ce (w, ck)
+selectCodeEditor("draw_lock_object.v", 302, 418); // ce (w, ck)
+selectCodeEditor("draw_lock_object.v", 302, 418, false, false, false, false, true); // ce (w, ck) - Double Click
+typeControlKey((HResource) null, "draw_lock_object.v", 'v'); // ce (w, ck)
+selectCodeEditor("draw_lock_object.v", 353, 420); // ce (w, ck)
+selectCodeEditor("draw_lock_object.v", 353, 420, false, false, false, false, true); // ce (w, ck) - Double Click
+typeControlKey((HResource) null, "draw_lock_object.v", 'v'); // ce (w, ck)
+selectCodeEditor("draw_lock_object.v", 74, 346); // ce (w, ck)
+// Elapsed time: 16 seconds
+typeControlKey((HResource) null, "draw_lock_object.v", 'c'); // ce (w, ck)
+typeControlKey((HResource) null, "draw_lock_object.v", 'v'); // ce (w, ck)
+selectCodeEditor("draw_lock_object.v", 150, 402); // ce (w, ck)
+typeControlKey((HResource) null, "draw_lock_object.v", 'c'); // ce (w, ck)
+typeControlKey((HResource) null, "draw_lock_object.v", 'v'); // ce (w, ck)
+selectCodeEditor("draw_lock_object.v", 287, 348); // ce (w, ck)
+// Elapsed time: 52 seconds
+selectCodeEditor("draw_lock_object.v", 287, 346); // ce (w, ck)
+selectCodeEditor("draw_lock_object.v", 655, 350); // ce (w, ck)
+selectCodeEditor("draw_lock_object.v", 839, 345); // ce (w, ck)
+// Elapsed time: 18 seconds
+selectCodeEditor("draw_lock_object.v", 289, 347); // ce (w, ck)
+selectCodeEditor("draw_lock_object.v", 665, 398); // ce (w, ck)
+selectCodeEditor("draw_lock_object.v", 852, 403); // ce (w, ck)
+selectCodeEditor("draw_lock_object.v", 278, 343); // ce (w, ck)
+selectCodeEditor("draw_lock_object.v", 143, 347); // ce (w, ck)
+typeControlKey((HResource) null, "draw_lock_object.v", 'c'); // ce (w, ck)
+typeControlKey((HResource) null, "draw_lock_object.v", 'v'); // ce (w, ck)
+selectCodeEditor("draw_lock_object.v", 330, 364); // ce (w, ck)
+// Elapsed time: 77 seconds
+selectCodeEditor("draw_lock_object.v", 653, 366); // ce (w, ck)
+// Elapsed time: 41 seconds
+selectCodeEditor("draw_lock_object.v", 277, 345); // ce (w, ck)
+selectCodeEditor("draw_lock_object.v", 643, 349); // ce (w, ck)
+selectCodeEditor("draw_lock_object.v", 455, 346); // ce (w, ck)
+selectCodeEditor("draw_lock_object.v", 637, 347); // ce (w, ck)
+// Elapsed time: 11 seconds
+selectCodeEditor("draw_lock_object.v", 831, 350); // ce (w, ck)
+// Elapsed time: 77 seconds
+selectCodeEditor("draw_lock_object.v", 867, 348); // ce (w, ck)
+typeControlKey((HResource) null, "draw_lock_object.v", 'c'); // ce (w, ck)
+selectCodeEditor("draw_lock_object.v", 190, 366); // ce (w, ck)
+typeControlKey((HResource) null, "draw_lock_object.v", 'v'); // ce (w, ck)
+selectCodeEditor("draw_lock_object.v", 335, 366); // ce (w, ck)
+// Elapsed time: 32 seconds
+selectCodeEditor("draw_lock_object.v", 25, 350); // ce (w, ck)
+selectCodeEditor("draw_lock_object.v", 40, 382); // ce (w, ck)
+// Elapsed time: 19 seconds
+selectCodeEditor("draw_lock_object.v", 153, 348); // ce (w, ck)
+typeControlKey((HResource) null, "draw_lock_object.v", 'c'); // ce (w, ck)
+typeControlKey((HResource) null, "draw_lock_object.v", 'v'); // ce (w, ck)
+// Elapsed time: 26 seconds
+selectCodeEditor("draw_lock_object.v", 896, 376); // ce (w, ck)
+typeControlKey((HResource) null, "draw_lock_object.v", 'c'); // ce (w, ck)
+typeControlKey((HResource) null, "draw_lock_object.v", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "draw_lock_object.v", 'v'); // ce (w, ck)
+selectCodeEditor("draw_lock_object.v", 88, 418); // ce (w, ck)
+selectCodeEditor("draw_lock_object.v", 262, 407); // ce (w, ck)
+// Elapsed time: 32 seconds
+selectCodeEditor("draw_lock_object.v", 299, 413); // ce (w, ck)
+selectCodeEditor("draw_lock_object.v", 649, 396); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 79 seconds
+selectCodeEditor("draw_lock_object.v", 311, 451); // ce (w, ck)
+// Elapsed time: 11 seconds
+selectCodeEditor("draw_lock_object.v", 164, 428); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 46 seconds
+selectCodeEditor("draw_lock_object.v", 283, 469); // ce (w, ck)
+selectCodeEditor("draw_lock_object.v", 283, 469, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("draw_lock_object.v", 538, 436); // ce (w, ck)
+typeControlKey((HResource) null, "draw_lock_object.v", 'c'); // ce (w, ck)
+typeControlKey((HResource) null, "draw_lock_object.v", 'v'); // ce (w, ck)
+selectCodeEditor("draw_lock_object.v", 75, 451); // ce (w, ck)
+selectCodeEditor("draw_lock_object.v", 425, 487); // ce (w, ck)
+selectCodeEditor("draw_lock_object.v", 425, 487, false, false, false, false, true); // ce (w, ck) - Double Click
+// Elapsed time: 19 seconds
+selectCodeEditor("draw_lock_object.v", 134, 350); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// Elapsed time: 11 seconds
+selectCodeEditor("draw_lock_object.v", 685, 467); // ce (w, ck)
+// TclEventType: DG_GRAPH_GENERATED
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (ck): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// bx (ck):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // A (ck)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f (ck): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+dismissDialog("Launch Runs"); // f (ck)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 12 
+// Tcl Message: [Tue Apr  2 22:04:17 2019] Launched synth_1... Run output will be captured here: C:/Users/hashi/Desktop/Hashir/NUS-Academic/YR1S2/EE2026/Project/Audio_Viz_Project_Template/Audio_Viz_Project_Template.runs/synth_1/runme.log [Tue Apr  2 22:04:17 2019] Launched impl_1... Run output will be captured here: C:/Users/hashi/Desktop/Hashir/NUS-Academic/YR1S2/EE2026/Project/Audio_Viz_Project_Template/Audio_Viz_Project_Template.runs/impl_1/runme.log 
+selectCodeEditor("draw_lock_object.v", 64, 396); // ce (w, ck)
+selectCodeEditor("draw_lock_object.v", 133, 346); // ce (w, ck)
+// Elapsed time: 15 seconds
+selectCodeEditor("draw_lock_object.v", 240, 434); // ce (w, ck)
+selectCodeEditor("draw_lock_object.v", 338, 433); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// Elapsed time: 41 seconds
+selectCodeEditor("draw_lock_object.v", 692, 433); // ce (w, ck)
+typeControlKey((HResource) null, "draw_lock_object.v", 'c'); // ce (w, ck)
+selectCodeEditor("draw_lock_object.v", 530, 457); // ce (w, ck)
+typeControlKey((HResource) null, "draw_lock_object.v", 'v'); // ce (w, ck)
+selectCodeEditor("draw_lock_object.v", 348, 450); // ce (w, ck)
+selectCodeEditor("draw_lock_object.v", 944, 384); // ce (w, ck)
+typeControlKey((HResource) null, "draw_lock_object.v", 'c'); // ce (w, ck)
+typeControlKey((HResource) null, "draw_lock_object.v", 'v'); // ce (w, ck)
+selectCodeEditor("draw_lock_object.v", 119, 451); // ce (w, ck)
+selectCodeEditor("draw_lock_object.v", 148, 435); // ce (w, ck)
+selectCodeEditor("draw_lock_object.v", 431, 432); // ce (w, ck)
+selectCodeEditor("draw_lock_object.v", 735, 460); // ce (w, ck)
+selectCodeEditor("draw_lock_object.v", 153, 365); // ce (w, ck)
+selectCodeEditor("draw_lock_object.v", 331, 361); // ce (w, ck)
+// [GUI Memory]: 115 MB (+1161kb) [08:42:51]
+// TclEventType: RUN_COMPLETED
+// ah (ck): Bitstream Generation Completed: addNotify
+// Elapsed time: 40 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (ah)
+dismissDialog("Bitstream Generation Completed"); // ah (ck)
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h (cM, ck)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bB (ck): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bB)
+// bx (ck):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // bB (ck)
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/hashi/Desktop/Hashir/NUS-Academic/YR1S2/EE2026/Project/Audio_Viz_Project_Template/Audio_Viz_Project_Template.runs/impl_1/Voice_Scope_TOP.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Program Device"); // bx (ck)
+// Elapsed time: 40 seconds
+selectCodeEditor("draw_lock_object.v", 348, 297); // ce (w, ck)
+selectCodeEditor("draw_lock_object.v", 342, 313); // ce (w, ck)
+// Elapsed time: 15 seconds
+selectCodeEditor("draw_lock_object.v", 705, 312); // ce (w, ck)
+// Elapsed time: 38 seconds
+selectCodeEditor("draw_lock_object.v", 843, 434); // ce (w, ck)
+selectCodeEditor("draw_lock_object.v", 845, 436); // ce (w, ck)
+selectCodeEditor("draw_lock_object.v", 845, 436, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("draw_lock_object.v", 845, 436); // ce (w, ck)
+selectCodeEditor("draw_lock_object.v", 852, 468); // ce (w, ck)
+selectCodeEditor("draw_lock_object.v", 852, 468); // ce (w, ck)
+selectCodeEditor("draw_lock_object.v", 852, 468, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("draw_lock_object.v", 852, 468); // ce (w, ck)
+selectCodeEditor("draw_lock_object.v", 852, 468); // ce (w, ck)
+selectCodeEditor("draw_lock_object.v", 852, 468); // ce (w, ck)
+selectCodeEditor("draw_lock_object.v", 852, 468); // ce (w, ck)
+selectCodeEditor("draw_lock_object.v", 852, 468); // ce (w, ck)
+selectCodeEditor("draw_lock_object.v", 852, 468); // ce (w, ck)
+selectCodeEditor("draw_lock_object.v", 852, 468); // ce (w, ck)
+selectCodeEditor("draw_lock_object.v", 852, 468); // ce (w, ck)
+selectCodeEditor("draw_lock_object.v", 852, 468); // ce (w, ck)
+selectCodeEditor("draw_lock_object.v", 852, 468); // ce (w, ck)
+selectCodeEditor("draw_lock_object.v", 852, 468); // ce (w, ck)
+selectCodeEditor("draw_lock_object.v", 852, 468); // ce (w, ck)
+selectCodeEditor("draw_lock_object.v", 852, 468); // ce (w, ck)
+selectCodeEditor("draw_lock_object.v", 855, 428); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 101 seconds
+selectCodeEditor("draw_lock_object.v", 343, 319); // ce (w, ck)
+// Elapsed time: 30 seconds
+selectCodeEditor("draw_lock_object.v", 891, 299); // ce (w, ck)
+selectCodeEditor("draw_lock_object.v", 842, 442); // ce (w, ck)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,374 MB. GUI used memory: 52 MB. Current time: 4/2/19 10:11:07 PM SGT
+// Elapsed time: 103 seconds
+selectCodeEditor("draw_lock_object.v", 355, 330); // ce (w, ck)
+selectCodeEditor("draw_lock_object.v", 710, 327); // ce (w, ck)
+// Elapsed time: 28 seconds
+selectCodeEditor("draw_lock_object.v", 707, 297); // ce (w, ck)
+selectCodeEditor("draw_lock_object.v", 343, 297); // ce (w, ck)
+// Elapsed time: 46 seconds
+selectCodeEditor("draw_lock_object.v", 358, 333); // ce (w, ck)
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("draw_lock_object.v", 346, 300); // ce (w, ck)
+selectCodeEditor("draw_lock_object.v", 703, 298); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("draw_lock_object.v", 515, 304); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 56 seconds
+selectCodeEditor("draw_lock_object.v", 939, 331); // ce (w, ck)
+typeControlKey((HResource) null, "draw_lock_object.v", 'c'); // ce (w, ck)
+selectCodeEditor("draw_lock_object.v", 27, 366); // ce (w, ck)
+typeControlKey((HResource) null, "draw_lock_object.v", 'v'); // ce (w, ck)
+selectCodeEditor("draw_lock_object.v", 95, 391); // ce (w, ck)
+selectCodeEditor("draw_lock_object.v", 99, 401); // ce (w, ck)
+selectCodeEditor("draw_lock_object.v", 151, 368); // ce (w, ck)
+selectCodeEditor("draw_lock_object.v", 511, 364); // ce (w, ck)
+// Elapsed time: 24 seconds
+selectCodeEditor("draw_lock_object.v", 326, 363); // ce (w, ck)
+selectCodeEditor("draw_lock_object.v", 707, 402); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (ck): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// bx (ck):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // A (ck)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f (ck): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// 'cv' command handler elapsed time: 3 seconds
+dismissDialog("Launch Runs"); // f (ck)
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 12 
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Tue Apr  2 22:16:36 2019] Launched synth_1... Run output will be captured here: C:/Users/hashi/Desktop/Hashir/NUS-Academic/YR1S2/EE2026/Project/Audio_Viz_Project_Template/Audio_Viz_Project_Template.runs/synth_1/runme.log [Tue Apr  2 22:16:36 2019] Launched impl_1... Run output will be captured here: C:/Users/hashi/Desktop/Hashir/NUS-Academic/YR1S2/EE2026/Project/Audio_Viz_Project_Template/Audio_Viz_Project_Template.runs/impl_1/runme.log 
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// Elapsed time: 71 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Draw_Background.v", 1); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "draw_lock_object.v", 2); // k (j, ck)
+selectCodeEditor("draw_lock_object.v", 151, 158); // ce (w, ck)
+// Elapsed time: 24 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "volume_indicator.v", 3); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Draw_Background.v", 1); // k (j, ck)
+// Elapsed time: 14 seconds
+selectCodeEditor("Draw_Background.v", 591, 316); // ce (w, ck)
+// TclEventType: RUN_COMPLETED
+// ah (ck): Bitstream Generation Completed: addNotify
+// Elapsed time: 21 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (ah)
+dismissDialog("Bitstream Generation Completed"); // ah (ck)
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h (cM, ck)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bB (ck): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bB)
+// bx (ck):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // bB (ck)
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/hashi/Desktop/Hashir/NUS-Academic/YR1S2/EE2026/Project/Audio_Viz_Project_Template/Audio_Viz_Project_Template.runs/impl_1/Voice_Scope_TOP.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Program Device"); // bx (ck)
+// Elapsed time: 47 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "draw_lock_object.v", 2); // k (j, ck)
+selectCodeEditor("draw_lock_object.v", 175, 246); // ce (w, ck)
+// Elapsed time: 10 seconds
+selectCodeEditor("draw_lock_object.v", 159, 281); // ce (w, ck)
+// Elapsed time: 14 seconds
+selectCodeEditor("draw_lock_object.v", 170, 290); // ce (w, ck)
+selectCodeEditor("draw_lock_object.v", 173, 276); // ce (w, ck)
+selectCodeEditor("draw_lock_object.v", 363, 271); // ce (w, ck)
+// Elapsed time: 21 seconds
+selectCodeEditor("draw_lock_object.v", 321, 264); // ce (w, ck)
+selectCodeEditor("draw_lock_object.v", 336, 327); // ce (w, ck)
+selectCodeEditor("draw_lock_object.v", 427, 282); // ce (w, ck)
+selectCodeEditor("draw_lock_object.v", 327, 282); // ce (w, ck)
+// Elapsed time: 25 seconds
+selectCodeEditor("draw_lock_object.v", 506, 263); // ce (w, ck)
+selectCodeEditor("draw_lock_object.v", 868, 266); // ce (w, ck)
+selectCodeEditor("draw_lock_object.v", 891, 330); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 13 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (ck): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// bx (ck):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // A (ck)
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// f (ck): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+dismissDialog("Launch Runs"); // f (ck)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 12 
+// Tcl Message: [Tue Apr  2 22:21:45 2019] Launched synth_1... Run output will be captured here: C:/Users/hashi/Desktop/Hashir/NUS-Academic/YR1S2/EE2026/Project/Audio_Viz_Project_Template/Audio_Viz_Project_Template.runs/synth_1/runme.log [Tue Apr  2 22:21:45 2019] Launched impl_1... Run output will be captured here: C:/Users/hashi/Desktop/Hashir/NUS-Academic/YR1S2/EE2026/Project/Audio_Viz_Project_Template/Audio_Viz_Project_Template.runs/impl_1/runme.log 
+selectCodeEditor("draw_lock_object.v", 180, 106); // ce (w, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Draw_Background.v", 1); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Voice_Scope_TOP.v", 0); // k (j, ck)
+// Elapsed time: 16 seconds
+selectCodeEditor("Voice_Scope_TOP.v", 878, 338); // ce (w, ck)
+selectCodeEditor("Voice_Scope_TOP.v", 878, 338, false, false, false, false, true); // ce (w, ck) - Double Click
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// ah (ck): Bitstream Generation Completed: addNotify
+// Elapsed time: 287 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (ah)
+dismissDialog("Bitstream Generation Completed"); // ah (ck)
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h (cM, ck)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bB (ck): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bB)
+// bx (ck):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // bB (ck)
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/hashi/Desktop/Hashir/NUS-Academic/YR1S2/EE2026/Project/Audio_Viz_Project_Template/Audio_Viz_Project_Template.runs/impl_1/Voice_Scope_TOP.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'I' command handler elapsed time: 3 seconds
+dismissDialog("Program Device"); // bx (ck)
+// Elapsed time: 156 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Draw_Background.v", 1); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "draw_lock_object.v", 2); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Voice_Scope_TOP.v", 0); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "draw_lock_object.v", 2); // k (j, ck)
+// Elapsed time: 14 seconds
+selectCodeEditor("draw_lock_object.v", 127, 431); // ce (w, ck)
+selectCodeEditor("draw_lock_object.v", 131, 164); // ce (w, ck)
+// Elapsed time: 17 seconds
+selectCodeEditor("draw_lock_object.v", 211, 430); // ce (w, ck)
+// Elapsed time: 16 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Draw_Background.v", 1); // k (j, ck)
+selectCodeEditor("Draw_Background.v", 742, 164); // ce (w, ck)
+selectCodeEditor("Draw_Background.v", 742, 164, false, false, false, false, true); // ce (w, ck) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "draw_lock_object.v", 2); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Draw_Background.v", 1); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "draw_lock_object.v", 2); // k (j, ck)
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Draw_Background.v", 1); // k (j, ck)
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("Draw_Background.v", 793, 58); // ce (w, ck)
+selectCodeEditor("Draw_Background.v", 713, 212); // ce (w, ck)
+// Elapsed time: 23 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "draw_lock_object.v", 2); // k (j, ck)
+// Elapsed time: 11 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Draw_Background.v", 1); // k (j, ck)
+selectCodeEditor("Draw_Background.v", 233, 213); // ce (w, ck)
+selectCodeEditor("Draw_Background.v", 233, 213, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("Draw_Background.v", 294, 211); // ce (w, ck)
+// Elapsed time: 22 seconds
+selectCodeEditor("Draw_Background.v", 119, 78); // ce (w, ck)
+selectCodeEditor("Draw_Background.v", 205, 178); // ce (w, ck)
+// Elapsed time: 16 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Voice_Scope_TOP.v", 0); // k (j, ck)
+selectCodeEditor("Voice_Scope_TOP.v", 744, 299); // ce (w, ck)
+selectCodeEditor("Voice_Scope_TOP.v", 776, 297); // ce (w, ck)
+selectCodeEditor("Voice_Scope_TOP.v", 776, 297, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("Voice_Scope_TOP.v", 440, 214); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Draw_Background.v", 1); // k (j, ck)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("Draw_Background.v", 267, 335); // ce (w, ck)
+// Elapsed time: 34 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "draw_lock_object.v", 2); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Draw_Background.v", 1); // k (j, ck)
+// Elapsed time: 19 seconds
+selectCodeEditor("Draw_Background.v", 183, 281); // ce (w, ck)
+// Elapsed time: 236 seconds
+selectCodeEditor("Draw_Background.v", 444, 42); // ce (w, ck)
+selectCodeEditor("Draw_Background.v", 184, 332); // ce (w, ck)
+// Elapsed time: 24 seconds
+selectCodeEditor("Draw_Background.v", 467, 143); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 72 seconds
+selectCodeEditor("Draw_Background.v", 267, 364); // ce (w, ck)
+// Elapsed time: 28 seconds
+selectCodeEditor("Draw_Background.v", 146, 196); // ce (w, ck)
+typeControlKey((HResource) null, "Draw_Background.v", 'c'); // ce (w, ck)
+typeControlKey((HResource) null, "Draw_Background.v", 'v'); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 10 seconds
+selectCodeEditor("Draw_Background.v", 299, 281); // ce (w, ck)
+// Elapsed time: 19 seconds
+selectCodeEditor("Draw_Background.v", 299, 280); // ce (w, ck)
+selectCodeEditor("Draw_Background.v", 320, 280); // ce (w, ck)
+typeControlKey((HResource) null, "Draw_Background.v", 'c'); // ce (w, ck)
+selectCodeEditor("Draw_Background.v", 199, 349); // ce (w, ck)
+typeControlKey((HResource) null, "Draw_Background.v", 'v'); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectCodeEditor("Draw_Background.v", 307, 347); // ce (w, ck)
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "draw_lock_object.v", 2); // k (j, ck)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("draw_lock_object.v", 82, 165); // ce (w, ck)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,382 MB. GUI used memory: 49 MB. Current time: 4/2/19 10:41:07 PM SGT
+typeControlKey((HResource) null, "draw_lock_object.v", 'c'); // ce (w, ck)
+typeControlKey((HResource) null, "draw_lock_object.v", 'v'); // ce (w, ck)
+selectCodeEditor("draw_lock_object.v", 98, 177); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectCodeEditor("draw_lock_object.v", 27, 468); // ce (w, ck)
+// TclEventType: DG_GRAPH_GENERATED
+typeControlKey((HResource) null, "draw_lock_object.v", 'c'); // ce (w, ck)
+typeControlKey((HResource) null, "draw_lock_object.v", 'v'); // ce (w, ck)
+selectCodeEditor("draw_lock_object.v", 76, 470); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("draw_lock_object.v", 475, 466); // ce (w, ck)
+// Elapsed time: 11 seconds
+selectCodeEditor("draw_lock_object.v", 330, 469); // ce (w, ck)
+selectCodeEditor("draw_lock_object.v", 330, 469, false, false, false, false, true); // ce (w, ck) - Double Click
+typeControlKey((HResource) null, "draw_lock_object.v", 'c'); // ce (w, ck)
+selectCodeEditor("draw_lock_object.v", 402, 469); // ce (w, ck)
+selectCodeEditor("draw_lock_object.v", 405, 469); // ce (w, ck)
+typeControlKey((HResource) null, "draw_lock_object.v", 'v'); // ce (w, ck)
+selectCodeEditor("draw_lock_object.v", 416, 470); // ce (w, ck)
+selectCodeEditor("draw_lock_object.v", 374, 471); // ce (w, ck)
+// Elapsed time: 13 seconds
+selectCodeEditor("draw_lock_object.v", 461, 486); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Draw_Background.v", 1); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Voice_Scope_TOP.v", 0); // k (j, ck)
+selectCodeEditor("Voice_Scope_TOP.v", 41, 179); // ce (w, ck)
+typeControlKey((HResource) null, "Voice_Scope_TOP.v", 'c'); // ce (w, ck)
+typeControlKey((HResource) null, "Voice_Scope_TOP.v", 'v'); // ce (w, ck)
+selectCodeEditor("Voice_Scope_TOP.v", 160, 181); // ce (w, ck)
+typeControlKey((HResource) null, "Voice_Scope_TOP.v", 'c'); // ce (w, ck)
+selectCodeEditor("Voice_Scope_TOP.v", 939, 349); // ce (w, ck)
+typeControlKey((HResource) null, "Voice_Scope_TOP.v", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "Voice_Scope_TOP.v", 'v'); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 11 seconds
+selectCodeEditor("Voice_Scope_TOP.v", 476, 93); // ce (w, ck)
+selectCodeEditor("Voice_Scope_TOP.v", 124, 23); // ce (w, ck)
+selectCodeEditor("Voice_Scope_TOP.v", 124, 23, false, false, false, false, true); // ce (w, ck) - Double Click
+typeControlKey((HResource) null, "Voice_Scope_TOP.v", 'c'); // ce (w, ck)
+selectCodeEditor("Voice_Scope_TOP.v", 527, 90); // ce (w, ck)
+selectCodeEditor("Voice_Scope_TOP.v", 527, 90, false, false, false, false, true); // ce (w, ck) - Double Click
+typeControlKey((HResource) null, "Voice_Scope_TOP.v", 'v'); // ce (w, ck)
+selectCodeEditor("Voice_Scope_TOP.v", 217, 22); // ce (w, ck)
+selectCodeEditor("Voice_Scope_TOP.v", 217, 22, false, false, false, false, true); // ce (w, ck) - Double Click
+typeControlKey((HResource) null, "Voice_Scope_TOP.v", 'c'); // ce (w, ck)
+selectCodeEditor("Voice_Scope_TOP.v", 587, 98); // ce (w, ck)
+typeControlKey((HResource) null, "Voice_Scope_TOP.v", 'v'); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 10 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Draw_Background.v", 1); // k (j, ck)
+selectCodeEditor("Draw_Background.v", 74, 94); // ce (w, ck)
+selectCodeEditor("Draw_Background.v", 202, 347); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (ck): Synthesis is Out-of-date: addNotify
+// TclEventType: DG_GRAPH_GENERATED
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// bx (ck):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // A (ck)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f (ck): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+dismissDialog("Launch Runs"); // f (ck)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 12 
+// Tcl Message: [Tue Apr  2 22:43:33 2019] Launched synth_1... Run output will be captured here: C:/Users/hashi/Desktop/Hashir/NUS-Academic/YR1S2/EE2026/Project/Audio_Viz_Project_Template/Audio_Viz_Project_Template.runs/synth_1/runme.log [Tue Apr  2 22:43:33 2019] Launched impl_1... Run output will be captured here: C:/Users/hashi/Desktop/Hashir/NUS-Academic/YR1S2/EE2026/Project/Audio_Viz_Project_Template/Audio_Viz_Project_Template.runs/impl_1/runme.log 
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// ah (ck): Bitstream Generation Completed: addNotify
+// Elapsed time: 161 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (ah)
+dismissDialog("Bitstream Generation Completed"); // ah (ck)
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h (cM, ck)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bB (ck): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bB)
+// bx (ck):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // bB (ck)
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/hashi/Desktop/Hashir/NUS-Academic/YR1S2/EE2026/Project/Audio_Viz_Project_Template/Audio_Viz_Project_Template.runs/impl_1/Voice_Scope_TOP.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'I' command handler elapsed time: 3 seconds
+dismissDialog("Program Device"); // bx (ck)
+// Elapsed time: 24 seconds
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h (cM, ck)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bB (ck): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bB)
+// bx (ck):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // bB (ck)
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/hashi/Desktop/Hashir/NUS-Academic/YR1S2/EE2026/Project/Audio_Viz_Project_Template/Audio_Viz_Project_Template.runs/impl_1/Voice_Scope_TOP.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'I' command handler elapsed time: 3 seconds
+dismissDialog("Program Device"); // bx (ck)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,382 MB. GUI used memory: 49 MB. Current time: 4/2/19 11:11:08 PM SGT
+// Elapsed time: 1999 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Voice_Scope_TOP.v", 0); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "volume_indicator.v", 3); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Voice_Scope_TOP.v", 0); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "volume_indicator.v", 3); // k (j, ck)
+// Elapsed time: 11 seconds
+selectCodeEditor("volume_indicator.v", 387, 403); // ce (w, ck)
+// Elapsed time: 43 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Voice_Scope_TOP.v", 0); // k (j, ck)
+// Elapsed time: 12 seconds
+selectButton(PAResourceTtoZ.TaskBanner_CLOSE, (String) null); // k (ay, ck)
+closeTask("Program and Debug", "Hardware Manager", "DesignTask.PROGRAM_DEBUG");
+// A (ck): Confirm Close: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (A)
+dismissDialog("Confirm Close"); // A (ck)
+// TclEventType: HW_OBJECT_DELETE
+// TclEventType: HW_SERVER_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: DEBUG_PROBE_DELETE
+// TclEventType: HW_SESSION_CLOSE
+// Tcl Message: close_hw 
+// bx (ck):  CLose Hardware Manager : addNotify
+dismissDialog("CLose Hardware Manager"); // bx (ck)
+unMinimizeFrame(PAResourceOtoP.PAViews_SOURCES, "Sources"); // aw
+// Elapsed time: 14 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Voice_Scope_TOP.v", 0); // k (j, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Voice_Scope_TOP (Voice_Scope_TOP.v), dfc : displayfreqcount (displayfreqcount.v)]", 9, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Voice_Scope_TOP (Voice_Scope_TOP.v), dfc : displayfreqcount (displayfreqcount.v)]", 9, true, false, false, false, false, true); // B (D, ck) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Voice_Scope_TOP (Voice_Scope_TOP.v), dfc : displayfreqcount (displayfreqcount.v)]", 9, true); // B (D, ck) - Node
+selectCodeEditor("displayfreqcount.v", 77, 251); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 12 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Voice_Scope_TOP.v", 0); // k (j, ck)
+// Elapsed time: 38 seconds
+selectCodeEditor("Voice_Scope_TOP.v", 204, 211); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "displayfreqcount.v", 4); // k (j, ck)
+// TclEventType: DG_GRAPH_GENERATED
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Voice_Scope_TOP.v", 0); // k (j, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "displayfreqcount.v", 4); // k (j, ck)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("displayfreqcount.v", 86, 235); // ce (w, ck)
+selectCodeEditor("displayfreqcount.v", 72, 243); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// Elapsed time: 44 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (ck): Synthesis is Out-of-date: addNotify
+// TclEventType: DG_GRAPH_GENERATED
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// bx (ck):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // A (ck)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f (ck): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// 'cv' command handler elapsed time: 3 seconds
+dismissDialog("Launch Runs"); // f (ck)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 12 
+// Tcl Message: [Tue Apr  2 23:24:04 2019] Launched synth_1... Run output will be captured here: C:/Users/hashi/Desktop/Hashir/NUS-Academic/YR1S2/EE2026/Project/Audio_Viz_Project_Template/Audio_Viz_Project_Template.runs/synth_1/runme.log [Tue Apr  2 23:24:04 2019] Launched impl_1... Run output will be captured here: C:/Users/hashi/Desktop/Hashir/NUS-Academic/YR1S2/EE2026/Project/Audio_Viz_Project_Template/Audio_Viz_Project_Template.runs/impl_1/runme.log 
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// ah (ck): Bitstream Generation Completed: addNotify
+// Elapsed time: 145 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (ah)
+dismissDialog("Bitstream Generation Completed"); // ah (ck)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager, Open Target]", 22, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HW_TARGET
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // ad (aj, Popup.HeavyWeightWindow)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// bx (ck):  Open Hardware Manager : addNotify
+// TclEventType: HW_SESSION_OPEN
+// Tcl Message: open_hw 
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+dismissDialog("Open Hardware Manager"); // bx (ck)
+// Tcl Message: connect_hw_server 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// bx (ck):  Auto Connect : addNotify
+// Tcl Message: INFO: [Labtools 27-2222] Launching hw_server... 
+// Tcl Message: INFO: [Labtools 27-2221] Launch Output:  ****** Xilinx hw_server v2018.2   **** Build date : Jun 14 2018-20:42:52     ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.   
+// TclEventType: HW_SERVER_UPDATE
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// Tcl Message: open_hw_target 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183714378A 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/hashi/Desktop/Hashir/NUS-Academic/YR1S2/EE2026/Project/Audio_Viz_Project_Template/Audio_Viz_Project_Template.runs/impl_1/Voice_Scope_TOP.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: current_hw_device [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Auto Connect"); // bx (ck)
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h (cM, ck)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bB (ck): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bB)
+// bx (ck):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // bB (ck)
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/hashi/Desktop/Hashir/NUS-Academic/YR1S2/EE2026/Project/Audio_Viz_Project_Template/Audio_Viz_Project_Template.runs/impl_1/Voice_Scope_TOP.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'I' command handler elapsed time: 3 seconds
+dismissDialog("Program Device"); // bx (ck)
+// Elapsed time: 213 seconds
+selectButton(PAResourceTtoZ.TaskBanner_CLOSE, (String) null); // k (ay, ck)
+closeTask("Program and Debug", "Hardware Manager", "DesignTask.PROGRAM_DEBUG");
+// A (ck): Confirm Close: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (A)
+// TclEventType: HW_OBJECT_DELETE
+dismissDialog("Confirm Close"); // A (ck)
+// TclEventType: HW_SERVER_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: DEBUG_PROBE_DELETE
+// TclEventType: HW_SESSION_CLOSE
+// Tcl Message: close_hw 
+// bx (ck):  CLose Hardware Manager : addNotify
+dismissDialog("CLose Hardware Manager"); // bx (ck)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Text]", 21); // B (D, ck)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Text]", 21); // B (D, ck)
+// Elapsed time: 26 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Voice_Scope_TOP (Voice_Scope_TOP.v), Voice_Capturer : Voice_Capturer (VOICE_CAPTURER.v)]", 7, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Voice_Scope_TOP (Voice_Scope_TOP.v), Voice_Capturer : Voice_Capturer (VOICE_CAPTURER.v)]", 7, false, false, false, false, false, true); // B (D, ck) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "VOICE_CAPTURER.v", 5); // k (j, ck)
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "VOICE_CAPTURER.v", 5, false, true); // k (j, ck) - Double Click
+unmaximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // O (Q, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "VOICE_CAPTURER.v", 5); // k (j, ck)
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "VOICE_CAPTURER.v", 5, false, true); // k (j, ck) - Double Click
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // O (Q, ck)
+// Elapsed time: 55 seconds
+selectCodeEditor("VOICE_CAPTURER.v", 439, 109); // ce (w, ck)
+selectCodeEditor("VOICE_CAPTURER.v", 463, 123); // ce (w, ck)
+// Elapsed time: 16 seconds
+selectCodeEditor("VOICE_CAPTURER.v", 70, 195); // ce (w, ck)
+selectCodeEditor("VOICE_CAPTURER.v", 70, 195, false, false, false, false, true); // ce (w, ck) - Double Click
+unMinimizeFrame(PAResourceOtoP.PAViews_SOURCES, "Sources"); // aw
+// Elapsed time: 48 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "VOICE_CAPTURER.v", 5); // k (j, ck)
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "VOICE_CAPTURER.v", 5, false, true); // k (j, ck) - Double Click
+unmaximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // O (Q, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "VOICE_CAPTURER.v", 5); // k (j, ck)
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "VOICE_CAPTURER.v", 5, false, true); // k (j, ck) - Double Click
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // O (Q, ck)
+selectCodeEditor("VOICE_CAPTURER.v", 166, 176); // ce (w, ck)
+selectCodeEditor("VOICE_CAPTURER.v", 166, 176, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("VOICE_CAPTURER.v", 107, 165); // ce (w, ck)
+selectCodeEditor("VOICE_CAPTURER.v", 107, 165, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("VOICE_CAPTURER.v", 123, 163); // ce (w, ck)
+selectCodeEditor("VOICE_CAPTURER.v", 123, 163, false, false, false, false, true); // ce (w, ck) - Double Click
+// Elapsed time: 98 seconds
+selectCodeEditor("VOICE_CAPTURER.v", 87, 23); // ce (w, ck)
+selectCodeEditor("VOICE_CAPTURER.v", 87, 23, false, false, false, false, true); // ce (w, ck) - Double Click
+// Elapsed time: 13 seconds
+selectCodeEditor("VOICE_CAPTURER.v", 118, 41); // ce (w, ck)
+selectCodeEditor("VOICE_CAPTURER.v", 118, 41, false, false, false, false, true); // ce (w, ck) - Double Click
+// Elapsed time: 33 seconds
+selectCodeEditor("VOICE_CAPTURER.v", 80, 26); // ce (w, ck)
+selectCodeEditor("VOICE_CAPTURER.v", 80, 26, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("VOICE_CAPTURER.v", 238, 112); // ce (w, ck)
+// Elapsed time: 10 seconds
+selectCodeEditor("VOICE_CAPTURER.v", 78, 73); // ce (w, ck)
+selectCodeEditor("VOICE_CAPTURER.v", 78, 73, false, false, false, false, true); // ce (w, ck) - Double Click
+// Elapsed time: 272 seconds
+selectCodeEditor("VOICE_CAPTURER.v", 311, 299); // ce (w, ck)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,382 MB. GUI used memory: 51 MB. Current time: 4/2/19 11:41:08 PM SGT
+// Elapsed time: 753 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "displayfreqcount.v", 4); // k (j, ck)
+selectCodeEditor("displayfreqcount.v", 119, 431); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 18 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (ck): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// bx (ck):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // A (ck)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f (ck): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// 'cv' command handler elapsed time: 4 seconds
+dismissDialog("Launch Runs"); // f (ck)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 12 
+// Tcl Message: [Tue Apr  2 23:53:33 2019] Launched synth_1... Run output will be captured here: C:/Users/hashi/Desktop/Hashir/NUS-Academic/YR1S2/EE2026/Project/Audio_Viz_Project_Template/Audio_Viz_Project_Template.runs/synth_1/runme.log [Tue Apr  2 23:53:33 2019] Launched impl_1... Run output will be captured here: C:/Users/hashi/Desktop/Hashir/NUS-Academic/YR1S2/EE2026/Project/Audio_Viz_Project_Template/Audio_Viz_Project_Template.runs/impl_1/runme.log 
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// ah (ck): Bitstream Generation Completed: addNotify
+// Elapsed time: 140 seconds
+dismissDialog("Bitstream Generation Completed"); // ah (ck)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager, Open Target]", 22, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HW_TARGET
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // ad (aj, ck)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// bx (ck):  Open Hardware Manager : addNotify
+// TclEventType: HW_SESSION_OPEN
+// Tcl Message: open_hw 
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+dismissDialog("Open Hardware Manager"); // bx (ck)
+// Tcl Message: connect_hw_server 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// bx (ck):  Auto Connect : addNotify
+// Tcl Message: INFO: [Labtools 27-2222] Launching hw_server... 
+// Tcl Message: INFO: [Labtools 27-2221] Launch Output:  ****** Xilinx hw_server v2018.2   **** Build date : Jun 14 2018-20:42:52     ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.   
+// TclEventType: HW_SERVER_UPDATE
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// Tcl Message: open_hw_target 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183714378A 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/hashi/Desktop/Hashir/NUS-Academic/YR1S2/EE2026/Project/Audio_Viz_Project_Template/Audio_Viz_Project_Template.runs/impl_1/Voice_Scope_TOP.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: current_hw_device [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Auto Connect"); // bx (ck)
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h (cM, ck)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bB (ck): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bB)
+// bx (ck):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // bB (ck)
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/hashi/Desktop/Hashir/NUS-Academic/YR1S2/EE2026/Project/Audio_Viz_Project_Template/Audio_Viz_Project_Template.runs/impl_1/Voice_Scope_TOP.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'I' command handler elapsed time: 3 seconds
+dismissDialog("Program Device"); // bx (ck)
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: DEBUG_PROBE_DELETE
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183714378A 
+// TclEventType: HW_SERVER_UPDATE
+// n (ck): Close Hardware Target: addNotify
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_SERVER_UPDATE
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: DEBUG_PROBE_DELETE
+// Tcl Message: ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183714378A 
+// n (ck): Close Hardware Target: addNotify
+// Elapsed time: 240 seconds
+dismissDialog("Close Hardware Target"); // n (ck)
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_SERVER_UPDATE
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_SERVER_UPDATE
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Elapsed time: 119 seconds
+dismissDialog("Close Hardware Target"); // n (ck)
+// Elapsed time: 150 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Voice_Scope_TOP.v", 0); // k (j, ck)
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Voice_Scope_TOP.v", 0, false, true); // k (j, ck) - Double Click
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // L (Q, ck)
+selectButton(PAResourceTtoZ.TaskBanner_CLOSE, (String) null); // k (ay, ck)
+closeTask("Program and Debug", "Hardware Manager", "DesignTask.PROGRAM_DEBUG");
+// A (ck): Confirm Close: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (A)
+// TclEventType: HW_OBJECT_DELETE
+dismissDialog("Confirm Close"); // A (ck)
+// TclEventType: HW_SERVER_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: DEBUG_PROBE_DELETE
+// TclEventType: HW_SESSION_CLOSE
+// Tcl Message: close_hw 
+// bx (ck):  CLose Hardware Manager : addNotify
+dismissDialog("CLose Hardware Manager"); // bx (ck)
+unMinimizeFrame(PAResourceOtoP.PAViews_SOURCES, "Sources"); // aw
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0, true, false, false, false, true, false); // B (D, ck) - Popup Trigger - Node
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // aa (aj, ck)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // aa (aj, ck)
+selectMenuItem(PAResourceCommand.PACommandNames_ADD_SOURCES, "Add Sources..."); // ad (aj, ck)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (ck): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton (j, c)
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a (C, c)
+// F (c): Create Source File: addNotify
+// Elapsed time: 34 seconds
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "create_ring_object"); // X (Q, F)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (F)
+dismissDialog("Create Source File"); // F (c)
+selectButton("FINISH", "Finish"); // JButton (j, c)
+// 'h' command handler elapsed time: 39 seconds
+dismissDialog("Add Sources"); // c (ck)
+// Tcl Message: close [ open C:/Users/hashi/Desktop/Hashir/NUS-Academic/YR1S2/EE2026/Project/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/create_ring_object.v w ] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files C:/Users/hashi/Desktop/Hashir/NUS-Academic/YR1S2/EE2026/Project/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/create_ring_object.v 
+// I (ck): Define Module: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (I)
+// TclEventType: FILE_SET_CHANGE
+selectButton("PAResourceAtoD.DefineModulesDialog_YOU_HAVE_MADE_CHANGES_TO_MODULE_Yes", "Yes"); // JButton (A, H)
+dismissDialog("Define Module"); // I (ck)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, create_ring_object (create_ring_object.v)]", 21, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, create_ring_object (create_ring_object.v)]", 21, false, false, false, false, false, true); // B (D, ck) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "create_ring_object.v", 6); // k (j, ck)
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "create_ring_object.v", 6, false, true); // k (j, ck) - Double Click
+unmaximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // O (Q, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "create_ring_object.v", 6); // k (j, ck)
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "create_ring_object.v", 6, false, true); // k (j, ck) - Double Click
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // O (Q, ck)
+selectCodeEditor("create_ring_object.v", 75, 395); // ce (w, ck)
+// Elapsed time: 64 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Voice_Scope_TOP.v", 0); // k (j, ck)
+selectCodeEditor("Voice_Scope_TOP.v", 64, 193); // ce (w, ck)
+selectCodeEditor("Voice_Scope_TOP.v", 64, 193, false, false, false, false, true); // ce (w, ck) - Double Click
+// Elapsed time: 16 seconds
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "inten"); // l (aQ, ck)
+selectCodeEditor("Voice_Scope_TOP.v", 116, 362); // ce (w, ck)
+selectCodeEditor("Voice_Scope_TOP.v", 116, 362, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("Voice_Scope_TOP.v", 307, 364); // ce (w, ck)
+selectCodeEditor("Voice_Scope_TOP.v", 307, 364, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("Voice_Scope_TOP.v", 407, 364); // ce (w, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "create_ring_object.v", 6); // k (j, ck)
+selectCodeEditor("create_ring_object.v", 71, 401); // ce (w, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Voice_Scope_TOP.v", 0); // k (j, ck)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager, Open Target]", 22, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HW_TARGET
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // ad (aj, ck)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// bx (ck):  Open Hardware Manager : addNotify
+// TclEventType: HW_SESSION_OPEN
+// Tcl Message: open_hw 
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+dismissDialog("Open Hardware Manager"); // bx (ck)
+// bx (ck):  Auto Connect : addNotify
+// Tcl Message: connect_hw_server 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// Tcl Message: INFO: [Labtools 27-2222] Launching hw_server... 
+// Tcl Message: INFO: [Labtools 27-2221] Launch Output:  ****** Xilinx hw_server v2018.2   **** Build date : Jun 14 2018-20:42:52     ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.   
+// TclEventType: HW_SERVER_UPDATE
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// Tcl Message: open_hw_target 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183714378A 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/hashi/Desktop/Hashir/NUS-Academic/YR1S2/EE2026/Project/Audio_Viz_Project_Template/Audio_Viz_Project_Template.runs/impl_1/Voice_Scope_TOP.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: current_hw_device [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Auto Connect"); // bx (ck)
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h (cM, ck)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bB (ck): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bB)
+// bx (ck):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // bB (ck)
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/hashi/Desktop/Hashir/NUS-Academic/YR1S2/EE2026/Project/Audio_Viz_Project_Template/Audio_Viz_Project_Template.runs/impl_1/Voice_Scope_TOP.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Program Device"); // bx (ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Voice_Scope_TOP.v", 0); // k (j, ck)
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Voice_Scope_TOP.v", 0, false, true); // k (j, ck) - Double Click
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // L (Q, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "create_ring_object.v", 6); // k (j, ck)
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "create_ring_object.v", 6, false, true); // k (j, ck) - Double Click
+selectCodeEditor("create_ring_object.v", 64, 439); // ce (w, ck)
+// Elapsed time: 52 seconds
+selectCodeEditor("create_ring_object.v", 51, 454); // ce (w, ck)
+// Elapsed time: 43 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Voice_Scope_TOP.v", 0); // k (j, ck)
+selectCodeEditor("Voice_Scope_TOP.v", 260, 365); // ce (w, ck)
+typeControlKey((HResource) null, "Voice_Scope_TOP.v", 'c'); // ce (w, ck)
+selectCodeEditor("Voice_Scope_TOP.v", 489, 338); // ce (w, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "draw_lock_object.v", 3); // k (j, ck)
+selectCodeEditor("draw_lock_object.v", 27, 124); // ce (w, ck)
+typeControlKey((HResource) null, "draw_lock_object.v", 'c'); // ce (w, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "create_ring_object.v", 1); // k (j, ck)
+selectCodeEditor("create_ring_object.v", 187, 417); // ce (w, ck)
+typeControlKey((HResource) null, "create_ring_object.v", 'v'); // ce (w, ck)
+selectCodeEditor("create_ring_object.v", 108, 451); // ce (w, ck)
+selectCodeEditor("create_ring_object.v", 114, 449); // ce (w, ck)
+// Elapsed time: 60 seconds
+selectCodeEditor("create_ring_object.v", 168, 365); // ce (w, ck)
+selectCodeEditor("create_ring_object.v", 168, 365, false, false, false, false, true); // ce (w, ck) - Double Click
+typeControlKey((HResource) null, "create_ring_object.v", 'v'); // ce (w, ck)
+typeControlKey(null, null, 'z');
+selectCodeEditor("create_ring_object.v", 183, 366); // ce (w, ck)
+selectCodeEditor("create_ring_object.v", 183, 366, false, false, false, false, true); // ce (w, ck) - Double Click
+typeControlKey((HResource) null, "create_ring_object.v", 'c'); // ce (w, ck)
+selectCodeEditor("create_ring_object.v", 190, 451); // ce (w, ck)
+typeControlKey((HResource) null, "create_ring_object.v", 'v'); // ce (w, ck)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,382 MB. GUI used memory: 58 MB. Current time: 4/3/19 12:11:08 AM SGT
+// Elapsed time: 10 seconds
+selectCodeEditor("create_ring_object.v", 310, 452); // ce (w, ck)
+selectCodeEditor("create_ring_object.v", 310, 452); // ce (w, ck)
+typeControlKey((HResource) null, "create_ring_object.v", 'c'); // ce (w, ck)
+typeControlKey((HResource) null, "create_ring_object.v", 'v'); // ce (w, ck)
+selectCodeEditor("create_ring_object.v", 123, 382); // ce (w, ck)
+selectCodeEditor("create_ring_object.v", 118, 368); // ce (w, ck)
+selectCodeEditor("create_ring_object.v", 121, 382); // ce (w, ck)
+selectCodeEditor("create_ring_object.v", 121, 382, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("create_ring_object.v", 121, 382); // ce (w, ck)
+selectCodeEditor("create_ring_object.v", 146, 383); // ce (w, ck)
+selectCodeEditor("create_ring_object.v", 146, 383, false, false, false, false, true); // ce (w, ck) - Double Click
+typeControlKey((HResource) null, "create_ring_object.v", 'c'); // ce (w, ck)
+selectCodeEditor("create_ring_object.v", 487, 454); // ce (w, ck)
+typeControlKey((HResource) null, "create_ring_object.v", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "create_ring_object.v", 'v'); // ce (w, ck)
+// Elapsed time: 12 seconds
+selectCodeEditor("create_ring_object.v", 125, 458); // ce (w, ck)
+selectCodeEditor("create_ring_object.v", 895, 446); // ce (w, ck)
+// Elapsed time: 51 seconds
+selectCodeEditor("create_ring_object.v", 886, 457); // ce (w, ck)
+// Elapsed time: 20 seconds
+selectCodeEditor("create_ring_object.v", 55, 318); // ce (w, ck)
+selectCodeEditor("create_ring_object.v", 115, 404); // ce (w, ck)
+selectCodeEditor("create_ring_object.v", 827, 453); // ce (w, ck)
+selectCodeEditor("create_ring_object.v", 131, 450); // ce (w, ck)
+typeControlKey((HResource) null, "create_ring_object.v", 'c'); // ce (w, ck)
+selectCodeEditor("create_ring_object.v", 859, 451); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 29 seconds
+selectCodeEditor("create_ring_object.v", 50, 318); // ce (w, ck)
+typeControlKey((HResource) null, "create_ring_object.v", 'c'); // ce (w, ck)
+selectCodeEditor("create_ring_object.v", 256, 330); // ce (w, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Voice_Scope_TOP.v", 0); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "create_ring_object.v", 1); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Voice_Scope_TOP.v", 0); // k (j, ck)
+// Elapsed time: 11 seconds
+selectCodeEditor("Voice_Scope_TOP.v", 763, 147); // ce (w, ck)
+selectCodeEditor("Voice_Scope_TOP.v", 220, 198); // ce (w, ck)
+selectCodeEditor("Voice_Scope_TOP.v", 245, 224); // ce (w, ck)
+typeControlKey((HResource) null, "Voice_Scope_TOP.v", 'v'); // ce (w, ck)
+selectCodeEditor("Voice_Scope_TOP.v", 99, 331); // ce (w, ck)
+selectCodeEditor("Voice_Scope_TOP.v", 140, 321); // ce (w, ck)
+selectCodeEditor("Voice_Scope_TOP.v", 136, 299); // ce (w, ck)
+selectCodeEditor("Voice_Scope_TOP.v", 135, 285); // ce (w, ck)
+selectCodeEditor("Voice_Scope_TOP.v", 208, 154); // ce (w, ck)
+selectCodeEditor("Voice_Scope_TOP.v", 549, 284); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("Voice_Scope_TOP.v", 134, 280); // ce (w, ck)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 11 seconds
+selectCodeEditor("Voice_Scope_TOP.v", 315, 110); // ce (w, ck)
+selectCodeEditor("Voice_Scope_TOP.v", 315, 110, false, false, false, false, true); // ce (w, ck) - Double Click
+typeControlKey((HResource) null, "Voice_Scope_TOP.v", 'c'); // ce (w, ck)
+selectCodeEditor("Voice_Scope_TOP.v", 240, 310); // ce (w, ck)
+selectCodeEditor("Voice_Scope_TOP.v", 240, 310, false, false, false, false, true); // ce (w, ck) - Double Click
+typeControlKey((HResource) null, "Voice_Scope_TOP.v", 'v'); // ce (w, ck)
+selectCodeEditor("Voice_Scope_TOP.v", 717, 323); // ce (w, ck)
+selectCodeEditor("Voice_Scope_TOP.v", 545, 194); // ce (w, ck)
+selectCodeEditor("Voice_Scope_TOP.v", 454, 195); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectButton(PAResourceTtoZ.TaskBanner_CLOSE, (String) null); // k (ay, ck)
+closeTask("Program and Debug", "Hardware Manager", "DesignTask.PROGRAM_DEBUG");
+// A (ck): Confirm Close: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (A)
+dismissDialog("Confirm Close"); // A (ck)
+// TclEventType: HW_OBJECT_DELETE
+// TclEventType: HW_SERVER_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: DEBUG_PROBE_DELETE
+// TclEventType: HW_SESSION_CLOSE
+// Tcl Message: close_hw 
+// bx (ck):  CLose Hardware Manager : addNotify
+dismissDialog("CLose Hardware Manager"); // bx (ck)
+unMinimizeFrame(PAResourceOtoP.PAViews_SOURCES, "Sources"); // aw
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Voice_Scope_TOP (Voice_Scope_TOP.v), draw_waveform : Draw_Waveform (Draw_Waveform.v)]", 19, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Voice_Scope_TOP (Voice_Scope_TOP.v), draw_waveform : Draw_Waveform (Draw_Waveform.v)]", 19, false, false, false, false, false, true); // B (D, ck) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Draw_Waveform.v", 7); // k (j, ck)
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Draw_Waveform.v", 7, false, true); // k (j, ck) - Double Click
+unmaximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // O (Q, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Draw_Waveform.v", 7); // k (j, ck)
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Draw_Waveform.v", 7, false, true); // k (j, ck) - Double Click
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // O (Q, ck)
+selectCodeEditor("Draw_Waveform.v", 167, 183); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("Draw_Waveform.v", 214, 409); // ce (w, ck)
+// Elapsed time: 46 seconds
+selectCodeEditor("Draw_Waveform.v", 122, 159); // ce (w, ck)
+selectCodeEditor("Draw_Waveform.v", 499, 354); // ce (w, ck)
+selectCodeEditor("Draw_Waveform.v", 115, 363); // ce (w, ck)
+// Elapsed time: 14 seconds
+selectCodeEditor("Draw_Waveform.v", 885, 336); // ce (w, ck)
+// Elapsed time: 11 seconds
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Voice_Scope_TOP.v", 0); // k (j, ck)
+selectCodeEditor("Voice_Scope_TOP.v", 359, 227); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Draw_Waveform.v", 6); // k (j, ck)
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("Draw_Waveform.v", 338, 414); // ce (w, ck)
+selectCodeEditor("Draw_Waveform.v", 406, 435); // ce (w, ck)
+selectCodeEditor("Draw_Waveform.v", 269, 413); // ce (w, ck)
+selectCodeEditor("Draw_Waveform.v", 343, 400); // ce (w, ck)
+selectCodeEditor("Draw_Waveform.v", 41, 382); // ce (w, ck)
+selectCodeEditor("Draw_Waveform.v", 157, 380); // ce (w, ck)
+selectCodeEditor("Draw_Waveform.v", 149, 347); // ce (w, ck)
+// Elapsed time: 31 seconds
+selectCodeEditor("Draw_Waveform.v", 586, 351); // ce (w, ck)
+// Elapsed time: 12 seconds
+selectCodeEditor("Draw_Waveform.v", 275, 380); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 17 seconds
+unMinimizeFrame(PAResourceOtoP.PAViews_SOURCES, "Sources"); // aw
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 23, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 23, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1]", 24, true, false, false, false, false, true); // B (D, ck) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, Basys3_Master.xdc]", 25, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, Basys3_Master.xdc]", 25, false, false, false, false, false, true); // B (D, ck) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Basys3_Master.xdc", 7); // k (j, ck)
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Basys3_Master.xdc", 7, false, true); // k (j, ck) - Double Click
+unmaximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // O (Q, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Basys3_Master.xdc", 7); // k (j, ck)
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Basys3_Master.xdc", 7, false, true); // k (j, ck) - Double Click
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // O (Q, ck)
+selectCodeEditor("Basys3_Master.xdc", 395, 418); // ce (w, ck)
+selectCodeEditor("Basys3_Master.xdc", 322, 400); // ce (w, ck)
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("Basys3_Master.xdc", 424, 388); // ce (w, ck)
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (ck): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// bx (ck):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // A (ck)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f (ck): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+dismissDialog("Launch Runs"); // f (ck)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 12 
+// Tcl Message: [Wed Apr  3 00:19:43 2019] Launched synth_1... Run output will be captured here: C:/Users/hashi/Desktop/Hashir/NUS-Academic/YR1S2/EE2026/Project/Audio_Viz_Project_Template/Audio_Viz_Project_Template.runs/synth_1/runme.log [Wed Apr  3 00:19:43 2019] Launched impl_1... Run output will be captured here: C:/Users/hashi/Desktop/Hashir/NUS-Academic/YR1S2/EE2026/Project/Audio_Viz_Project_Template/Audio_Viz_Project_Template.runs/impl_1/runme.log 
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Voice_Scope_TOP.v", 0); // k (j, ck)
+selectCodeEditor("Voice_Scope_TOP.v", 403, 280); // ce (w, ck)
+selectButton(PAResourceQtoS.SyntheticaStateMonitor_CANCEL, "Cancel"); // h (Q, ck)
+// bx (ck):  Resetting Runs : addNotify
+selectButton("PAResourceQtoS.StateMonitor_OK_TO_CANCEL_YOUR_RUNNING_SYNTHESIS_Cancel Process", "Cancel Process"); // JButton (A, G)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+dismissDialog("Resetting Runs"); // bx (ck)
+selectCodeEditor("Voice_Scope_TOP.v", 100, 226); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (ck): No Implementation Results Available: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// bx (ck):  Resetting Runs : addNotify
+// f (ck): Launch Runs: addNotify
+dismissDialog("No Implementation Results Available"); // A (ck)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+dismissDialog("Launch Runs"); // f (ck)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 12 
+// Tcl Message: [Wed Apr  3 00:20:11 2019] Launched synth_1... Run output will be captured here: C:/Users/hashi/Desktop/Hashir/NUS-Academic/YR1S2/EE2026/Project/Audio_Viz_Project_Template/Audio_Viz_Project_Template.runs/synth_1/runme.log [Wed Apr  3 00:20:11 2019] Launched impl_1... Run output will be captured here: C:/Users/hashi/Desktop/Hashir/NUS-Academic/YR1S2/EE2026/Project/Audio_Viz_Project_Template/Audio_Viz_Project_Template.runs/impl_1/runme.log 
+// Elapsed time: 10 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "create_ring_object.v", 1); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Draw_Background.v", 2); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "draw_lock_object.v", 3); // k (j, ck)
+selectCodeEditor("draw_lock_object.v", 489, 162); // ce (w, ck)
+selectCodeEditor("draw_lock_object.v", 489, 162, false, false, false, false, true); // ce (w, ck) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "VOICE_CAPTURER.v", 5); // k (j, ck)
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "create_ring_object.v", 1); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Voice_Scope_TOP.v", 0); // k (j, ck)
+// Elapsed time: 11 seconds
+selectCodeEditor("Voice_Scope_TOP.v", 148, 403); // ce (w, ck)
+// TclEventType: RUN_COMPLETED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 21 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "create_ring_object.v", 1); // k (j, ck)
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// ah (ck): Bitstream Generation Completed: addNotify
+// Elapsed time: 87 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (ah)
+dismissDialog("Bitstream Generation Completed"); // ah (ck)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager, Open Target]", 22, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HW_TARGET
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // ad (aj, Popup.HeavyWeightWindow)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// bx (ck):  Open Hardware Manager : addNotify
+// TclEventType: HW_SESSION_OPEN
+// Tcl Message: open_hw 
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+dismissDialog("Open Hardware Manager"); // bx (ck)
+// bx (ck):  Auto Connect : addNotify
+// Tcl Message: connect_hw_server 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// Tcl Message: INFO: [Labtools 27-2222] Launching hw_server... 
+// Tcl Message: INFO: [Labtools 27-2221] Launch Output:  ****** Xilinx hw_server v2018.2   **** Build date : Jun 14 2018-20:42:52     ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.   
+// TclEventType: HW_SERVER_UPDATE
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// Tcl Message: open_hw_target 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183714378A 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/hashi/Desktop/Hashir/NUS-Academic/YR1S2/EE2026/Project/Audio_Viz_Project_Template/Audio_Viz_Project_Template.runs/impl_1/Voice_Scope_TOP.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: current_hw_device [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Auto Connect"); // bx (ck)
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h (cM, ck)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bB (ck): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bB)
+// bx (ck):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // bB (ck)
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/hashi/Desktop/Hashir/NUS-Academic/YR1S2/EE2026/Project/Audio_Viz_Project_Template/Audio_Viz_Project_Template.runs/impl_1/Voice_Scope_TOP.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'I' command handler elapsed time: 3 seconds
+dismissDialog("Program Device"); // bx (ck)
+// Elapsed time: 42 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "create_ring_object.v", 1); // k (j, ck)
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "create_ring_object.v", 1, false, true); // k (j, ck) - Double Click
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // L (Q, ck)
+selectCodeEditor("create_ring_object.v", 277, 447); // ce (w, ck)
+selectCodeEditor("create_ring_object.v", 831, 451); // ce (w, ck)
+// Elapsed time: 18 seconds
+selectCodeEditor("create_ring_object.v", 442, 450); // ce (w, ck)
+selectCodeEditor("create_ring_object.v", 618, 451); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 30 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// aj (ck): Save Project: addNotify
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a (aj)
+// bx (ck):  Save Constraints : addNotify
+// A (ck): Synthesis is Out-of-date: addNotify
+// TclEventType: DG_GRAPH_STALE
+dismissDialog("Save Project"); // aj (ck)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// bx (ck):  Resetting Runs : addNotify
+// TclEventType: DG_GRAPH_GENERATED
+dismissDialog("Synthesis is Out-of-date"); // A (ck)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f (ck): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// 'cv' command handler elapsed time: 5 seconds
+dismissDialog("Launch Runs"); // f (ck)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 12 
+// Tcl Message: [Wed Apr  3 00:24:43 2019] Launched synth_1... Run output will be captured here: C:/Users/hashi/Desktop/Hashir/NUS-Academic/YR1S2/EE2026/Project/Audio_Viz_Project_Template/Audio_Viz_Project_Template.runs/synth_1/runme.log [Wed Apr  3 00:24:43 2019] Launched impl_1... Run output will be captured here: C:/Users/hashi/Desktop/Hashir/NUS-Academic/YR1S2/EE2026/Project/Audio_Viz_Project_Template/Audio_Viz_Project_Template.runs/impl_1/runme.log 
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// Elapsed time: 66 seconds
+selectCodeEditor("create_ring_object.v", 135, 346); // ce (w, ck)
+selectCodeEditor("create_ring_object.v", 135, 346, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("create_ring_object.v", 837, 449); // ce (w, ck)
+selectCodeEditor("create_ring_object.v", 800, 448); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 13 seconds
+selectButton(PAResourceQtoS.SyntheticaStateMonitor_CANCEL, "Cancel"); // h (Q, ck)
+// aS (ck): Cancel Implementation: addNotify
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (aS)
+dismissDialog("Cancel Implementation"); // aS (ck)
+selectButton(PAResourceQtoS.SyntheticaStateMonitor_CANCEL, "Cancel"); // h (Q, ck)
+// aS (ck): Cancel Implementation: addNotify
+selectButton(PAResourceQtoS.StateMonitor_RESET_RUN, "Reset Run"); // a (aS)
+// bx (ck):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Cancel Implementation"); // aS (ck)
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run impl_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+dismissDialog("Resetting Runs"); // bx (ck)
+// Elapsed time: 27 seconds
+selectCodeEditor("create_ring_object.v", 879, 446); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 21 seconds
+typeControlKey((HResource) null, "create_ring_object.v", 'c'); // ce (w, ck)
+typeControlKey((HResource) null, "create_ring_object.v", 'v'); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (ck): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// bx (ck):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // A (ck)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f (ck): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+dismissDialog("Launch Runs"); // f (ck)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 12 
+// Tcl Message: [Wed Apr  3 00:27:18 2019] Launched synth_1... Run output will be captured here: C:/Users/hashi/Desktop/Hashir/NUS-Academic/YR1S2/EE2026/Project/Audio_Viz_Project_Template/Audio_Viz_Project_Template.runs/synth_1/runme.log [Wed Apr  3 00:27:18 2019] Launched impl_1... Run output will be captured here: C:/Users/hashi/Desktop/Hashir/NUS-Academic/YR1S2/EE2026/Project/Audio_Viz_Project_Template/Audio_Viz_Project_Template.runs/impl_1/runme.log 
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// [GUI Memory]: 122 MB (+894kb) [11:04:43]
+// TclEventType: RUN_COMPLETED
+// ah (ck): Bitstream Generation Completed: addNotify
+// Elapsed time: 142 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (ah)
+dismissDialog("Bitstream Generation Completed"); // ah (ck)
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h (cM, ck)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bB (ck): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bB)
+// bx (ck):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // bB (ck)
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/hashi/Desktop/Hashir/NUS-Academic/YR1S2/EE2026/Project/Audio_Viz_Project_Template/Audio_Viz_Project_Template.runs/impl_1/Voice_Scope_TOP.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Program Device"); // bx (ck)
+// Elapsed time: 163 seconds
+selectCodeEditor("create_ring_object.v", 908, 370); // ce (w, ck)
+// Elapsed time: 11 seconds
+selectButton(PAResourceTtoZ.TaskBanner_CLOSE, (String) null); // k (ay, ck)
+closeTask("Program and Debug", "Hardware Manager", "DesignTask.PROGRAM_DEBUG");
+// A (ck): Confirm Close: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (A)
+// TclEventType: HW_OBJECT_DELETE
+dismissDialog("Confirm Close"); // A (ck)
+// TclEventType: HW_SERVER_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: DEBUG_PROBE_DELETE
+// TclEventType: HW_SESSION_CLOSE
+// Tcl Message: close_hw 
+// bx (ck):  CLose Hardware Manager : addNotify
+dismissDialog("CLose Hardware Manager"); // bx (ck)
+unMinimizeFrame(PAResourceOtoP.PAViews_SOURCES, "Sources"); // aw
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Voice_Scope_TOP (Voice_Scope_TOP.v), uf : unlockfeature (unlockfeature.v)]", 11, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Voice_Scope_TOP (Voice_Scope_TOP.v), dfc : displayfreqcount (displayfreqcount.v), rr : clk_10 (clk_10.v)]", 10, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Voice_Scope_TOP (Voice_Scope_TOP.v), dfc : displayfreqcount (displayfreqcount.v)]", 9, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Voice_Scope_TOP (Voice_Scope_TOP.v), fc : frequency_calculator (frequency_calculator.v)]", 8, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Voice_Scope_TOP (Voice_Scope_TOP.v), Voice_Capturer : Voice_Capturer (VOICE_CAPTURER.v)]", 7, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Voice_Scope_TOP (Voice_Scope_TOP.v), testwave_gen : TestWave_Gen (TestWave_Gen.v)]", 6, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Voice_Scope_TOP (Voice_Scope_TOP.v), Voice_Capturer : Voice_Capturer (VOICE_CAPTURER.v)]", 7, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Voice_Scope_TOP (Voice_Scope_TOP.v), fc : frequency_calculator (frequency_calculator.v)]", 8, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Voice_Scope_TOP (Voice_Scope_TOP.v), dfc : displayfreqcount (displayfreqcount.v)]", 9, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Voice_Scope_TOP (Voice_Scope_TOP.v), dfc : displayfreqcount (displayfreqcount.v), rr : clk_10 (clk_10.v)]", 10, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Voice_Scope_TOP (Voice_Scope_TOP.v), uf : unlockfeature (unlockfeature.v)]", 11, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Voice_Scope_TOP (Voice_Scope_TOP.v), vi : volume_indicator (volume_indicator.v)]", 12, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Voice_Scope_TOP (Voice_Scope_TOP.v), vi : volume_indicator (volume_indicator.v), rr : clk_10 (clk_10.v)]", 13, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Voice_Scope_TOP (Voice_Scope_TOP.v), vi : volume_indicator (volume_indicator.v), vic : volume_indicator_count (volume_indicator_count.v)]", 14, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Voice_Scope_TOP (Voice_Scope_TOP.v), vi : volume_indicator (volume_indicator.v), rr : clk_10 (clk_10.v)]", 13, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Voice_Scope_TOP (Voice_Scope_TOP.v), vi : volume_indicator (volume_indicator.v)]", 12, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Voice_Scope_TOP (Voice_Scope_TOP.v), uf : unlockfeature (unlockfeature.v)]", 11, true); // B (D, ck) - Node
+// [GUI Memory]: 129 MB (+1440kb) [11:09:23]
+// Elapsed time: 11 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Voice_Scope_TOP (Voice_Scope_TOP.v), uf : unlockfeature (unlockfeature.v)]", 11, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Voice_Scope_TOP (Voice_Scope_TOP.v), uf : unlockfeature (unlockfeature.v)]", 11, true, false, false, false, false, true); // B (D, ck) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Voice_Scope_TOP (Voice_Scope_TOP.v), uf : unlockfeature (unlockfeature.v)]", 11, true); // B (D, ck) - Node
+selectCodeEditor("unlockfeature.v", 76, 202); // ce (w, ck)
+selectCodeEditor("unlockfeature.v", 76, 214); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 15 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Voice_Scope_TOP (Voice_Scope_TOP.v)]", 1, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Voice_Scope_TOP (Voice_Scope_TOP.v)]", 1, true, false, false, false, false, true); // B (D, ck) - Double Click - Node
+selectCodeEditor("Voice_Scope_TOP.v", 248, 354); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Voice_Scope_TOP (Voice_Scope_TOP.v)]", 1); // B (D, ck)
+// TclEventType: DG_GRAPH_GENERATED
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Voice_Scope_TOP (Voice_Scope_TOP.v), uf : unlockfeature (unlockfeature.v)]", 11, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Voice_Scope_TOP (Voice_Scope_TOP.v), uf : unlockfeature (unlockfeature.v)]", 11, true, false, false, false, false, true); // B (D, ck) - Double Click - Node
+selectCodeEditor("unlockfeature.v", 184, 448); // ce (w, ck)
+selectCodeEditor("unlockfeature.v", 115, 468); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// Elapsed time: 65 seconds
+selectCodeEditor("unlockfeature.v", 218, 427); // ce (w, ck)
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("unlockfeature.v", 218, 427); // ce (w, ck)
+// Elapsed time: 13 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "draw_lock_object.v", 3); // k (j, ck)
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "draw_lock_object.v", 3, false, true); // k (j, ck) - Double Click
+unmaximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // O (Q, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "draw_lock_object.v", 3); // k (j, ck)
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "draw_lock_object.v", 3, false, true); // k (j, ck) - Double Click
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // O (Q, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "create_ring_object.v", 1); // k (j, ck)
+selectCodeEditor("create_ring_object.v", 936, 483); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 26 seconds
+selectCodeEditor("create_ring_object.v", 801, 488); // ce (w, ck)
+// Elapsed time: 178 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// aj (ck): Save Project: addNotify
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a (aj)
+// bx (ck):  Save Constraints : addNotify
+// A (ck): Synthesis is Out-of-date: addNotify
+dismissDialog("Save Project"); // aj (ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// bx (ck):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // A (ck)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f (ck): Launch Runs: addNotify
+// TclEventType: DG_GRAPH_GENERATED
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// HOptionPane Warning: 'A background task is running. Please wait until it completes and try again. (Background Task)'
+selectButton("OptionPane.button", "OK"); // JButton (A, H)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// 'cv' command handler elapsed time: 8 seconds
+dismissDialog("Launch Runs"); // f (ck)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 12 
+// Tcl Message: [Wed Apr  3 00:38:55 2019] Launched synth_1... Run output will be captured here: C:/Users/hashi/Desktop/Hashir/NUS-Academic/YR1S2/EE2026/Project/Audio_Viz_Project_Template/Audio_Viz_Project_Template.runs/synth_1/runme.log [Wed Apr  3 00:38:55 2019] Launched impl_1... Run output will be captured here: C:/Users/hashi/Desktop/Hashir/NUS-Academic/YR1S2/EE2026/Project/Audio_Viz_Project_Template/Audio_Viz_Project_Template.runs/impl_1/runme.log 
+// bx (ck):  Generate Bitstream : addNotify
+dismissDialog("Generate Bitstream"); // bx (ck)
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// HMemoryUtils.trashcanNow. Engine heap size: 1,384 MB. GUI used memory: 61 MB. Current time: 4/3/19 12:41:08 AM SGT
+// TclEventType: RUN_COMPLETED
+// ah (ck): Bitstream Generation Completed: addNotify
+// Elapsed time: 181 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (ah)
+dismissDialog("Bitstream Generation Completed"); // ah (ck)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager, Open Target]", 22, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HW_TARGET
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager, Open Target]", 22, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HW_TARGET
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // ad (aj, Popup.HeavyWeightWindow)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// bx (ck):  Open Hardware Manager : addNotify
+// TclEventType: HW_SESSION_OPEN
+// Tcl Message: open_hw 
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+dismissDialog("Open Hardware Manager"); // bx (ck)
+// bx (ck):  Auto Connect : addNotify
+// Tcl Message: connect_hw_server 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// Tcl Message: INFO: [Labtools 27-2222] Launching hw_server... 
+// Tcl Message: INFO: [Labtools 27-2221] Launch Output:  ****** Xilinx hw_server v2018.2   **** Build date : Jun 14 2018-20:42:52     ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.   
+// TclEventType: HW_SERVER_UPDATE
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// Tcl Message: open_hw_target 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183714378A 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/hashi/Desktop/Hashir/NUS-Academic/YR1S2/EE2026/Project/Audio_Viz_Project_Template/Audio_Viz_Project_Template.runs/impl_1/Voice_Scope_TOP.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: current_hw_device [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Auto Connect"); // bx (ck)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager, Program Device]", 23, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+selectMenuItem((HResource) null, "xc7a35t_0"); // ad (aj, ck)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bB (ck): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bB)
+// bx (ck):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // bB (ck)
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/hashi/Desktop/Hashir/NUS-Academic/YR1S2/EE2026/Project/Audio_Viz_Project_Template/Audio_Viz_Project_Template.runs/impl_1/Voice_Scope_TOP.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'I' command handler elapsed time: 3 seconds
+dismissDialog("Program Device"); // bx (ck)
+// Elapsed time: 61 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "displayfreqcount.v", 4); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "draw_lock_object.v", 3); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "create_ring_object.v", 1); // k (j, ck)
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "create_ring_object.v", 1, false, true); // k (j, ck) - Double Click
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // L (Q, ck)
+// Elapsed time: 12 seconds
+selectCodeEditor("create_ring_object.v", 915, 457); // ce (w, ck)
+// Elapsed time: 811 seconds
+selectCodeEditor("create_ring_object.v", 416, 430); // ce (w, ck)
+selectCodeEditor("create_ring_object.v", 810, 468); // ce (w, ck)
+selectCodeEditor("create_ring_object.v", 935, 470); // ce (w, ck)
+selectCodeEditor("create_ring_object.v", 936, 468); // ce (w, ck)
+selectCodeEditor("create_ring_object.v", 132, 448); // ce (w, ck)
+typeControlKey((HResource) null, "create_ring_object.v", 'v'); // ce (w, ck)
+selectCodeEditor("create_ring_object.v", 93, 450); // ce (w, ck)
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+// Elapsed time: 30 seconds
+selectCodeEditor("create_ring_object.v", 802, 462); // ce (w, ck)
+// Elapsed time: 10 seconds
+selectCodeEditor("create_ring_object.v", 335, 442); // ce (w, ck)
+// Elapsed time: 176 seconds
+selectCodeEditor("create_ring_object.v", 153, 470); // ce (w, ck)
+selectCodeEditor("create_ring_object.v", 288, 450); // ce (w, ck)
+// Elapsed time: 60 seconds
+selectCodeEditor("create_ring_object.v", 216, 469); // ce (w, ck)
+typeControlKey((HResource) null, "create_ring_object.v", 'c'); // ce (w, ck)
+typeControlKey((HResource) null, "create_ring_object.v", 'v'); // ce (w, ck)
+selectCodeEditor("create_ring_object.v", 27, 480); // ce (w, ck)
+// Elapsed time: 11 seconds
+selectCodeEditor("create_ring_object.v", 239, 420); // ce (w, ck)
+selectCodeEditor("create_ring_object.v", 149, 434); // ce (w, ck)
+// Elapsed time: 15 seconds
+selectCodeEditor("create_ring_object.v", 47, 394); // ce (w, ck)
+selectCodeEditor("create_ring_object.v", 237, 435); // ce (w, ck)
+selectCodeEditor("create_ring_object.v", 237, 435); // ce (w, ck)
+typeControlKey((HResource) null, "create_ring_object.v", 'c'); // ce (w, ck)
+typeControlKey((HResource) null, "create_ring_object.v", 'v'); // ce (w, ck)
+selectCodeEditor("create_ring_object.v", 119, 448); // ce (w, ck)
+selectCodeEditor("create_ring_object.v", 84, 386); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("create_ring_object.v", 188, 418); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectCodeEditor("create_ring_object.v", 231, 448); // ce (w, ck)
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 37 seconds
+selectCodeEditor("create_ring_object.v", 195, 380); // ce (w, ck)
+// Elapsed time: 229 seconds
+selectCodeEditor("create_ring_object.v", 71, 398); // ce (w, ck)
+selectCodeEditor("create_ring_object.v", 83, 414); // ce (w, ck)
+selectCodeEditor("create_ring_object.v", 258, 422); // ce (w, ck)
+typeControlKey((HResource) null, "create_ring_object.v", 'c'); // ce (w, ck)
+typeControlKey((HResource) null, "create_ring_object.v", 'v'); // ce (w, ck)
+selectCodeEditor("create_ring_object.v", 55, 451); // ce (w, ck)
+selectCodeEditor("create_ring_object.v", 75, 433); // ce (w, ck)
+selectCodeEditor("create_ring_object.v", 144, 434); // ce (w, ck)
+// Elapsed time: 27 seconds
+selectCodeEditor("create_ring_object.v", 311, 450); // ce (w, ck)
+selectCodeEditor("create_ring_object.v", 291, 434); // ce (w, ck)
+selectCodeEditor("create_ring_object.v", 323, 400); // ce (w, ck)
+selectCodeEditor("create_ring_object.v", 297, 370); // ce (w, ck)
+selectCodeEditor("create_ring_object.v", 288, 382); // ce (w, ck)
+selectCodeEditor("create_ring_object.v", 319, 399); // ce (w, ck)
+// Elapsed time: 10 seconds
+selectCodeEditor("create_ring_object.v", 227, 454); // ce (w, ck)
+selectCodeEditor("create_ring_object.v", 235, 454); // ce (w, ck)
+selectCodeEditor("create_ring_object.v", 235, 454, false, false, false, false, true); // ce (w, ck) - Double Click
+typeControlKey((HResource) null, "create_ring_object.v", 'c'); // ce (w, ck)
+typeControlKey((HResource) null, "create_ring_object.v", 'v'); // ce (w, ck)
+selectCodeEditor("create_ring_object.v", 227, 448); // ce (w, ck)
+selectCodeEditor("create_ring_object.v", 59, 486); // ce (w, ck)
+selectCodeEditor("create_ring_object.v", 215, 447); // ce (w, ck)
+selectCodeEditor("create_ring_object.v", 113, 470); // ce (w, ck)
+// Elapsed time: 20 seconds
+selectCodeEditor("create_ring_object.v", 507, 325); // ce (w, ck)
+selectCodeEditor("create_ring_object.v", 311, 437); // ce (w, ck)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,386 MB. GUI used memory: 64 MB. Current time: 4/3/19 1:11:09 AM SGT
+// Elapsed time: 159 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager, Program Device]", 23, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+selectMenuItem((HResource) null, "xc7a35t_0"); // ad (aj, ck)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bB (ck): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_SPECIFY_BITSTREAM_FILE, (String) null); // q (ak, bB)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,398 MB. GUI used memory: 67 MB. Current time: 4/3/19 1:12:19 AM SGT
+// Elapsed time: 12 seconds
+selectComboBox(RDIResource.HJFileChooserRecentListPreview_RECENT_DIRECTORIES, "C:/Users/hashi/Downloads", 2); // ak (ag, JDialog)
+setFileChooser("C:/Users/hashi/Downloads/Voice_Scope_TOP.bit");
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bB)
+// bx (ck):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // bB (ck)
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/hashi/Downloads/Voice_Scope_TOP.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'I' command handler elapsed time: 18 seconds
+dismissDialog("Program Device"); // bx (ck)
+// Elapsed time: 160 seconds
+selectCodeEditor("create_ring_object.v", 141, 466); // ce (w, ck)
+// Elapsed time: 114 seconds
+selectCodeEditor("create_ring_object.v", 137, 469); // ce (w, ck)
+// Elapsed time: 12 seconds
+selectCodeEditor("create_ring_object.v", 127, 487); // ce (w, ck)
+selectCodeEditor("create_ring_object.v", 842, 486); // ce (w, ck)
+selectCodeEditor("create_ring_object.v", 842, 486); // ce (w, ck)
+typeControlKey((HResource) null, "create_ring_object.v", 'c'); // ce (w, ck)
+selectCodeEditor("create_ring_object.v", 138, 434); // ce (w, ck)
+typeControlKey((HResource) null, "create_ring_object.v", 'v'); // ce (w, ck)
+selectCodeEditor("create_ring_object.v", 863, 408); // ce (w, ck)
+// Elapsed time: 18 seconds
+selectCodeEditor("create_ring_object.v", 463, 430); // ce (w, ck)
+selectCodeEditor("create_ring_object.v", 266, 438); // ce (w, ck)
+selectCodeEditor("create_ring_object.v", 307, 430); // ce (w, ck)
+// Elapsed time: 28 seconds
+selectCodeEditor("create_ring_object.v", 148, 434); // ce (w, ck)
+typeControlKey((HResource) null, "create_ring_object.v", 'c'); // ce (w, ck)
+selectCodeEditor("create_ring_object.v", 472, 438); // ce (w, ck)
+typeControlKey((HResource) null, "create_ring_object.v", 'v'); // ce (w, ck)
+selectCodeEditor("create_ring_object.v", 782, 429); // ce (w, ck)
+selectCodeEditor("create_ring_object.v", 631, 435); // ce (w, ck)
+selectCodeEditor("create_ring_object.v", 799, 433); // ce (w, ck)
+selectCodeEditor("create_ring_object.v", 849, 434); // ce (w, ck)
+selectCodeEditor("create_ring_object.v", 323, 453); // ce (w, ck)
+selectCodeEditor("create_ring_object.v", 190, 449); // ce (w, ck)
+selectCodeEditor("create_ring_object.v", 147, 454); // ce (w, ck)
+selectCodeEditor("create_ring_object.v", 322, 449); // ce (w, ck)
+selectCodeEditor("create_ring_object.v", 345, 448); // ce (w, ck)
+selectCodeEditor("create_ring_object.v", 342, 454); // ce (w, ck)
+typeControlKey((HResource) null, "create_ring_object.v", 'c'); // ce (w, ck)
+typeControlKey((HResource) null, "create_ring_object.v", 'v'); // ce (w, ck)
+selectCodeEditor("create_ring_object.v", 487, 452); // ce (w, ck)
+selectCodeEditor("create_ring_object.v", 714, 453); // ce (w, ck)
+selectCodeEditor("create_ring_object.v", 150, 431); // ce (w, ck)
+selectCodeEditor("create_ring_object.v", 692, 454); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("create_ring_object.v", 139, 434); // ce (w, ck)
+selectCodeEditor("create_ring_object.v", 685, 449); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("create_ring_object.v", 140, 435); // ce (w, ck)
+// Elapsed time: 14 seconds
+selectCodeEditor("create_ring_object.v", 817, 468); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 42 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (ck): Synthesis is Out-of-date: addNotify
+// TclEventType: DG_GRAPH_GENERATED
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// bx (ck):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // A (ck)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f (ck): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// 'cv' command handler elapsed time: 5 seconds
+dismissDialog("Launch Runs"); // f (ck)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 12 
+// Tcl Message: [Wed Apr  3 01:21:07 2019] Launched synth_1... Run output will be captured here: C:/Users/hashi/Desktop/Hashir/NUS-Academic/YR1S2/EE2026/Project/Audio_Viz_Project_Template/Audio_Viz_Project_Template.runs/synth_1/runme.log [Wed Apr  3 01:21:07 2019] Launched impl_1... Run output will be captured here: C:/Users/hashi/Desktop/Hashir/NUS-Academic/YR1S2/EE2026/Project/Audio_Viz_Project_Template/Audio_Viz_Project_Template.runs/impl_1/runme.log 
+// Elapsed time: 16 seconds
+selectCodeEditor("create_ring_object.v", 794, 206); // ce (w, ck)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager, Program Device]", 23, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// TclEventType: RUN_FAILED
+selectMenuItem((HResource) null, "xc7a35t_0"); // ad (aj, ck)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bB (ck): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bB)
+// bx (ck):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // bB (ck)
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/hashi/Downloads/Voice_Scope_TOP.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'I' command handler elapsed time: 5 seconds
+dismissDialog("Program Device"); // bx (ck)
+// ah (ck): Synthesis Failed: addNotify
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (ah)
+dismissDialog("Synthesis Failed"); // ah (ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Draw_Background.v", 2); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Voice_Scope_TOP.v", 0); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "create_ring_object.v", 1); // k (j, ck)
+// Elapsed time: 28 seconds
+selectCodeEditor("create_ring_object.v", 295, 377); // ce (w, ck)
+selectCodeEditor("create_ring_object.v", 310, 377); // ce (w, ck)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager, Program Device]", 23, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+selectMenuItem((HResource) null, "xc7a35t_0"); // ad (aj, ck)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bB (ck): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bB)
+// bx (ck):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // bB (ck)
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/hashi/Downloads/Voice_Scope_TOP.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Program Device"); // bx (ck)
+// Elapsed time: 18 seconds
+selectCodeEditor("create_ring_object.v", 323, 323); // ce (w, ck)
+selectButton(PAResourceTtoZ.TaskBanner_CLOSE, (String) null); // k (ay, ck)
+closeTask("Program and Debug", "Hardware Manager", "DesignTask.PROGRAM_DEBUG");
+// A (ck): Confirm Close: addNotify
